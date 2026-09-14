@@ -12,7 +12,7 @@ Architectural source: Geetha Ganesan and Panchabi Vaithiyanathan, supplied 6 Jul
 - The latest independent userspace tests and older integration failure are dated separately.
 - Fresh baseline rows are CFS only; no fresh ORCHESTRA timing row is claimed.
 - The professor's manuscript is cited as the architecture and simulation basis. No simulation score is treated as a hardware acceptance threshold.
-- PDF SHA-256: `f19964e7faa5c4e8ff609e67880fa8c85c802928ae216e368a3244725cdb75c9`.
+- PDF SHA-256: `4677b461815d95c5564edc57b6a8b8096c1506e961ca8cf3b597c57bc589babe`.
 - Final build logs, extracted text, PDF metadata and page previews: `implementation-report-build/`.
 - Preceding edition preserved in `before-implementation-report/`; original campaign evidence retained.
 
