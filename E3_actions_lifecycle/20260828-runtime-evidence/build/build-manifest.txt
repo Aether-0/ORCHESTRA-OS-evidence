@@ -1,0 +1,14 @@
+running_kernel=7.0.12+kali-amd64
+source_version=7.0.12
+kernel_source=/var/tmp/orchestra-kernel-source-7.0.12/linux-source-7.0
+bpf_uapi=/var/tmp/orchestra-kernel-source-7.0.12/linux-source-7.0/tools/include/uapi/linux/bpf.h
+bpf_uapi_sha256=adf6f66a566a263e7e9429726a2d31b02eaad63b11630076feff874e1a1b9458
+bpf_doc=/var/tmp/orchestra-kernel-source-7.0.12/linux-source-7.0/scripts/bpf_doc.py
+bpf_doc_sha256=7e3aa3b9cac901b366330e19f5e9b7bd9bb9095e167b74b67c3014c7b1d300f3
+bpf_helper_defs=/tmp/orchestra-fix-20260828-132302-build/libbpf/bpf_helper_defs.h
+bpf_helper_defs_sha256=ebcd44514b37cbd4459b5b637dcb39a43d9adee94496c3afe2ee5219b5c8a3a5
+libbpf_link=libbpf.so.1
+vmlinux_sha256=96b223c8eaa9763f6caa0998188cf632aa0133c096bf526edc0043db3e675a51
+bpf_object_sha256=f8471dbecf20b59610dd60d4559d04a1f8363bb69155066d7369029a2b13e27c
+bridge_sha256=30cb0b3834b9c11014d8c729a7b02aa8201d0afb3ad5e533fbe630e0a4e7b59f
+loader_sha256=d6b35436598722d17d8b446e38ab1cb31aaa1402b2a0e6e56dd20aee7f08c2bf

@@ -1,0 +1,34 @@
+22:01:19 === Real-Machine Benchmark Suite ===
+22:01:19 Repo: /home/aether/Documents/ORCHESTRA-OS-final | allowed CPUs: 0-7 | workload=cpu | Output: /tmp/orchestra-fix-20260828-132302-bench-r3 | duration=1 seconds
+22:01:19 Worker watchdog: 15s
+22:01:19 --- CFS baseline ---
+22:01:19   cfs: 1 workers, 1 seconds/fixed workload...
+22:01:20     210ms ctx_delta=2559 accepted=0 dispatched=0 running=0 owned=n/a
+22:01:20   cfs: 2 workers, 1 seconds/fixed workload...
+22:01:20     207ms ctx_delta=4088 accepted=0 dispatched=0 running=0 owned=n/a
+22:01:20   cfs: 4 workers, 1 seconds/fixed workload...
+22:01:20     208ms ctx_delta=2013 accepted=0 dispatched=0 running=0 owned=n/a
+22:01:20   cfs: 8 workers, 1 seconds/fixed workload...
+22:01:20     232ms ctx_delta=1950 accepted=0 dispatched=0 running=0 owned=n/a
+22:01:20 scx_simple not installed or not executable: /usr/bin/scx_simple; phase blocked
+22:01:20 --- ORCHESTRA ---
+22:01:24   orchestra: 1 workers, 1 seconds/fixed workload...
+22:01:25     367ms ctx_delta=5876 accepted=1 dispatched=1 running=1 owned=yes
+22:01:25   orchestra: 2 workers, 1 seconds/fixed workload...
+22:01:26     477ms ctx_delta=7762 accepted=7 dispatched=7 running=7 owned=yes
+22:01:26   orchestra: 4 workers, 1 seconds/fixed workload...
+22:01:26     471ms ctx_delta=12635 accepted=34 dispatched=34 running=34 owned=yes
+22:01:26   orchestra: 8 workers, 1 seconds/fixed workload...
+22:01:27     486ms ctx_delta=21928 accepted=154 dispatched=154 running=155 owned=yes
+22:01:27 === COMPLETE ===
+scheduler,workload,workers,duration_s,elapsed_ms,ctx_delta,accepted,dispatched,running,effective,owned,notes
+cfs,cpu,1,1,210,2559,0,0,0,0,n/a,completed
+cfs,cpu,2,1,207,4088,0,0,0,0,n/a,completed
+cfs,cpu,4,1,208,2013,0,0,0,0,n/a,completed
+cfs,cpu,8,1,232,1950,0,0,0,0,n/a,completed
+orchestra,cpu,1,1,367,5876,1,1,1,0,yes,completed
+orchestra,cpu,2,1,477,7762,7,7,7,0,yes,completed
+orchestra,cpu,4,1,471,12635,34,34,34,0,yes,completed
+orchestra,cpu,8,1,486,21928,154,154,155,0,yes,completed
+Full results: /tmp/orchestra-fix-20260828-132302-bench-r3
+rc=0

@@ -1,0 +1,4 @@
+command: bash scripts/security-scan.sh > artifacts/real-world/20260828-132302-redshadow-fix-implementation/security/focused_r1_scan.stdout 2> artifacts/real-world/20260828-132302-redshadow-fix-implementation/security/focused_r1_scan.stderr
+return_code: 1
+observed: /usr/bin/bash: line 1: artifacts/real-world/20260828-132302-redshadow-fix-implementation/security/focused_r1_scan.stdout: No such file or directory
+diagnosis: campaign security directory had not yet been created; the script did not start. The unchanged script was rerun after creating only that evidence directory.

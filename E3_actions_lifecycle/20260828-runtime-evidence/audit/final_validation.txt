@@ -1,0 +1,57 @@
+source_test_rc=0
+diff_check_rc=0
+json_rc=0
+runtime_pass_rows=81
+runtime_fail_rows=0
+benchmark_cpu_rows=24
+benchmark_mixed_rows=18
+benchmark_ownership_no_rows=0
+final_sched_ext_state=disabled
+bpffs=/sys/fs/bpf;
+longrun_max_package_temp_mC=87000
+longrun_new_health_lines=0
+claim_performance=PASS_SCOPED_EXPLORATORY
+claim_stress=PASS_SCOPED
+claim_rt=PASS_SCOPED
+claim_userspace_hmac=PASS_USERSPACE_ONLY
+claim_numa=PASS_SINGLE_NODE_ONLY
+claim_distributed=BLOCKED_NOT_IMPLEMENTED
+claim_kernel_hmac=BLOCKED_NOT_IMPLEMENTED
+csv_schema_check=PASS (all campaign CSV rows have consistent columns)
+checklist_evidence_paths=PASS (all concrete checklist evidence paths exist)
+claim_consistency_check=PASS (ledger, report, evidence paths, and final state agree)
+userspace_microbenchmark=PASS (12/12 runs; publications=12000; verified_reads=27161; hmac=0; invalid=0; stale=0)
+artifact_index=PASS (current file/byte totals in inventory.json; SHA256SUMS and inventory.json)
+checksum_manifest_check=PASS (current SHA256SUMS verification; count in inventory.json)
+checksum_manifest_stdout=audit/checksum_manifest.stdout (1501-line pre-index verification preserved; current recheck passed)
+sanity_gate=PASS (sched_ext/BTF/tools present; state disabled)
+kernel_config_gate=PASS (all required configs present; optional kprobe override absent)
+rt_contention=PASS_SCOPED (FIFO/RR owned normal-task contention; DEADLINE EPERM preserved)
+final_bpf_inventory=PASS (sched_ext disabled; no ORCHESTRA references; unrelated BPF state preserved)
+tracked_status_addendum=PASS (bounded campaign claims appended to docs/status/current-state.md and docs/validation/FINAL_VALIDATION_REPORT.md)
+post_docs_make_check=PASS (make check rc=0)
+post_docs_diff_check=PASS (git diff --check rc=0)
+post_docs_json_check=PASS (python3 -m json.tool RESULTS.json rc=0)
+artifact_index_after_docs=PASS (index_test_artifacts.py rc=0; inventory.json and SHA256SUMS regenerated)
+checksum_manifest_recheck=PASS (sha256sum -c SHA256SUMS rc=0 after final index)
+post_docs_make_test=PASS (make test rc=0; 30/30 named unit tests and integration/security suites)
+post_docs_runtime_state=PASS (sched_ext state disabled; bpffs contains only its root in the preserved snapshot)
+post_docs_git_diff=PASS (final post-documentation diff check rc=0)
+source_provenance=PASS (HEAD 94664aeb001d8b3552245aedfd78254fbb5f13b8; dirty state and current source/document hashes preserved)
+post_provenance_make_check=PASS (make check rc=0 after status metadata update)
+final_provenance_snapshot=PASS (current HEAD, dirty status, source/document hashes, and RESULTS.json hash preserved)
+final_make_check=PASS (make check rc=0 after latest validation-report metadata update)
+final_results_json=PASS (python3 -m json.tool RESULTS.json rc=0 after provenance fields)
+final2_provenance_snapshot=PASS (current HEAD, dirty status, source/document hashes after acceptance-gate wording update)
+final2_make_check=PASS (make check rc=0 after acceptance-gate wording update)
+focused_security_scan=PASS (scripts/security-scan.sh; SECURITY_SCAN_PASS)
+cfs_security_suite=PASS (tests/security/run.sh with sched_ext disabled)
+orchestra_security_direct_components=PASS (policy/fuzz/ABI-sanitizer/source checks while sched_ext enabled)
+orchestra_security_wrapper=FAIL_PRESERVED_HARNESS (observer-only uninstall lacks trusted loader while external ORCHESTRA scheduler is active; attach/unload and direct components passed)
+focused_integrity_r2=PASS (userspace integration; tamper hmac=201; controller-tamper hmac=42; valid baseline/ORCHESTRA hmac=0)
+focused_microbenchmark_r2=PASS (12/12 validated; zero HMAC/invalid/stale failures)
+cfs_orchestra_security_comparison=PASS_SCOPED (posture report records added ORCHESTRA control surface and userspace-only HMAC boundary)
+security_postcheck_make=PASS (make check rc=0)
+security_results_json=PASS (python3 -m json.tool RESULTS.json rc=0)
+focused_archive_index=PASS (security rerun artifacts included in inventory.json and SHA256SUMS)
+focused_archive_checksum=PASS (sha256sum -c SHA256SUMS after focused security evidence)

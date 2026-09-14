@@ -1,0 +1,2071 @@
+[Thu Aug 27 10:16:44 2026] CPU3 is up
+[Thu Aug 27 10:16:44 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Thu Aug 27 10:16:44 2026] CPU4 is up
+[Thu Aug 27 10:16:44 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Thu Aug 27 10:16:44 2026] CPU5 is up
+[Thu Aug 27 10:16:44 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Thu Aug 27 10:16:44 2026] CPU6 is up
+[Thu Aug 27 10:16:44 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Thu Aug 27 10:16:44 2026] CPU7 is up
+[Thu Aug 27 10:16:44 2026] ACPI: PM: Waking up from system sleep state S3
+[Thu Aug 27 10:16:44 2026] ACPI: EC: interrupt unblocked
+[Thu Aug 27 10:16:44 2026] ACPI: EC: event unblocked
+[Thu Aug 27 10:16:44 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Thu Aug 27 10:16:44 2026] usb usb3: root hub lost power or was reset
+[Thu Aug 27 10:16:44 2026] usb usb4: root hub lost power or was reset
+[Thu Aug 27 10:16:44 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Thu Aug 27 10:16:44 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Thu Aug 27 10:16:45 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 10:16:45 2026] sd 2:0:0:0: [sda] Starting disk
+[Thu Aug 27 10:16:45 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 10:16:45 2026] ata3.00: configured for UDMA/133
+[Thu Aug 27 10:16:45 2026] OOM killer enabled.
+[Thu Aug 27 10:16:45 2026] Restarting tasks: Starting
+[Thu Aug 27 10:16:45 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Thu Aug 27 10:16:45 2026] Restarting tasks: Done
+[Thu Aug 27 10:16:45 2026] efivarfs: resyncing variable state
+[Thu Aug 27 10:16:45 2026] usb 1-1: USB disconnect, device number 13
+[Thu Aug 27 10:16:45 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 10:16:45 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 10:16:45 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 10:16:45 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 10:16:45 2026] efivarfs: finished resyncing variable state
+[Thu Aug 27 10:16:45 2026] random: crng reseeded on system resumption
+[Thu Aug 27 10:16:45 2026] usb 1-1: new full-speed USB device number 15 using xhci_hcd
+[Thu Aug 27 10:16:45 2026] PM: suspend exit
+[Thu Aug 27 10:16:45 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Thu Aug 27 10:16:45 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Thu Aug 27 10:16:45 2026] usb 1-1: Product: EMV Smartcard Reader
+[Thu Aug 27 10:16:45 2026] usb 1-1: Manufacturer: Generic
+[Thu Aug 27 10:16:45 2026] usb 1-9: USB disconnect, device number 14
+[Thu Aug 27 10:16:45 2026] usb 1-9: new full-speed USB device number 16 using xhci_hcd
+[Thu Aug 27 10:16:45 2026] Process accounting resumed
+[Thu Aug 27 10:16:45 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Thu Aug 27 10:16:45 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Thu Aug 27 10:16:45 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Thu Aug 27 10:16:50 2026] wlan0: authenticate with cc:88:c7:81:c3:91 (local address=58:6c:25:4e:a6:a1)
+[Thu Aug 27 10:16:50 2026] wlan0: send auth to cc:88:c7:81:c3:91 (try 1/3)
+[Thu Aug 27 10:16:50 2026] wlan0: authenticated
+[Thu Aug 27 10:16:50 2026] wlan0: associate with cc:88:c7:81:c3:91 (try 1/3)
+[Thu Aug 27 10:16:50 2026] wlan0: RX AssocResp from cc:88:c7:81:c3:91 (capab=0x401 status=0 aid=11)
+[Thu Aug 27 10:16:50 2026] wlan0: associated
+[Thu Aug 27 10:23:28 2026] rfkill: input handler enabled
+[Thu Aug 27 10:23:33 2026] rfkill: input handler disabled
+[Thu Aug 27 10:23:59 2026] rfkill: input handler enabled
+[Thu Aug 27 10:24:01 2026] rfkill: input handler disabled
+[Thu Aug 27 11:40:52 2026] wlan0: deauthenticating from cc:88:c7:81:c3:91 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Thu Aug 27 11:40:56 2026] PM: suspend entry (deep)
+[Thu Aug 27 11:40:56 2026] Filesystems sync: 0.109 seconds
+[Thu Aug 27 11:40:56 2026] Freezing user space processes
+[Thu Aug 27 11:40:56 2026] Freezing user space processes completed (elapsed 0.002 seconds)
+[Thu Aug 27 11:40:56 2026] OOM killer disabled.
+[Thu Aug 27 11:40:56 2026] Freezing remaining freezable tasks
+[Thu Aug 27 11:40:56 2026] Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+[Thu Aug 27 11:40:56 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Thu Aug 27 11:40:56 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Thu Aug 27 11:40:56 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Thu Aug 27 11:40:56 2026] ata3.00: Entering standby power mode
+[Thu Aug 27 11:40:58 2026] ACPI: EC: interrupt blocked
+[Thu Aug 27 11:40:58 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Thu Aug 27 11:40:58 2026] ACPI: EC: event blocked
+[Thu Aug 27 11:40:58 2026] ACPI: EC: EC stopped
+[Thu Aug 27 11:40:58 2026] ACPI: PM: Saving platform NVS memory
+[Thu Aug 27 11:40:58 2026] Disabling non-boot CPUs ...
+[Thu Aug 27 11:40:58 2026] smpboot: CPU 7 is now offline
+[Thu Aug 27 11:40:58 2026] smpboot: CPU 6 is now offline
+[Thu Aug 27 11:40:58 2026] smpboot: CPU 5 is now offline
+[Thu Aug 27 11:40:58 2026] smpboot: CPU 4 is now offline
+[Thu Aug 27 11:40:58 2026] smpboot: CPU 3 is now offline
+[Thu Aug 27 11:40:58 2026] smpboot: CPU 2 is now offline
+[Thu Aug 27 11:40:58 2026] smpboot: CPU 1 is now offline
+[Thu Aug 27 11:40:58 2026] ACPI: PM: Low-level resume complete
+[Thu Aug 27 11:40:58 2026] ACPI: EC: EC started
+[Thu Aug 27 11:40:58 2026] ACPI: PM: Restoring platform NVS memory
+[Thu Aug 27 11:40:58 2026] Enabling non-boot CPUs ...
+[Thu Aug 27 11:40:58 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Thu Aug 27 11:40:58 2026] CPU1 is up
+[Thu Aug 27 11:40:58 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Thu Aug 27 11:40:58 2026] CPU2 is up
+[Thu Aug 27 11:40:58 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Thu Aug 27 11:40:58 2026] CPU3 is up
+[Thu Aug 27 11:40:58 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Thu Aug 27 11:40:58 2026] CPU4 is up
+[Thu Aug 27 11:40:58 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Thu Aug 27 11:40:58 2026] CPU5 is up
+[Thu Aug 27 11:40:58 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Thu Aug 27 11:40:58 2026] CPU6 is up
+[Thu Aug 27 11:40:58 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Thu Aug 27 11:40:58 2026] CPU7 is up
+[Thu Aug 27 11:40:58 2026] ACPI: PM: Waking up from system sleep state S3
+[Thu Aug 27 11:40:58 2026] ACPI: EC: interrupt unblocked
+[Thu Aug 27 11:40:59 2026] ACPI: EC: event unblocked
+[Thu Aug 27 11:40:59 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Thu Aug 27 11:40:59 2026] usb usb3: root hub lost power or was reset
+[Thu Aug 27 11:40:59 2026] usb usb4: root hub lost power or was reset
+[Thu Aug 27 11:40:59 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Thu Aug 27 11:40:59 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Thu Aug 27 11:40:59 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 11:40:59 2026] sd 2:0:0:0: [sda] Starting disk
+[Thu Aug 27 11:40:59 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 11:40:59 2026] ata3.00: configured for UDMA/133
+[Thu Aug 27 11:40:59 2026] OOM killer enabled.
+[Thu Aug 27 11:40:59 2026] Restarting tasks: Starting
+[Thu Aug 27 11:40:59 2026] usb 1-1: USB disconnect, device number 15
+[Thu Aug 27 11:40:59 2026] Restarting tasks: Done
+[Thu Aug 27 11:40:59 2026] efivarfs: resyncing variable state
+[Thu Aug 27 11:40:59 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Thu Aug 27 11:40:59 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 11:40:59 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 11:40:59 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 11:40:59 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 11:40:59 2026] efivarfs: finished resyncing variable state
+[Thu Aug 27 11:40:59 2026] random: crng reseeded on system resumption
+[Thu Aug 27 11:40:59 2026] usb 1-1: new full-speed USB device number 17 using xhci_hcd
+[Thu Aug 27 11:40:59 2026] PM: suspend exit
+[Thu Aug 27 11:40:59 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Thu Aug 27 11:40:59 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Thu Aug 27 11:40:59 2026] usb 1-1: Product: EMV Smartcard Reader
+[Thu Aug 27 11:40:59 2026] usb 1-1: Manufacturer: Generic
+[Thu Aug 27 11:40:59 2026] usb 1-9: USB disconnect, device number 16
+[Thu Aug 27 11:40:59 2026] Process accounting resumed
+[Thu Aug 27 11:41:00 2026] usb 1-9: new full-speed USB device number 18 using xhci_hcd
+[Thu Aug 27 11:41:00 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Thu Aug 27 11:41:00 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Thu Aug 27 11:41:00 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Thu Aug 27 11:41:03 2026] wlan0: authenticate with cc:88:c7:91:c3:d2 (local address=58:6c:25:4e:a6:a1)
+[Thu Aug 27 11:41:03 2026] wlan0: send auth to cc:88:c7:91:c3:d2 (try 1/3)
+[Thu Aug 27 11:41:04 2026] wlan0: authenticated
+[Thu Aug 27 11:41:04 2026] wlan0: associate with cc:88:c7:91:c3:d2 (try 1/3)
+[Thu Aug 27 11:41:04 2026] wlan0: RX AssocResp from cc:88:c7:91:c3:d2 (capab=0x401 status=0 aid=3)
+[Thu Aug 27 11:41:04 2026] wlan0: associated
+[Thu Aug 27 11:43:55 2026] wlan0: deauthenticating from cc:88:c7:91:c3:d2 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Thu Aug 27 11:43:59 2026] PM: suspend entry (deep)
+[Thu Aug 27 11:43:59 2026] Filesystems sync: 0.045 seconds
+[Thu Aug 27 11:43:59 2026] Freezing user space processes
+[Thu Aug 27 11:43:59 2026] Freezing user space processes completed (elapsed 0.002 seconds)
+[Thu Aug 27 11:43:59 2026] OOM killer disabled.
+[Thu Aug 27 11:43:59 2026] Freezing remaining freezable tasks
+[Thu Aug 27 11:43:59 2026] Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+[Thu Aug 27 11:43:59 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Thu Aug 27 11:43:59 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Thu Aug 27 11:43:59 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Thu Aug 27 11:43:59 2026] ata3.00: Entering standby power mode
+[Thu Aug 27 11:44:01 2026] ACPI: EC: interrupt blocked
+[Thu Aug 27 11:44:01 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Thu Aug 27 11:44:01 2026] ACPI: EC: event blocked
+[Thu Aug 27 11:44:01 2026] ACPI: EC: EC stopped
+[Thu Aug 27 11:44:01 2026] ACPI: PM: Saving platform NVS memory
+[Thu Aug 27 11:44:01 2026] Disabling non-boot CPUs ...
+[Thu Aug 27 11:44:01 2026] smpboot: CPU 7 is now offline
+[Thu Aug 27 11:44:01 2026] smpboot: CPU 6 is now offline
+[Thu Aug 27 11:44:01 2026] smpboot: CPU 5 is now offline
+[Thu Aug 27 11:44:01 2026] smpboot: CPU 4 is now offline
+[Thu Aug 27 11:44:01 2026] smpboot: CPU 3 is now offline
+[Thu Aug 27 11:44:01 2026] smpboot: CPU 2 is now offline
+[Thu Aug 27 11:44:01 2026] smpboot: CPU 1 is now offline
+[Thu Aug 27 11:44:01 2026] ACPI: PM: Low-level resume complete
+[Thu Aug 27 11:44:01 2026] ACPI: EC: EC started
+[Thu Aug 27 11:44:01 2026] ACPI: PM: Restoring platform NVS memory
+[Thu Aug 27 11:44:01 2026] Enabling non-boot CPUs ...
+[Thu Aug 27 11:44:01 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Thu Aug 27 11:44:01 2026] CPU1 is up
+[Thu Aug 27 11:44:01 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Thu Aug 27 11:44:01 2026] CPU2 is up
+[Thu Aug 27 11:44:01 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Thu Aug 27 11:44:01 2026] CPU3 is up
+[Thu Aug 27 11:44:01 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Thu Aug 27 11:44:01 2026] CPU4 is up
+[Thu Aug 27 11:44:01 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Thu Aug 27 11:44:01 2026] CPU5 is up
+[Thu Aug 27 11:44:01 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Thu Aug 27 11:44:01 2026] CPU6 is up
+[Thu Aug 27 11:44:01 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Thu Aug 27 11:44:01 2026] CPU7 is up
+[Thu Aug 27 11:44:01 2026] ACPI: PM: Waking up from system sleep state S3
+[Thu Aug 27 11:44:01 2026] ACPI: EC: interrupt unblocked
+[Thu Aug 27 11:44:01 2026] ACPI: EC: event unblocked
+[Thu Aug 27 11:44:01 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Thu Aug 27 11:44:01 2026] usb usb3: root hub lost power or was reset
+[Thu Aug 27 11:44:01 2026] usb usb4: root hub lost power or was reset
+[Thu Aug 27 11:44:02 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Thu Aug 27 11:44:02 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Thu Aug 27 11:44:02 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 11:44:02 2026] sd 2:0:0:0: [sda] Starting disk
+[Thu Aug 27 11:44:02 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 11:44:02 2026] ata3.00: configured for UDMA/133
+[Thu Aug 27 11:44:02 2026] OOM killer enabled.
+[Thu Aug 27 11:44:02 2026] Restarting tasks: Starting
+[Thu Aug 27 11:44:02 2026] usb 1-1: USB disconnect, device number 17
+[Thu Aug 27 11:44:02 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Thu Aug 27 11:44:02 2026] Restarting tasks: Done
+[Thu Aug 27 11:44:02 2026] efivarfs: resyncing variable state
+[Thu Aug 27 11:44:02 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 11:44:02 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 11:44:02 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 11:44:02 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 11:44:02 2026] efivarfs: finished resyncing variable state
+[Thu Aug 27 11:44:02 2026] random: crng reseeded on system resumption
+[Thu Aug 27 11:44:02 2026] usb 1-1: new full-speed USB device number 19 using xhci_hcd
+[Thu Aug 27 11:44:02 2026] PM: suspend exit
+[Thu Aug 27 11:44:02 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Thu Aug 27 11:44:02 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Thu Aug 27 11:44:02 2026] usb 1-1: Product: EMV Smartcard Reader
+[Thu Aug 27 11:44:02 2026] usb 1-1: Manufacturer: Generic
+[Thu Aug 27 11:44:02 2026] usb 1-9: USB disconnect, device number 18
+[Thu Aug 27 11:44:02 2026] Process accounting resumed
+[Thu Aug 27 11:44:02 2026] usb 1-9: new full-speed USB device number 20 using xhci_hcd
+[Thu Aug 27 11:44:02 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Thu Aug 27 11:44:02 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Thu Aug 27 11:44:02 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Thu Aug 27 11:44:04 2026] wlan0: authenticate with cc:88:c7:91:c3:d2 (local address=58:6c:25:4e:a6:a1)
+[Thu Aug 27 11:44:04 2026] wlan0: send auth to cc:88:c7:91:c3:d2 (try 1/3)
+[Thu Aug 27 11:44:04 2026] wlan0: authenticated
+[Thu Aug 27 11:44:04 2026] wlan0: associate with cc:88:c7:91:c3:d2 (try 1/3)
+[Thu Aug 27 11:44:04 2026] wlan0: RX AssocResp from cc:88:c7:91:c3:d2 (capab=0x401 status=0 aid=3)
+[Thu Aug 27 11:44:04 2026] wlan0: associated
+[Thu Aug 27 11:46:52 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=10147 end=10148) time 288 us, min 1073, max 1079, scanline start 1069, end 1089
+[Thu Aug 27 12:03:35 2026] wlan0: deauthenticating from cc:88:c7:91:c3:d2 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Thu Aug 27 12:03:39 2026] PM: suspend entry (deep)
+[Thu Aug 27 12:03:39 2026] Filesystems sync: 0.071 seconds
+[Thu Aug 27 12:03:39 2026] Freezing user space processes
+[Thu Aug 27 12:03:39 2026] Freezing user space processes completed (elapsed 0.002 seconds)
+[Thu Aug 27 12:03:39 2026] OOM killer disabled.
+[Thu Aug 27 12:03:39 2026] Freezing remaining freezable tasks
+[Thu Aug 27 12:03:39 2026] Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+[Thu Aug 27 12:03:39 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Thu Aug 27 12:03:39 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Thu Aug 27 12:03:39 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Thu Aug 27 12:03:39 2026] ata3.00: Entering standby power mode
+[Thu Aug 27 12:03:41 2026] ACPI: EC: interrupt blocked
+[Thu Aug 27 12:03:41 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Thu Aug 27 12:03:41 2026] ACPI: EC: event blocked
+[Thu Aug 27 12:03:41 2026] ACPI: EC: EC stopped
+[Thu Aug 27 12:03:41 2026] ACPI: PM: Saving platform NVS memory
+[Thu Aug 27 12:03:41 2026] Disabling non-boot CPUs ...
+[Thu Aug 27 12:03:41 2026] smpboot: CPU 7 is now offline
+[Thu Aug 27 12:03:41 2026] smpboot: CPU 6 is now offline
+[Thu Aug 27 12:03:41 2026] smpboot: CPU 5 is now offline
+[Thu Aug 27 12:03:41 2026] smpboot: CPU 4 is now offline
+[Thu Aug 27 12:03:41 2026] smpboot: CPU 3 is now offline
+[Thu Aug 27 12:03:41 2026] smpboot: CPU 2 is now offline
+[Thu Aug 27 12:03:41 2026] smpboot: CPU 1 is now offline
+[Thu Aug 27 12:03:41 2026] ACPI: PM: Low-level resume complete
+[Thu Aug 27 12:03:41 2026] ACPI: EC: EC started
+[Thu Aug 27 12:03:41 2026] ACPI: PM: Restoring platform NVS memory
+[Thu Aug 27 12:03:41 2026] Enabling non-boot CPUs ...
+[Thu Aug 27 12:03:41 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Thu Aug 27 12:03:41 2026] CPU1 is up
+[Thu Aug 27 12:03:41 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Thu Aug 27 12:03:41 2026] CPU2 is up
+[Thu Aug 27 12:03:41 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Thu Aug 27 12:03:41 2026] CPU3 is up
+[Thu Aug 27 12:03:41 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Thu Aug 27 12:03:41 2026] CPU4 is up
+[Thu Aug 27 12:03:41 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Thu Aug 27 12:03:41 2026] CPU5 is up
+[Thu Aug 27 12:03:41 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Thu Aug 27 12:03:41 2026] CPU6 is up
+[Thu Aug 27 12:03:41 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Thu Aug 27 12:03:41 2026] CPU7 is up
+[Thu Aug 27 12:03:41 2026] ACPI: PM: Waking up from system sleep state S3
+[Thu Aug 27 12:03:41 2026] ACPI: EC: interrupt unblocked
+[Thu Aug 27 12:03:41 2026] ACPI: EC: event unblocked
+[Thu Aug 27 12:03:41 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Thu Aug 27 12:03:41 2026] usb usb3: root hub lost power or was reset
+[Thu Aug 27 12:03:41 2026] usb usb4: root hub lost power or was reset
+[Thu Aug 27 12:03:42 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Thu Aug 27 12:03:42 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Thu Aug 27 12:03:42 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 12:03:42 2026] sd 2:0:0:0: [sda] Starting disk
+[Thu Aug 27 12:03:42 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 12:03:42 2026] ata3.00: configured for UDMA/133
+[Thu Aug 27 12:03:42 2026] OOM killer enabled.
+[Thu Aug 27 12:03:42 2026] Restarting tasks: Starting
+[Thu Aug 27 12:03:42 2026] usb 1-1: USB disconnect, device number 19
+[Thu Aug 27 12:03:42 2026] Restarting tasks: Done
+[Thu Aug 27 12:03:42 2026] efivarfs: resyncing variable state
+[Thu Aug 27 12:03:42 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Thu Aug 27 12:03:42 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 12:03:42 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 12:03:42 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 12:03:42 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 12:03:42 2026] efivarfs: finished resyncing variable state
+[Thu Aug 27 12:03:42 2026] random: crng reseeded on system resumption
+[Thu Aug 27 12:03:42 2026] usb 1-1: new full-speed USB device number 21 using xhci_hcd
+[Thu Aug 27 12:03:42 2026] PM: suspend exit
+[Thu Aug 27 12:03:42 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Thu Aug 27 12:03:42 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Thu Aug 27 12:03:42 2026] usb 1-1: Product: EMV Smartcard Reader
+[Thu Aug 27 12:03:42 2026] usb 1-1: Manufacturer: Generic
+[Thu Aug 27 12:03:42 2026] usb 1-9: USB disconnect, device number 20
+[Thu Aug 27 12:03:42 2026] Process accounting resumed
+[Thu Aug 27 12:03:42 2026] usb 1-9: new full-speed USB device number 22 using xhci_hcd
+[Thu Aug 27 12:03:42 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Thu Aug 27 12:03:42 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Thu Aug 27 12:03:42 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Thu Aug 27 12:03:44 2026] wlan0: authenticate with cc:88:c7:91:c3:d2 (local address=58:6c:25:4e:a6:a1)
+[Thu Aug 27 12:03:44 2026] wlan0: send auth to cc:88:c7:91:c3:d2 (try 1/3)
+[Thu Aug 27 12:03:44 2026] wlan0: authenticated
+[Thu Aug 27 12:03:44 2026] wlan0: associate with cc:88:c7:91:c3:d2 (try 1/3)
+[Thu Aug 27 12:03:44 2026] wlan0: RX AssocResp from cc:88:c7:91:c3:d2 (capab=0x401 status=0 aid=1)
+[Thu Aug 27 12:03:44 2026] wlan0: associated
+[Thu Aug 27 12:07:44 2026] wlan0: deauthenticating from cc:88:c7:91:c3:d2 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Thu Aug 27 12:07:48 2026] PM: suspend entry (deep)
+[Thu Aug 27 12:07:48 2026] Filesystems sync: 0.068 seconds
+[Thu Aug 27 12:07:48 2026] Freezing user space processes
+[Thu Aug 27 12:07:48 2026] Freezing user space processes completed (elapsed 0.002 seconds)
+[Thu Aug 27 12:07:48 2026] OOM killer disabled.
+[Thu Aug 27 12:07:48 2026] Freezing remaining freezable tasks
+[Thu Aug 27 12:07:48 2026] Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+[Thu Aug 27 12:07:48 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Thu Aug 27 12:07:48 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Thu Aug 27 12:07:48 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Thu Aug 27 12:07:48 2026] ata3.00: Entering standby power mode
+[Thu Aug 27 12:07:50 2026] ACPI: EC: interrupt blocked
+[Thu Aug 27 12:07:50 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Thu Aug 27 12:07:50 2026] ACPI: EC: event blocked
+[Thu Aug 27 12:07:50 2026] ACPI: EC: EC stopped
+[Thu Aug 27 12:07:50 2026] ACPI: PM: Saving platform NVS memory
+[Thu Aug 27 12:07:50 2026] Disabling non-boot CPUs ...
+[Thu Aug 27 12:07:50 2026] smpboot: CPU 7 is now offline
+[Thu Aug 27 12:07:50 2026] smpboot: CPU 6 is now offline
+[Thu Aug 27 12:07:50 2026] smpboot: CPU 5 is now offline
+[Thu Aug 27 12:07:50 2026] smpboot: CPU 4 is now offline
+[Thu Aug 27 12:07:50 2026] smpboot: CPU 3 is now offline
+[Thu Aug 27 12:07:50 2026] smpboot: CPU 2 is now offline
+[Thu Aug 27 12:07:50 2026] smpboot: CPU 1 is now offline
+[Thu Aug 27 12:07:50 2026] ACPI: PM: Low-level resume complete
+[Thu Aug 27 12:07:50 2026] ACPI: EC: EC started
+[Thu Aug 27 12:07:50 2026] ACPI: PM: Restoring platform NVS memory
+[Thu Aug 27 12:07:50 2026] Enabling non-boot CPUs ...
+[Thu Aug 27 12:07:50 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Thu Aug 27 12:07:50 2026] CPU1 is up
+[Thu Aug 27 12:07:50 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Thu Aug 27 12:07:50 2026] CPU2 is up
+[Thu Aug 27 12:07:50 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Thu Aug 27 12:07:50 2026] CPU3 is up
+[Thu Aug 27 12:07:50 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Thu Aug 27 12:07:50 2026] CPU4 is up
+[Thu Aug 27 12:07:50 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Thu Aug 27 12:07:50 2026] CPU5 is up
+[Thu Aug 27 12:07:50 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Thu Aug 27 12:07:50 2026] CPU6 is up
+[Thu Aug 27 12:07:50 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Thu Aug 27 12:07:50 2026] CPU7 is up
+[Thu Aug 27 12:07:50 2026] ACPI: PM: Waking up from system sleep state S3
+[Thu Aug 27 12:07:50 2026] ACPI: EC: interrupt unblocked
+[Thu Aug 27 12:07:50 2026] ACPI: EC: event unblocked
+[Thu Aug 27 12:07:50 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Thu Aug 27 12:07:50 2026] usb usb3: root hub lost power or was reset
+[Thu Aug 27 12:07:50 2026] usb usb4: root hub lost power or was reset
+[Thu Aug 27 12:07:51 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Thu Aug 27 12:07:51 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Thu Aug 27 12:07:51 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 12:07:51 2026] sd 2:0:0:0: [sda] Starting disk
+[Thu Aug 27 12:07:51 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 12:07:51 2026] ata3.00: configured for UDMA/133
+[Thu Aug 27 12:07:51 2026] OOM killer enabled.
+[Thu Aug 27 12:07:51 2026] Restarting tasks: Starting
+[Thu Aug 27 12:07:51 2026] Restarting tasks: Done
+[Thu Aug 27 12:07:51 2026] efivarfs: resyncing variable state
+[Thu Aug 27 12:07:51 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Thu Aug 27 12:07:51 2026] usb 1-1: USB disconnect, device number 21
+[Thu Aug 27 12:07:51 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 12:07:51 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 12:07:51 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 12:07:51 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 12:07:51 2026] efivarfs: finished resyncing variable state
+[Thu Aug 27 12:07:51 2026] random: crng reseeded on system resumption
+[Thu Aug 27 12:07:51 2026] usb 1-1: new full-speed USB device number 23 using xhci_hcd
+[Thu Aug 27 12:07:51 2026] PM: suspend exit
+[Thu Aug 27 12:07:51 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Thu Aug 27 12:07:51 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Thu Aug 27 12:07:51 2026] usb 1-1: Product: EMV Smartcard Reader
+[Thu Aug 27 12:07:51 2026] usb 1-1: Manufacturer: Generic
+[Thu Aug 27 12:07:51 2026] usb 1-9: USB disconnect, device number 22
+[Thu Aug 27 12:07:51 2026] Process accounting resumed
+[Thu Aug 27 12:07:51 2026] usb 1-9: new full-speed USB device number 24 using xhci_hcd
+[Thu Aug 27 12:07:51 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Thu Aug 27 12:07:51 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Thu Aug 27 12:07:51 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Thu Aug 27 12:07:55 2026] wlan0: authenticate with 50:91:e3:f8:46:46 (local address=58:6c:25:4e:a6:a1)
+[Thu Aug 27 12:07:55 2026] wlan0: send auth to 50:91:e3:f8:46:46 (try 1/3)
+[Thu Aug 27 12:07:55 2026] wlan0: authenticated
+[Thu Aug 27 12:07:55 2026] wlan0: associate with 50:91:e3:f8:46:46 (try 1/3)
+[Thu Aug 27 12:07:55 2026] wlan0: RX AssocResp from 50:91:e3:f8:46:46 (capab=0x1c11 status=0 aid=7)
+[Thu Aug 27 12:07:55 2026] wlan0: associated
+[Thu Aug 27 12:11:38 2026] wlan0: deauthenticating from 50:91:e3:f8:46:46 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Thu Aug 27 12:11:42 2026] PM: suspend entry (deep)
+[Thu Aug 27 12:11:42 2026] Filesystems sync: 0.119 seconds
+[Thu Aug 27 12:11:42 2026] Freezing user space processes
+[Thu Aug 27 12:11:42 2026] Freezing user space processes completed (elapsed 0.002 seconds)
+[Thu Aug 27 12:11:42 2026] OOM killer disabled.
+[Thu Aug 27 12:11:42 2026] Freezing remaining freezable tasks
+[Thu Aug 27 12:11:42 2026] Freezing remaining freezable tasks completed (elapsed 0.002 seconds)
+[Thu Aug 27 12:11:42 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Thu Aug 27 12:11:42 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Thu Aug 27 12:11:42 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Thu Aug 27 12:11:42 2026] ata3.00: Entering standby power mode
+[Thu Aug 27 12:11:44 2026] ACPI: EC: interrupt blocked
+[Thu Aug 27 12:11:44 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Thu Aug 27 12:11:44 2026] ACPI: EC: event blocked
+[Thu Aug 27 12:11:44 2026] ACPI: EC: EC stopped
+[Thu Aug 27 12:11:44 2026] ACPI: PM: Saving platform NVS memory
+[Thu Aug 27 12:11:44 2026] Disabling non-boot CPUs ...
+[Thu Aug 27 12:11:44 2026] smpboot: CPU 7 is now offline
+[Thu Aug 27 12:11:44 2026] smpboot: CPU 6 is now offline
+[Thu Aug 27 12:11:44 2026] smpboot: CPU 5 is now offline
+[Thu Aug 27 12:11:44 2026] smpboot: CPU 4 is now offline
+[Thu Aug 27 12:11:44 2026] smpboot: CPU 3 is now offline
+[Thu Aug 27 12:11:44 2026] smpboot: CPU 2 is now offline
+[Thu Aug 27 12:11:44 2026] smpboot: CPU 1 is now offline
+[Thu Aug 27 12:11:44 2026] ACPI: PM: Low-level resume complete
+[Thu Aug 27 12:11:44 2026] ACPI: EC: EC started
+[Thu Aug 27 12:11:44 2026] ACPI: PM: Restoring platform NVS memory
+[Thu Aug 27 12:11:44 2026] Enabling non-boot CPUs ...
+[Thu Aug 27 12:11:44 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Thu Aug 27 12:11:44 2026] CPU1 is up
+[Thu Aug 27 12:11:44 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Thu Aug 27 12:11:44 2026] CPU2 is up
+[Thu Aug 27 12:11:44 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Thu Aug 27 12:11:44 2026] CPU3 is up
+[Thu Aug 27 12:11:44 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Thu Aug 27 12:11:44 2026] CPU4 is up
+[Thu Aug 27 12:11:44 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Thu Aug 27 12:11:44 2026] CPU5 is up
+[Thu Aug 27 12:11:44 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Thu Aug 27 12:11:44 2026] CPU6 is up
+[Thu Aug 27 12:11:44 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Thu Aug 27 12:11:44 2026] CPU7 is up
+[Thu Aug 27 12:11:44 2026] ACPI: PM: Waking up from system sleep state S3
+[Thu Aug 27 12:11:44 2026] ACPI: EC: interrupt unblocked
+[Thu Aug 27 12:11:44 2026] ACPI: EC: event unblocked
+[Thu Aug 27 12:11:44 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Thu Aug 27 12:11:44 2026] usb usb3: root hub lost power or was reset
+[Thu Aug 27 12:11:44 2026] usb usb4: root hub lost power or was reset
+[Thu Aug 27 12:11:45 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Thu Aug 27 12:11:45 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Thu Aug 27 12:11:45 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 12:11:45 2026] sd 2:0:0:0: [sda] Starting disk
+[Thu Aug 27 12:11:45 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 12:11:45 2026] ata3.00: configured for UDMA/133
+[Thu Aug 27 12:11:45 2026] OOM killer enabled.
+[Thu Aug 27 12:11:45 2026] Restarting tasks: Starting
+[Thu Aug 27 12:11:45 2026] usb 1-1: USB disconnect, device number 23
+[Thu Aug 27 12:11:45 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Thu Aug 27 12:11:45 2026] Restarting tasks: Done
+[Thu Aug 27 12:11:45 2026] efivarfs: resyncing variable state
+[Thu Aug 27 12:11:45 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 12:11:45 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 12:11:45 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 12:11:45 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 12:11:45 2026] efivarfs: finished resyncing variable state
+[Thu Aug 27 12:11:45 2026] random: crng reseeded on system resumption
+[Thu Aug 27 12:11:45 2026] usb 1-1: new full-speed USB device number 25 using xhci_hcd
+[Thu Aug 27 12:11:45 2026] PM: suspend exit
+[Thu Aug 27 12:11:45 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Thu Aug 27 12:11:45 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Thu Aug 27 12:11:45 2026] usb 1-1: Product: EMV Smartcard Reader
+[Thu Aug 27 12:11:45 2026] usb 1-1: Manufacturer: Generic
+[Thu Aug 27 12:11:45 2026] usb 1-9: USB disconnect, device number 24
+[Thu Aug 27 12:11:45 2026] Process accounting resumed
+[Thu Aug 27 12:11:45 2026] usb 1-9: new full-speed USB device number 26 using xhci_hcd
+[Thu Aug 27 12:11:45 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Thu Aug 27 12:11:45 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Thu Aug 27 12:11:45 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Thu Aug 27 12:11:49 2026] wlan0: authenticate with 50:91:e3:f8:46:46 (local address=58:6c:25:4e:a6:a1)
+[Thu Aug 27 12:11:49 2026] wlan0: send auth to 50:91:e3:f8:46:46 (try 1/3)
+[Thu Aug 27 12:11:49 2026] wlan0: authenticated
+[Thu Aug 27 12:11:49 2026] wlan0: associate with 50:91:e3:f8:46:46 (try 1/3)
+[Thu Aug 27 12:11:49 2026] wlan0: RX AssocResp from 50:91:e3:f8:46:46 (capab=0x1c11 status=0 aid=10)
+[Thu Aug 27 12:11:49 2026] wlan0: associated
+[Thu Aug 27 12:29:38 2026] perf: interrupt took too long (5001 > 4983), lowering kernel.perf_event_max_sample_rate to 39750
+[Thu Aug 27 12:47:00 2026] wlan0: deauthenticating from 50:91:e3:f8:46:46 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Thu Aug 27 12:47:05 2026] PM: suspend entry (deep)
+[Thu Aug 27 12:47:05 2026] Filesystems sync: 0.073 seconds
+[Thu Aug 27 12:47:05 2026] Freezing user space processes
+[Thu Aug 27 12:47:05 2026] Freezing user space processes completed (elapsed 0.002 seconds)
+[Thu Aug 27 12:47:05 2026] OOM killer disabled.
+[Thu Aug 27 12:47:05 2026] Freezing remaining freezable tasks
+[Thu Aug 27 12:47:05 2026] Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+[Thu Aug 27 12:47:05 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Thu Aug 27 12:47:05 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Thu Aug 27 12:47:05 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Thu Aug 27 12:47:05 2026] ata3.00: Entering standby power mode
+[Thu Aug 27 12:47:07 2026] ACPI: EC: interrupt blocked
+[Thu Aug 27 12:47:07 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Thu Aug 27 12:47:07 2026] ACPI: EC: event blocked
+[Thu Aug 27 12:47:07 2026] ACPI: EC: EC stopped
+[Thu Aug 27 12:47:07 2026] ACPI: PM: Saving platform NVS memory
+[Thu Aug 27 12:47:07 2026] Disabling non-boot CPUs ...
+[Thu Aug 27 12:47:07 2026] smpboot: CPU 7 is now offline
+[Thu Aug 27 12:47:07 2026] smpboot: CPU 6 is now offline
+[Thu Aug 27 12:47:07 2026] smpboot: CPU 5 is now offline
+[Thu Aug 27 12:47:07 2026] smpboot: CPU 4 is now offline
+[Thu Aug 27 12:47:07 2026] smpboot: CPU 3 is now offline
+[Thu Aug 27 12:47:07 2026] smpboot: CPU 2 is now offline
+[Thu Aug 27 12:47:07 2026] smpboot: CPU 1 is now offline
+[Thu Aug 27 12:47:07 2026] ACPI: PM: Low-level resume complete
+[Thu Aug 27 12:47:07 2026] ACPI: EC: EC started
+[Thu Aug 27 12:47:07 2026] ACPI: PM: Restoring platform NVS memory
+[Thu Aug 27 12:47:07 2026] Enabling non-boot CPUs ...
+[Thu Aug 27 12:47:07 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Thu Aug 27 12:47:07 2026] CPU1 is up
+[Thu Aug 27 12:47:07 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Thu Aug 27 12:47:07 2026] CPU2 is up
+[Thu Aug 27 12:47:07 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Thu Aug 27 12:47:07 2026] CPU3 is up
+[Thu Aug 27 12:47:07 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Thu Aug 27 12:47:07 2026] CPU4 is up
+[Thu Aug 27 12:47:07 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Thu Aug 27 12:47:07 2026] CPU5 is up
+[Thu Aug 27 12:47:07 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Thu Aug 27 12:47:07 2026] CPU6 is up
+[Thu Aug 27 12:47:07 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Thu Aug 27 12:47:07 2026] CPU7 is up
+[Thu Aug 27 12:47:07 2026] ACPI: PM: Waking up from system sleep state S3
+[Thu Aug 27 12:47:07 2026] ACPI: EC: interrupt unblocked
+[Thu Aug 27 12:47:07 2026] ACPI: EC: event unblocked
+[Thu Aug 27 12:47:07 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Thu Aug 27 12:47:07 2026] usb usb3: root hub lost power or was reset
+[Thu Aug 27 12:47:07 2026] usb usb4: root hub lost power or was reset
+[Thu Aug 27 12:47:08 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Thu Aug 27 12:47:08 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Thu Aug 27 12:47:08 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 12:47:08 2026] sd 2:0:0:0: [sda] Starting disk
+[Thu Aug 27 12:47:08 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 12:47:08 2026] ata3.00: configured for UDMA/133
+[Thu Aug 27 12:47:08 2026] OOM killer enabled.
+[Thu Aug 27 12:47:08 2026] Restarting tasks: Starting
+[Thu Aug 27 12:47:08 2026] usb 1-1: USB disconnect, device number 25
+[Thu Aug 27 12:47:08 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Thu Aug 27 12:47:08 2026] Restarting tasks: Done
+[Thu Aug 27 12:47:08 2026] efivarfs: resyncing variable state
+[Thu Aug 27 12:47:08 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 12:47:08 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 12:47:08 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 12:47:08 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 12:47:08 2026] efivarfs: finished resyncing variable state
+[Thu Aug 27 12:47:08 2026] random: crng reseeded on system resumption
+[Thu Aug 27 12:47:08 2026] usb 1-1: new full-speed USB device number 27 using xhci_hcd
+[Thu Aug 27 12:47:08 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Thu Aug 27 12:47:08 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Thu Aug 27 12:47:08 2026] usb 1-1: Product: EMV Smartcard Reader
+[Thu Aug 27 12:47:08 2026] usb 1-1: Manufacturer: Generic
+[Thu Aug 27 12:47:08 2026] usb 1-9: USB disconnect, device number 26
+[Thu Aug 27 12:47:08 2026] usb 1-9: new full-speed USB device number 28 using xhci_hcd
+[Thu Aug 27 12:47:08 2026] PM: suspend exit
+[Thu Aug 27 12:47:08 2026] Process accounting resumed
+[Thu Aug 27 12:47:08 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Thu Aug 27 12:47:08 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Thu Aug 27 12:47:08 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Thu Aug 27 12:47:12 2026] wlan0: authenticate with 50:91:e3:f8:46:46 (local address=58:6c:25:4e:a6:a1)
+[Thu Aug 27 12:47:12 2026] wlan0: send auth to 50:91:e3:f8:46:46 (try 1/3)
+[Thu Aug 27 12:47:12 2026] wlan0: authenticated
+[Thu Aug 27 12:47:12 2026] wlan0: associate with 50:91:e3:f8:46:46 (try 1/3)
+[Thu Aug 27 12:47:12 2026] wlan0: RX AssocResp from 50:91:e3:f8:46:46 (capab=0x1c11 status=0 aid=11)
+[Thu Aug 27 12:47:12 2026] wlan0: associated
+[Thu Aug 27 12:48:47 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=5913 end=5914) time 294 us, min 1073, max 1079, scanline start 1064, end 1084
+[Thu Aug 27 13:04:38 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=62950 end=62951) time 303 us, min 1073, max 1079, scanline start 1059, end 1080
+[Thu Aug 27 13:10:43 2026] wlan0: deauthenticating from 50:91:e3:f8:46:46 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Thu Aug 27 13:10:46 2026] PM: suspend entry (deep)
+[Thu Aug 27 13:10:46 2026] Filesystems sync: 0.039 seconds
+[Thu Aug 27 13:10:46 2026] Freezing user space processes
+[Thu Aug 27 13:10:46 2026] Freezing user space processes completed (elapsed 0.002 seconds)
+[Thu Aug 27 13:10:46 2026] OOM killer disabled.
+[Thu Aug 27 13:10:46 2026] Freezing remaining freezable tasks
+[Thu Aug 27 13:10:46 2026] Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+[Thu Aug 27 13:10:46 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Thu Aug 27 13:10:46 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Thu Aug 27 13:10:46 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Thu Aug 27 13:10:46 2026] ata3.00: Entering standby power mode
+[Thu Aug 27 13:10:48 2026] ACPI: EC: interrupt blocked
+[Thu Aug 27 13:10:48 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Thu Aug 27 13:10:48 2026] ACPI: EC: event blocked
+[Thu Aug 27 13:10:48 2026] ACPI: EC: EC stopped
+[Thu Aug 27 13:10:48 2026] ACPI: PM: Saving platform NVS memory
+[Thu Aug 27 13:10:48 2026] Disabling non-boot CPUs ...
+[Thu Aug 27 13:10:48 2026] smpboot: CPU 7 is now offline
+[Thu Aug 27 13:10:48 2026] smpboot: CPU 6 is now offline
+[Thu Aug 27 13:10:48 2026] smpboot: CPU 5 is now offline
+[Thu Aug 27 13:10:48 2026] smpboot: CPU 4 is now offline
+[Thu Aug 27 13:10:48 2026] smpboot: CPU 3 is now offline
+[Thu Aug 27 13:10:48 2026] smpboot: CPU 2 is now offline
+[Thu Aug 27 13:10:48 2026] smpboot: CPU 1 is now offline
+[Thu Aug 27 13:10:48 2026] ACPI: PM: Low-level resume complete
+[Thu Aug 27 13:10:48 2026] ACPI: EC: EC started
+[Thu Aug 27 13:10:48 2026] ACPI: PM: Restoring platform NVS memory
+[Thu Aug 27 13:10:48 2026] Enabling non-boot CPUs ...
+[Thu Aug 27 13:10:48 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Thu Aug 27 13:10:48 2026] CPU1 is up
+[Thu Aug 27 13:10:48 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Thu Aug 27 13:10:48 2026] CPU2 is up
+[Thu Aug 27 13:10:48 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Thu Aug 27 13:10:48 2026] CPU3 is up
+[Thu Aug 27 13:10:48 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Thu Aug 27 13:10:48 2026] CPU4 is up
+[Thu Aug 27 13:10:48 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Thu Aug 27 13:10:48 2026] CPU5 is up
+[Thu Aug 27 13:10:48 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Thu Aug 27 13:10:48 2026] CPU6 is up
+[Thu Aug 27 13:10:48 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Thu Aug 27 13:10:48 2026] CPU7 is up
+[Thu Aug 27 13:10:48 2026] ACPI: PM: Waking up from system sleep state S3
+[Thu Aug 27 13:10:48 2026] ACPI: EC: interrupt unblocked
+[Thu Aug 27 13:10:49 2026] ACPI: EC: event unblocked
+[Thu Aug 27 13:10:49 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Thu Aug 27 13:10:49 2026] usb usb3: root hub lost power or was reset
+[Thu Aug 27 13:10:49 2026] usb usb4: root hub lost power or was reset
+[Thu Aug 27 13:10:49 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Thu Aug 27 13:10:49 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Thu Aug 27 13:10:49 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 13:10:49 2026] sd 2:0:0:0: [sda] Starting disk
+[Thu Aug 27 13:10:49 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 13:10:49 2026] ata3.00: configured for UDMA/133
+[Thu Aug 27 13:10:49 2026] OOM killer enabled.
+[Thu Aug 27 13:10:49 2026] Restarting tasks: Starting
+[Thu Aug 27 13:10:49 2026] usb 1-1: USB disconnect, device number 27
+[Thu Aug 27 13:10:49 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Thu Aug 27 13:10:49 2026] Restarting tasks: Done
+[Thu Aug 27 13:10:49 2026] efivarfs: resyncing variable state
+[Thu Aug 27 13:10:49 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 13:10:49 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 13:10:49 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 13:10:49 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 13:10:49 2026] efivarfs: finished resyncing variable state
+[Thu Aug 27 13:10:49 2026] random: crng reseeded on system resumption
+[Thu Aug 27 13:10:49 2026] PM: suspend exit
+[Thu Aug 27 13:10:49 2026] usb 1-1: new full-speed USB device number 29 using xhci_hcd
+[Thu Aug 27 13:10:49 2026] Process accounting resumed
+[Thu Aug 27 13:10:49 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Thu Aug 27 13:10:49 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Thu Aug 27 13:10:49 2026] usb 1-1: Product: EMV Smartcard Reader
+[Thu Aug 27 13:10:49 2026] usb 1-1: Manufacturer: Generic
+[Thu Aug 27 13:10:49 2026] usb 1-9: USB disconnect, device number 28
+[Thu Aug 27 13:10:49 2026] usb 1-9: new full-speed USB device number 30 using xhci_hcd
+[Thu Aug 27 13:10:50 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Thu Aug 27 13:10:50 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Thu Aug 27 13:10:50 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Thu Aug 27 13:10:53 2026] wlan0: authenticate with 50:91:e3:f8:46:46 (local address=58:6c:25:4e:a6:a1)
+[Thu Aug 27 13:10:53 2026] wlan0: send auth to 50:91:e3:f8:46:46 (try 1/3)
+[Thu Aug 27 13:10:53 2026] wlan0: authenticated
+[Thu Aug 27 13:10:53 2026] wlan0: associate with 50:91:e3:f8:46:46 (try 1/3)
+[Thu Aug 27 13:10:53 2026] wlan0: RX AssocResp from 50:91:e3:f8:46:46 (capab=0x1c11 status=0 aid=9)
+[Thu Aug 27 13:10:53 2026] wlan0: associated
+[Thu Aug 27 13:50:00 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=141056 end=141057) time 278 us, min 1073, max 1079, scanline start 1072, end 1091
+[Thu Aug 27 15:41:01 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=540723 end=540724) time 256 us, min 1073, max 1079, scanline start 1062, end 1080
+[Thu Aug 27 15:41:01 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=540741 end=540742) time 259 us, min 1073, max 1079, scanline start 1067, end 1084
+[Thu Aug 27 15:55:16 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=592073 end=592074) time 281 us, min 1073, max 1079, scanline start 1070, end 1089
+[Thu Aug 27 15:56:13 2026] Process accounting resumed
+[Thu Aug 27 15:56:29 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=596437 end=596438) time 260 us, min 1073, max 1079, scanline start 1070, end 1088
+[Thu Aug 27 16:08:27 2026] wlan0: deauthenticating from 50:91:e3:f8:46:46 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Thu Aug 27 16:08:31 2026] PM: suspend entry (deep)
+[Thu Aug 27 16:08:31 2026] Filesystems sync: 0.121 seconds
+[Thu Aug 27 16:08:31 2026] Freezing user space processes
+[Thu Aug 27 16:08:31 2026] Freezing user space processes completed (elapsed 0.002 seconds)
+[Thu Aug 27 16:08:31 2026] OOM killer disabled.
+[Thu Aug 27 16:08:31 2026] Freezing remaining freezable tasks
+[Thu Aug 27 16:08:31 2026] Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+[Thu Aug 27 16:08:31 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Thu Aug 27 16:08:31 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Thu Aug 27 16:08:31 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Thu Aug 27 16:08:31 2026] ata3.00: Entering standby power mode
+[Thu Aug 27 16:08:33 2026] ACPI: EC: interrupt blocked
+[Thu Aug 27 16:08:33 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Thu Aug 27 16:08:33 2026] ACPI: EC: event blocked
+[Thu Aug 27 16:08:33 2026] ACPI: EC: EC stopped
+[Thu Aug 27 16:08:33 2026] ACPI: PM: Saving platform NVS memory
+[Thu Aug 27 16:08:33 2026] Disabling non-boot CPUs ...
+[Thu Aug 27 16:08:33 2026] smpboot: CPU 7 is now offline
+[Thu Aug 27 16:08:33 2026] smpboot: CPU 6 is now offline
+[Thu Aug 27 16:08:33 2026] smpboot: CPU 5 is now offline
+[Thu Aug 27 16:08:33 2026] smpboot: CPU 4 is now offline
+[Thu Aug 27 16:08:33 2026] smpboot: CPU 3 is now offline
+[Thu Aug 27 16:08:33 2026] smpboot: CPU 2 is now offline
+[Thu Aug 27 16:08:33 2026] smpboot: CPU 1 is now offline
+[Thu Aug 27 16:08:33 2026] ACPI: PM: Low-level resume complete
+[Thu Aug 27 16:08:33 2026] ACPI: EC: EC started
+[Thu Aug 27 16:08:33 2026] ACPI: PM: Restoring platform NVS memory
+[Thu Aug 27 16:08:33 2026] Enabling non-boot CPUs ...
+[Thu Aug 27 16:08:33 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Thu Aug 27 16:08:33 2026] CPU1 is up
+[Thu Aug 27 16:08:33 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Thu Aug 27 16:08:33 2026] CPU2 is up
+[Thu Aug 27 16:08:33 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Thu Aug 27 16:08:33 2026] CPU3 is up
+[Thu Aug 27 16:08:33 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Thu Aug 27 16:08:33 2026] CPU4 is up
+[Thu Aug 27 16:08:33 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Thu Aug 27 16:08:33 2026] CPU5 is up
+[Thu Aug 27 16:08:33 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Thu Aug 27 16:08:33 2026] CPU6 is up
+[Thu Aug 27 16:08:33 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Thu Aug 27 16:08:33 2026] CPU7 is up
+[Thu Aug 27 16:08:33 2026] ACPI: PM: Waking up from system sleep state S3
+[Thu Aug 27 16:08:33 2026] ACPI: EC: interrupt unblocked
+[Thu Aug 27 16:08:33 2026] ACPI: EC: event unblocked
+[Thu Aug 27 16:08:33 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Thu Aug 27 16:08:33 2026] usb usb3: root hub lost power or was reset
+[Thu Aug 27 16:08:33 2026] usb usb4: root hub lost power or was reset
+[Thu Aug 27 16:08:34 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Thu Aug 27 16:08:34 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Thu Aug 27 16:08:34 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 16:08:34 2026] sd 2:0:0:0: [sda] Starting disk
+[Thu Aug 27 16:08:34 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 16:08:34 2026] ata3.00: configured for UDMA/133
+[Thu Aug 27 16:08:34 2026] OOM killer enabled.
+[Thu Aug 27 16:08:34 2026] Restarting tasks: Starting
+[Thu Aug 27 16:08:34 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Thu Aug 27 16:08:34 2026] usb 1-1: USB disconnect, device number 29
+[Thu Aug 27 16:08:34 2026] Restarting tasks: Done
+[Thu Aug 27 16:08:34 2026] efivarfs: resyncing variable state
+[Thu Aug 27 16:08:34 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 16:08:34 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 16:08:34 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 16:08:34 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 16:08:34 2026] efivarfs: finished resyncing variable state
+[Thu Aug 27 16:08:34 2026] random: crng reseeded on system resumption
+[Thu Aug 27 16:08:34 2026] PM: suspend exit
+[Thu Aug 27 16:08:34 2026] usb 1-1: new full-speed USB device number 31 using xhci_hcd
+[Thu Aug 27 16:08:34 2026] Process accounting resumed
+[Thu Aug 27 16:08:34 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Thu Aug 27 16:08:34 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Thu Aug 27 16:08:34 2026] usb 1-1: Product: EMV Smartcard Reader
+[Thu Aug 27 16:08:34 2026] usb 1-1: Manufacturer: Generic
+[Thu Aug 27 16:08:34 2026] usb 1-9: USB disconnect, device number 30
+[Thu Aug 27 16:08:34 2026] usb 1-9: new full-speed USB device number 32 using xhci_hcd
+[Thu Aug 27 16:08:34 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Thu Aug 27 16:08:34 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Thu Aug 27 16:08:34 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Thu Aug 27 16:08:38 2026] wlan0: authenticate with 50:91:e3:f8:46:46 (local address=58:6c:25:4e:a6:a1)
+[Thu Aug 27 16:08:38 2026] wlan0: send auth to 50:91:e3:f8:46:46 (try 1/3)
+[Thu Aug 27 16:08:38 2026] wlan0: authenticated
+[Thu Aug 27 16:08:38 2026] wlan0: associate with 50:91:e3:f8:46:46 (try 1/3)
+[Thu Aug 27 16:08:38 2026] wlan0: RX AssocResp from 50:91:e3:f8:46:46 (capab=0x1c11 status=0 aid=10)
+[Thu Aug 27 16:08:38 2026] wlan0: associated
+[Thu Aug 27 16:23:21 2026] wlan0: deauthenticating from 50:91:e3:f8:46:46 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Thu Aug 27 16:23:26 2026] PM: suspend entry (deep)
+[Thu Aug 27 16:23:26 2026] Filesystems sync: 0.087 seconds
+[Thu Aug 27 16:23:26 2026] Freezing user space processes
+[Thu Aug 27 16:23:26 2026] Freezing user space processes completed (elapsed 0.003 seconds)
+[Thu Aug 27 16:23:26 2026] OOM killer disabled.
+[Thu Aug 27 16:23:26 2026] Freezing remaining freezable tasks
+[Thu Aug 27 16:23:26 2026] Freezing remaining freezable tasks completed (elapsed 0.002 seconds)
+[Thu Aug 27 16:23:26 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Thu Aug 27 16:23:26 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Thu Aug 27 16:23:26 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Thu Aug 27 16:23:26 2026] ata3.00: Entering standby power mode
+[Thu Aug 27 16:23:28 2026] ACPI: EC: interrupt blocked
+[Thu Aug 27 16:23:28 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Thu Aug 27 16:23:28 2026] ACPI: EC: event blocked
+[Thu Aug 27 16:23:28 2026] ACPI: EC: EC stopped
+[Thu Aug 27 16:23:28 2026] ACPI: PM: Saving platform NVS memory
+[Thu Aug 27 16:23:28 2026] Disabling non-boot CPUs ...
+[Thu Aug 27 16:23:28 2026] smpboot: CPU 7 is now offline
+[Thu Aug 27 16:23:28 2026] smpboot: CPU 6 is now offline
+[Thu Aug 27 16:23:28 2026] smpboot: CPU 5 is now offline
+[Thu Aug 27 16:23:28 2026] smpboot: CPU 4 is now offline
+[Thu Aug 27 16:23:28 2026] smpboot: CPU 3 is now offline
+[Thu Aug 27 16:23:28 2026] smpboot: CPU 2 is now offline
+[Thu Aug 27 16:23:28 2026] smpboot: CPU 1 is now offline
+[Thu Aug 27 16:23:28 2026] ACPI: PM: Low-level resume complete
+[Thu Aug 27 16:23:28 2026] ACPI: EC: EC started
+[Thu Aug 27 16:23:28 2026] ACPI: PM: Restoring platform NVS memory
+[Thu Aug 27 16:23:28 2026] Enabling non-boot CPUs ...
+[Thu Aug 27 16:23:28 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Thu Aug 27 16:23:28 2026] CPU1 is up
+[Thu Aug 27 16:23:28 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Thu Aug 27 16:23:28 2026] CPU2 is up
+[Thu Aug 27 16:23:28 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Thu Aug 27 16:23:28 2026] CPU3 is up
+[Thu Aug 27 16:23:28 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Thu Aug 27 16:23:28 2026] CPU4 is up
+[Thu Aug 27 16:23:28 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Thu Aug 27 16:23:28 2026] CPU5 is up
+[Thu Aug 27 16:23:28 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Thu Aug 27 16:23:28 2026] CPU6 is up
+[Thu Aug 27 16:23:28 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Thu Aug 27 16:23:28 2026] CPU7 is up
+[Thu Aug 27 16:23:28 2026] ACPI: PM: Waking up from system sleep state S3
+[Thu Aug 27 16:23:28 2026] ACPI: EC: interrupt unblocked
+[Thu Aug 27 16:23:29 2026] ACPI: EC: event unblocked
+[Thu Aug 27 16:23:29 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Thu Aug 27 16:23:29 2026] usb usb3: root hub lost power or was reset
+[Thu Aug 27 16:23:29 2026] usb usb4: root hub lost power or was reset
+[Thu Aug 27 16:23:29 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Thu Aug 27 16:23:29 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Thu Aug 27 16:23:29 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 16:23:29 2026] sd 2:0:0:0: [sda] Starting disk
+[Thu Aug 27 16:23:29 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Thu Aug 27 16:23:29 2026] ata3.00: configured for UDMA/133
+[Thu Aug 27 16:23:29 2026] OOM killer enabled.
+[Thu Aug 27 16:23:29 2026] Restarting tasks: Starting
+[Thu Aug 27 16:23:29 2026] usb 1-1: USB disconnect, device number 31
+[Thu Aug 27 16:23:29 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Thu Aug 27 16:23:29 2026] Restarting tasks: Done
+[Thu Aug 27 16:23:29 2026] efivarfs: resyncing variable state
+[Thu Aug 27 16:23:29 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 16:23:29 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 16:23:29 2026] pci_bus 0000:05: Allocating resources
+[Thu Aug 27 16:23:29 2026] pci_bus 0000:2b: Allocating resources
+[Thu Aug 27 16:23:29 2026] efivarfs: finished resyncing variable state
+[Thu Aug 27 16:23:29 2026] random: crng reseeded on system resumption
+[Thu Aug 27 16:23:29 2026] usb 1-1: new full-speed USB device number 33 using xhci_hcd
+[Thu Aug 27 16:23:29 2026] PM: suspend exit
+[Thu Aug 27 16:23:29 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Thu Aug 27 16:23:29 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Thu Aug 27 16:23:29 2026] usb 1-1: Product: EMV Smartcard Reader
+[Thu Aug 27 16:23:29 2026] usb 1-1: Manufacturer: Generic
+[Thu Aug 27 16:23:29 2026] usb 1-9: USB disconnect, device number 32
+[Thu Aug 27 16:23:30 2026] usb 1-9: new full-speed USB device number 34 using xhci_hcd
+[Thu Aug 27 16:23:30 2026] Process accounting resumed
+[Thu Aug 27 16:23:30 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Thu Aug 27 16:23:30 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Thu Aug 27 16:23:30 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Thu Aug 27 16:23:34 2026] wlan0: authenticate with 50:91:e3:f8:46:46 (local address=58:6c:25:4e:a6:a1)
+[Thu Aug 27 16:23:34 2026] wlan0: send auth to 50:91:e3:f8:46:46 (try 1/3)
+[Thu Aug 27 16:23:34 2026] wlan0: authenticated
+[Thu Aug 27 16:23:34 2026] wlan0: associate with 50:91:e3:f8:46:46 (try 1/3)
+[Thu Aug 27 16:23:34 2026] wlan0: RX AssocResp from 50:91:e3:f8:46:46 (capab=0x1c11 status=0 aid=6)
+[Thu Aug 27 16:23:34 2026] wlan0: associated
+[Thu Aug 27 16:42:47 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=69393 end=69394) time 275 us, min 1073, max 1079, scanline start 1070, end 1089
+[Thu Aug 27 16:43:02 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=70338 end=70339) time 279 us, min 1073, max 1079, scanline start 1069, end 1088
+[Thu Aug 27 17:05:52 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=152497 end=152498) time 298 us, min 1073, max 1079, scanline start 1063, end 1064
+[Thu Aug 27 17:13:52 2026] perf: interrupt took too long (6265 > 6251), lowering kernel.perf_event_max_sample_rate to 31750
+[Thu Aug 27 17:34:46 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=256603 end=256604) time 269 us, min 1073, max 1079, scanline start 1065, end 1083
+[Thu Aug 27 17:51:37 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=317256 end=317257) time 269 us, min 1073, max 1079, scanline start 1062, end 1080
+[Thu Aug 27 18:08:06 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=376571 end=376572) time 281 us, min 1073, max 1079, scanline start 1067, end 1086
+[Thu Aug 27 18:26:13 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=441799 end=441800) time 280 us, min 1073, max 1079, scanline start 1066, end 1085
+[Thu Aug 27 18:27:26 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=446225 end=446226) time 275 us, min 1073, max 1079, scanline start 1071, end 1089
+[Thu Aug 27 19:31:00 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=675088 end=675089) time 255 us, min 1073, max 1079, scanline start 1070, end 1088
+[Thu Aug 27 19:54:06 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 19:54:06 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 19:55:53 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 19:55:55 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 19:56:25 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 19:56:27 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 19:56:32 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 19:56:35 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 19:56:40 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 19:56:43 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 19:56:49 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 19:56:52 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 19:57:31 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 19:57:43 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 19:58:11 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 19:58:23 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 19:58:49 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 19:59:01 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 19:59:28 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 19:59:40 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 20:00:39 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 20:00:51 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 20:07:28 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 20:07:33 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 20:39:11 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 20:39:34 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 20:42:00 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 20:42:10 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 20:42:30 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 20:42:47 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 20:42:51 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 20:43:03 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 20:43:20 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 20:43:37 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 20:44:06 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 20:44:19 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 20:44:38 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 20:44:55 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 20:46:20 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 20:46:29 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 20:46:43 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 20:46:57 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 20:47:26 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 20:47:38 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 20:47:58 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 20:48:14 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 20:59:17 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 20:59:20 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 20:59:26 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 20:59:29 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 20:59:33 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 20:59:45 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 21:00:04 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 21:00:24 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 21:00:32 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 21:00:35 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 21:00:41 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 21:00:52 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 21:00:57 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 21:01:12 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 21:01:32 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 21:01:38 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 21:01:46 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 21:01:49 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 21:01:59 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 21:02:24 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:29:20 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:30:32 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:32:09 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:32:10 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:32:14 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:32:15 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:32:21 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:32:23 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:32:26 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:32:27 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:32:30 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:32:31 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:32:35 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:32:38 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:32:44 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:32:45 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:32:49 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:32:50 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:32:55 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:32:59 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:33:01 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:33:02 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:33:06 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:33:07 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:33:12 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:33:15 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:33:21 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:33:22 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:33:27 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:33:29 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:33:34 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:33:37 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:35:41 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:35:43 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:35:48 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:35:49 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:35:52 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:35:53 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:35:59 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:36:00 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:36:03 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:36:04 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:37:29 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:37:31 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:37:34 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:37:36 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:37:43 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:37:46 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:37:48 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:37:51 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:37:58 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:38:00 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:40:26 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:40:41 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:40:44 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:41:00 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:41:33 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:41:50 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:41:53 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:42:10 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:42:44 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:43:10 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:45:18 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:45:21 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:45:24 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:45:28 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:45:41 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:45:46 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:45:49 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:45:54 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:46:07 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:46:11 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:47:33 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:47:34 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:47:37 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:47:37 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:47:42 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:47:43 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:47:47 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:47:48 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:47:55 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:47:56 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:49:20 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:49:21 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:49:24 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:49:25 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:49:27 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:49:28 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:49:33 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:49:34 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:49:38 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:49:38 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:52:35 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:52:38 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:52:42 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:52:48 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:53:02 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:53:07 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:53:11 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:53:17 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:53:32 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:53:38 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:54:42 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:54:46 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:54:58 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:55:03 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:55:07 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:55:12 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:55:26 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:55:31 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Thu Aug 27 23:55:35 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Thu Aug 27 23:55:40 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:07:47 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:08:01 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:08:32 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:08:47 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:08:50 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:09:05 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:09:41 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:09:56 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:09:59 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:10:14 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:13:33 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:13:40 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:13:58 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:14:04 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:14:07 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:14:14 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:14:34 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:14:43 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:14:47 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:14:58 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:17:03 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:17:09 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:17:36 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:17:47 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:17:52 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:18:03 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:18:30 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:18:41 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:18:46 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:18:57 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:21:49 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:21:59 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:22:28 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:22:44 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:22:48 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:23:00 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:23:30 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:23:43 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:23:47 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:23:59 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:26:02 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:26:06 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:26:22 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:26:27 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:26:31 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:26:37 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:26:54 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:27:00 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:27:05 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:27:10 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:27:29 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:27:34 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:27:38 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:27:43 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:28:00 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:28:06 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:28:10 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:28:16 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:28:36 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:28:42 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:30:37 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:30:41 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:30:56 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:31:01 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:31:05 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:31:13 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:31:32 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:31:38 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 00:31:42 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 00:31:48 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 01:42:28 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 01:42:30 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 01:42:39 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 01:42:40 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 01:42:43 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 01:42:45 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 01:42:54 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 01:42:55 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 01:42:58 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 01:43:00 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 01:46:23 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 01:46:27 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 01:46:40 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 01:46:44 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 01:46:47 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 01:46:51 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 01:47:05 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 01:47:10 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 01:47:13 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 01:47:17 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:12:50 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=2121872 end=2121873) time 276 us, min 1073, max 1079, scanline start 1068, end 1086
+[Fri Aug 28 02:23:59 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:24:03 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:24:18 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:24:22 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:24:27 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:24:30 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:24:46 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:24:49 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:24:54 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:24:58 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:26:53 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:26:57 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:27:13 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:27:17 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:27:21 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:27:25 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:27:41 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:27:47 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:27:53 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:28:00 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:33:59 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:34:31 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:37:04 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:37:10 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:38:03 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:38:06 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:38:42 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:38:45 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:40:29 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:40:32 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:41:48 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:41:51 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:42:23 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:42:27 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:44:10 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:44:14 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:44:42 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:44:47 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:44:53 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:44:58 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:45:31 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:45:36 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:45:41 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:45:46 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:50:02 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:50:06 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:50:22 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=2256967 end=2256968) time 267 us, min 1073, max 1079, scanline start 1068, end 1086
+[Fri Aug 28 02:50:22 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=2256973 end=2256974) time 179 us, min 1073, max 1079, scanline start 1069, end 1082
+[Fri Aug 28 02:50:33 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:50:38 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:50:45 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:50:50 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:51:25 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:51:30 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:51:36 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:51:41 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:52:17 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:52:22 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:52:29 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:52:34 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:53:06 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:53:12 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:53:17 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:53:23 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:53:57 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:54:02 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:54:08 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:54:13 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:54:47 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:54:52 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:54:59 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:55:04 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:55:39 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:55:44 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:55:51 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:55:56 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:56:15 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=2278201 end=2278202) time 257 us, min 1073, max 1079, scanline start 1071, end 1088
+[Fri Aug 28 02:56:29 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:56:34 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:56:40 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:56:45 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:57:21 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:57:26 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:57:32 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:57:37 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 02:58:10 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 02:58:15 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 03:49:02 2026] wlan0: deauthenticating from 50:91:e3:f8:46:46 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Fri Aug 28 03:49:07 2026] PM: suspend entry (deep)
+[Fri Aug 28 03:49:07 2026] Filesystems sync: 0.056 seconds
+[Fri Aug 28 03:49:07 2026] Freezing user space processes
+[Fri Aug 28 03:49:07 2026] Freezing user space processes completed (elapsed 0.003 seconds)
+[Fri Aug 28 03:49:07 2026] OOM killer disabled.
+[Fri Aug 28 03:49:07 2026] Freezing remaining freezable tasks
+[Fri Aug 28 03:49:07 2026] Freezing remaining freezable tasks completed (elapsed 0.002 seconds)
+[Fri Aug 28 03:49:07 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Fri Aug 28 03:49:07 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Fri Aug 28 03:49:07 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Fri Aug 28 03:49:07 2026] ata3.00: Entering standby power mode
+[Fri Aug 28 03:49:09 2026] ACPI: EC: interrupt blocked
+[Fri Aug 28 03:49:09 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Fri Aug 28 03:49:09 2026] ACPI: EC: event blocked
+[Fri Aug 28 03:49:09 2026] ACPI: EC: EC stopped
+[Fri Aug 28 03:49:09 2026] ACPI: PM: Saving platform NVS memory
+[Fri Aug 28 03:49:09 2026] Disabling non-boot CPUs ...
+[Fri Aug 28 03:49:09 2026] smpboot: CPU 7 is now offline
+[Fri Aug 28 03:49:09 2026] smpboot: CPU 6 is now offline
+[Fri Aug 28 03:49:09 2026] smpboot: CPU 5 is now offline
+[Fri Aug 28 03:49:09 2026] smpboot: CPU 4 is now offline
+[Fri Aug 28 03:49:09 2026] smpboot: CPU 3 is now offline
+[Fri Aug 28 03:49:09 2026] smpboot: CPU 2 is now offline
+[Fri Aug 28 03:49:09 2026] smpboot: CPU 1 is now offline
+[Fri Aug 28 03:49:09 2026] ACPI: PM: Low-level resume complete
+[Fri Aug 28 03:49:09 2026] ACPI: EC: EC started
+[Fri Aug 28 03:49:09 2026] ACPI: PM: Restoring platform NVS memory
+[Fri Aug 28 03:49:09 2026] Enabling non-boot CPUs ...
+[Fri Aug 28 03:49:09 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Fri Aug 28 03:49:09 2026] CPU1 is up
+[Fri Aug 28 03:49:09 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Fri Aug 28 03:49:09 2026] CPU2 is up
+[Fri Aug 28 03:49:09 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Fri Aug 28 03:49:09 2026] CPU3 is up
+[Fri Aug 28 03:49:09 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Fri Aug 28 03:49:09 2026] CPU4 is up
+[Fri Aug 28 03:49:09 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Fri Aug 28 03:49:09 2026] CPU5 is up
+[Fri Aug 28 03:49:09 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Fri Aug 28 03:49:09 2026] CPU6 is up
+[Fri Aug 28 03:49:09 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Fri Aug 28 03:49:09 2026] CPU7 is up
+[Fri Aug 28 03:49:09 2026] ACPI: PM: Waking up from system sleep state S3
+[Fri Aug 28 03:49:09 2026] ACPI: EC: interrupt unblocked
+[Fri Aug 28 03:49:10 2026] ACPI: EC: event unblocked
+[Fri Aug 28 03:49:10 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Fri Aug 28 03:49:10 2026] usb usb3: root hub lost power or was reset
+[Fri Aug 28 03:49:10 2026] usb usb4: root hub lost power or was reset
+[Fri Aug 28 03:49:10 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Fri Aug 28 03:49:10 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Fri Aug 28 03:49:10 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Fri Aug 28 03:49:10 2026] sd 2:0:0:0: [sda] Starting disk
+[Fri Aug 28 03:49:10 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Fri Aug 28 03:49:10 2026] ata3.00: configured for UDMA/133
+[Fri Aug 28 03:49:10 2026] OOM killer enabled.
+[Fri Aug 28 03:49:10 2026] Restarting tasks: Starting
+[Fri Aug 28 03:49:10 2026] usb 1-1: USB disconnect, device number 33
+[Fri Aug 28 03:49:10 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Fri Aug 28 03:49:10 2026] Restarting tasks: Done
+[Fri Aug 28 03:49:10 2026] efivarfs: resyncing variable state
+[Fri Aug 28 03:49:10 2026] pci_bus 0000:05: Allocating resources
+[Fri Aug 28 03:49:10 2026] pci_bus 0000:2b: Allocating resources
+[Fri Aug 28 03:49:10 2026] pci_bus 0000:05: Allocating resources
+[Fri Aug 28 03:49:10 2026] pci_bus 0000:2b: Allocating resources
+[Fri Aug 28 03:49:10 2026] efivarfs: finished resyncing variable state
+[Fri Aug 28 03:49:10 2026] random: crng reseeded on system resumption
+[Fri Aug 28 03:49:10 2026] usb 1-1: new full-speed USB device number 35 using xhci_hcd
+[Fri Aug 28 03:49:10 2026] PM: suspend exit
+[Fri Aug 28 03:49:10 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Fri Aug 28 03:49:10 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Fri Aug 28 03:49:10 2026] usb 1-1: Product: EMV Smartcard Reader
+[Fri Aug 28 03:49:10 2026] usb 1-1: Manufacturer: Generic
+[Fri Aug 28 03:49:10 2026] usb 1-9: USB disconnect, device number 34
+[Fri Aug 28 03:49:10 2026] Process accounting resumed
+[Fri Aug 28 03:49:10 2026] usb 1-9: new full-speed USB device number 36 using xhci_hcd
+[Fri Aug 28 03:49:11 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Fri Aug 28 03:49:11 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Fri Aug 28 03:49:11 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Fri Aug 28 03:49:14 2026] wlan0: authenticate with 50:e4:e0:d3:13:51 (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 03:49:14 2026] wlan0: send auth to 50:e4:e0:d3:13:51 (try 1/3)
+[Fri Aug 28 03:49:14 2026] wlan0: authenticated
+[Fri Aug 28 03:49:14 2026] wlan0: associate with 50:e4:e0:d3:13:51 (try 1/3)
+[Fri Aug 28 03:49:14 2026] wlan0: RX AssocResp from 50:e4:e0:d3:13:51 (capab=0x1 status=0 aid=16)
+[Fri Aug 28 03:49:14 2026] wlan0: associated
+[Fri Aug 28 03:58:40 2026] wlan0: deauthenticating from 50:e4:e0:d3:13:51 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Fri Aug 28 03:58:45 2026] PM: suspend entry (deep)
+[Fri Aug 28 03:58:46 2026] Filesystems sync: 0.143 seconds
+[Fri Aug 28 03:58:46 2026] Freezing user space processes
+[Fri Aug 28 03:58:46 2026] Freezing user space processes completed (elapsed 0.003 seconds)
+[Fri Aug 28 03:58:46 2026] OOM killer disabled.
+[Fri Aug 28 03:58:46 2026] Freezing remaining freezable tasks
+[Fri Aug 28 03:58:46 2026] Freezing remaining freezable tasks completed (elapsed 0.002 seconds)
+[Fri Aug 28 03:58:46 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Fri Aug 28 03:58:46 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Fri Aug 28 03:58:46 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Fri Aug 28 03:58:46 2026] ata3.00: Entering standby power mode
+[Fri Aug 28 03:58:47 2026] ACPI: EC: interrupt blocked
+[Fri Aug 28 03:58:48 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Fri Aug 28 03:58:48 2026] ACPI: EC: event blocked
+[Fri Aug 28 03:58:48 2026] ACPI: EC: EC stopped
+[Fri Aug 28 03:58:48 2026] ACPI: PM: Saving platform NVS memory
+[Fri Aug 28 03:58:48 2026] Disabling non-boot CPUs ...
+[Fri Aug 28 03:58:48 2026] smpboot: CPU 7 is now offline
+[Fri Aug 28 03:58:48 2026] smpboot: CPU 6 is now offline
+[Fri Aug 28 03:58:48 2026] smpboot: CPU 5 is now offline
+[Fri Aug 28 03:58:48 2026] smpboot: CPU 4 is now offline
+[Fri Aug 28 03:58:48 2026] smpboot: CPU 3 is now offline
+[Fri Aug 28 03:58:48 2026] smpboot: CPU 2 is now offline
+[Fri Aug 28 03:58:48 2026] smpboot: CPU 1 is now offline
+[Fri Aug 28 03:58:48 2026] ACPI: PM: Low-level resume complete
+[Fri Aug 28 03:58:48 2026] ACPI: EC: EC started
+[Fri Aug 28 03:58:48 2026] ACPI: PM: Restoring platform NVS memory
+[Fri Aug 28 03:58:48 2026] Enabling non-boot CPUs ...
+[Fri Aug 28 03:58:48 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Fri Aug 28 03:58:48 2026] CPU1 is up
+[Fri Aug 28 03:58:48 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Fri Aug 28 03:58:48 2026] CPU2 is up
+[Fri Aug 28 03:58:48 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Fri Aug 28 03:58:48 2026] CPU3 is up
+[Fri Aug 28 03:58:48 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Fri Aug 28 03:58:48 2026] CPU4 is up
+[Fri Aug 28 03:58:48 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Fri Aug 28 03:58:48 2026] CPU5 is up
+[Fri Aug 28 03:58:48 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Fri Aug 28 03:58:48 2026] CPU6 is up
+[Fri Aug 28 03:58:48 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Fri Aug 28 03:58:48 2026] CPU7 is up
+[Fri Aug 28 03:58:48 2026] ACPI: PM: Waking up from system sleep state S3
+[Fri Aug 28 03:58:48 2026] ACPI: EC: interrupt unblocked
+[Fri Aug 28 03:58:48 2026] ACPI: EC: event unblocked
+[Fri Aug 28 03:58:48 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Fri Aug 28 03:58:48 2026] usb usb3: root hub lost power or was reset
+[Fri Aug 28 03:58:48 2026] usb usb4: root hub lost power or was reset
+[Fri Aug 28 03:58:48 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Fri Aug 28 03:58:48 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Fri Aug 28 03:58:48 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Fri Aug 28 03:58:48 2026] sd 2:0:0:0: [sda] Starting disk
+[Fri Aug 28 03:58:48 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Fri Aug 28 03:58:48 2026] ata3.00: configured for UDMA/133
+[Fri Aug 28 03:58:48 2026] OOM killer enabled.
+[Fri Aug 28 03:58:48 2026] Restarting tasks: Starting
+[Fri Aug 28 03:58:48 2026] Restarting tasks: Done
+[Fri Aug 28 03:58:48 2026] efivarfs: resyncing variable state
+[Fri Aug 28 03:58:48 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Fri Aug 28 03:58:48 2026] usb 1-1: USB disconnect, device number 35
+[Fri Aug 28 03:58:48 2026] pci_bus 0000:05: Allocating resources
+[Fri Aug 28 03:58:48 2026] pci_bus 0000:2b: Allocating resources
+[Fri Aug 28 03:58:48 2026] pci_bus 0000:05: Allocating resources
+[Fri Aug 28 03:58:48 2026] pci_bus 0000:2b: Allocating resources
+[Fri Aug 28 03:58:48 2026] efivarfs: finished resyncing variable state
+[Fri Aug 28 03:58:48 2026] random: crng reseeded on system resumption
+[Fri Aug 28 03:58:49 2026] usb 1-1: new full-speed USB device number 37 using xhci_hcd
+[Fri Aug 28 03:58:49 2026] PM: suspend exit
+[Fri Aug 28 03:58:49 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Fri Aug 28 03:58:49 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Fri Aug 28 03:58:49 2026] usb 1-1: Product: EMV Smartcard Reader
+[Fri Aug 28 03:58:49 2026] usb 1-1: Manufacturer: Generic
+[Fri Aug 28 03:58:49 2026] usb 1-9: USB disconnect, device number 36
+[Fri Aug 28 03:58:49 2026] Process accounting resumed
+[Fri Aug 28 03:58:49 2026] usb 1-9: new full-speed USB device number 38 using xhci_hcd
+[Fri Aug 28 03:58:49 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Fri Aug 28 03:58:49 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Fri Aug 28 03:58:49 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Fri Aug 28 03:58:51 2026] wlan0: authenticate with 50:e4:e0:d3:13:51 (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 03:58:51 2026] wlan0: send auth to 50:e4:e0:d3:13:51 (try 1/3)
+[Fri Aug 28 03:58:51 2026] wlan0: authenticated
+[Fri Aug 28 03:58:51 2026] wlan0: associate with 50:e4:e0:d3:13:51 (try 1/3)
+[Fri Aug 28 03:58:51 2026] wlan0: RX AssocResp from 50:e4:e0:d3:13:51 (capab=0x1 status=0 aid=16)
+[Fri Aug 28 03:58:51 2026] wlan0: associated
+[Fri Aug 28 03:59:22 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=1985 end=1986) time 279 us, min 1073, max 1079, scanline start 1063, end 1082
+[Fri Aug 28 04:17:11 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=66133 end=66134) time 283 us, min 1073, max 1079, scanline start 1071, end 1090
+[Fri Aug 28 04:28:34 2026] wlan0: deauthenticating from 50:e4:e0:d3:13:51 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Fri Aug 28 04:28:39 2026] PM: suspend entry (deep)
+[Fri Aug 28 04:28:39 2026] Filesystems sync: 0.145 seconds
+[Fri Aug 28 04:28:40 2026] Freezing user space processes
+[Fri Aug 28 04:28:40 2026] Freezing user space processes completed (elapsed 0.003 seconds)
+[Fri Aug 28 04:28:40 2026] OOM killer disabled.
+[Fri Aug 28 04:28:40 2026] Freezing remaining freezable tasks
+[Fri Aug 28 04:28:40 2026] Freezing remaining freezable tasks completed (elapsed 0.002 seconds)
+[Fri Aug 28 04:28:40 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Fri Aug 28 04:28:40 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Fri Aug 28 04:28:40 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Fri Aug 28 04:28:40 2026] ata3.00: Entering standby power mode
+[Fri Aug 28 04:28:41 2026] ACPI: EC: interrupt blocked
+[Fri Aug 28 04:28:41 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Fri Aug 28 04:28:41 2026] ACPI: EC: event blocked
+[Fri Aug 28 04:28:41 2026] ACPI: EC: EC stopped
+[Fri Aug 28 04:28:41 2026] ACPI: PM: Saving platform NVS memory
+[Fri Aug 28 04:28:41 2026] Disabling non-boot CPUs ...
+[Fri Aug 28 04:28:41 2026] smpboot: CPU 7 is now offline
+[Fri Aug 28 04:28:41 2026] smpboot: CPU 6 is now offline
+[Fri Aug 28 04:28:41 2026] smpboot: CPU 5 is now offline
+[Fri Aug 28 04:28:42 2026] smpboot: CPU 4 is now offline
+[Fri Aug 28 04:28:42 2026] smpboot: CPU 3 is now offline
+[Fri Aug 28 04:28:42 2026] smpboot: CPU 2 is now offline
+[Fri Aug 28 04:28:42 2026] smpboot: CPU 1 is now offline
+[Fri Aug 28 04:28:42 2026] ACPI: PM: Low-level resume complete
+[Fri Aug 28 04:28:42 2026] ACPI: EC: EC started
+[Fri Aug 28 04:28:42 2026] ACPI: PM: Restoring platform NVS memory
+[Fri Aug 28 04:28:42 2026] Enabling non-boot CPUs ...
+[Fri Aug 28 04:28:42 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Fri Aug 28 04:28:42 2026] CPU1 is up
+[Fri Aug 28 04:28:42 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Fri Aug 28 04:28:42 2026] CPU2 is up
+[Fri Aug 28 04:28:42 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Fri Aug 28 04:28:42 2026] CPU3 is up
+[Fri Aug 28 04:28:42 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Fri Aug 28 04:28:42 2026] CPU4 is up
+[Fri Aug 28 04:28:42 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Fri Aug 28 04:28:42 2026] CPU5 is up
+[Fri Aug 28 04:28:42 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Fri Aug 28 04:28:42 2026] CPU6 is up
+[Fri Aug 28 04:28:42 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Fri Aug 28 04:28:42 2026] CPU7 is up
+[Fri Aug 28 04:28:42 2026] ACPI: PM: Waking up from system sleep state S3
+[Fri Aug 28 04:28:42 2026] ACPI: EC: interrupt unblocked
+[Fri Aug 28 04:28:42 2026] ACPI: EC: event unblocked
+[Fri Aug 28 04:28:42 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Fri Aug 28 04:28:42 2026] usb usb3: root hub lost power or was reset
+[Fri Aug 28 04:28:42 2026] usb usb4: root hub lost power or was reset
+[Fri Aug 28 04:28:42 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Fri Aug 28 04:28:42 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Fri Aug 28 04:28:42 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Fri Aug 28 04:28:42 2026] sd 2:0:0:0: [sda] Starting disk
+[Fri Aug 28 04:28:42 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Fri Aug 28 04:28:42 2026] ata3.00: configured for UDMA/133
+[Fri Aug 28 04:28:42 2026] OOM killer enabled.
+[Fri Aug 28 04:28:42 2026] Restarting tasks: Starting
+[Fri Aug 28 04:28:42 2026] usb 1-1: USB disconnect, device number 37
+[Fri Aug 28 04:28:42 2026] Restarting tasks: Done
+[Fri Aug 28 04:28:42 2026] efivarfs: resyncing variable state
+[Fri Aug 28 04:28:42 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Fri Aug 28 04:28:42 2026] pci_bus 0000:05: Allocating resources
+[Fri Aug 28 04:28:42 2026] pci_bus 0000:2b: Allocating resources
+[Fri Aug 28 04:28:42 2026] pci_bus 0000:05: Allocating resources
+[Fri Aug 28 04:28:42 2026] pci_bus 0000:2b: Allocating resources
+[Fri Aug 28 04:28:42 2026] efivarfs: finished resyncing variable state
+[Fri Aug 28 04:28:42 2026] random: crng reseeded on system resumption
+[Fri Aug 28 04:28:42 2026] usb 1-1: new full-speed USB device number 39 using xhci_hcd
+[Fri Aug 28 04:28:42 2026] PM: suspend exit
+[Fri Aug 28 04:28:43 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Fri Aug 28 04:28:43 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Fri Aug 28 04:28:43 2026] usb 1-1: Product: EMV Smartcard Reader
+[Fri Aug 28 04:28:43 2026] usb 1-1: Manufacturer: Generic
+[Fri Aug 28 04:28:43 2026] usb 1-9: USB disconnect, device number 38
+[Fri Aug 28 04:28:43 2026] Process accounting resumed
+[Fri Aug 28 04:28:43 2026] usb 1-9: new full-speed USB device number 40 using xhci_hcd
+[Fri Aug 28 04:28:43 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Fri Aug 28 04:28:43 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Fri Aug 28 04:28:43 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Fri Aug 28 04:28:46 2026] wlan0: authenticate with a8:ba:25:5d:91:31 (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 04:28:46 2026] wlan0: send auth to a8:ba:25:5d:91:31 (try 1/3)
+[Fri Aug 28 04:28:46 2026] wlan0: authenticated
+[Fri Aug 28 04:28:46 2026] wlan0: associate with a8:ba:25:5d:91:31 (try 1/3)
+[Fri Aug 28 04:28:46 2026] wlan0: RX AssocResp from a8:ba:25:5d:91:31 (capab=0x1 status=0 aid=14)
+[Fri Aug 28 04:28:46 2026] wlan0: associated
+[Fri Aug 28 04:40:25 2026] wlan0: deauthenticating from a8:ba:25:5d:91:31 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Fri Aug 28 04:40:31 2026] PM: suspend entry (deep)
+[Fri Aug 28 04:40:31 2026] Filesystems sync: 0.092 seconds
+[Fri Aug 28 04:40:31 2026] Freezing user space processes
+[Fri Aug 28 04:40:31 2026] Freezing user space processes completed (elapsed 0.002 seconds)
+[Fri Aug 28 04:40:31 2026] OOM killer disabled.
+[Fri Aug 28 04:40:31 2026] Freezing remaining freezable tasks
+[Fri Aug 28 04:40:31 2026] Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+[Fri Aug 28 04:40:31 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Fri Aug 28 04:40:31 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Fri Aug 28 04:40:31 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Fri Aug 28 04:40:31 2026] ata3.00: Entering standby power mode
+[Fri Aug 28 04:40:33 2026] ACPI: EC: interrupt blocked
+[Fri Aug 28 04:40:33 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Fri Aug 28 04:40:33 2026] ACPI: EC: event blocked
+[Fri Aug 28 04:40:33 2026] ACPI: EC: EC stopped
+[Fri Aug 28 04:40:33 2026] ACPI: PM: Saving platform NVS memory
+[Fri Aug 28 04:40:33 2026] Disabling non-boot CPUs ...
+[Fri Aug 28 04:40:33 2026] smpboot: CPU 7 is now offline
+[Fri Aug 28 04:40:33 2026] smpboot: CPU 6 is now offline
+[Fri Aug 28 04:40:33 2026] smpboot: CPU 5 is now offline
+[Fri Aug 28 04:40:33 2026] smpboot: CPU 4 is now offline
+[Fri Aug 28 04:40:33 2026] smpboot: CPU 3 is now offline
+[Fri Aug 28 04:40:33 2026] smpboot: CPU 2 is now offline
+[Fri Aug 28 04:40:33 2026] smpboot: CPU 1 is now offline
+[Fri Aug 28 04:40:33 2026] ACPI: PM: Low-level resume complete
+[Fri Aug 28 04:40:33 2026] ACPI: EC: EC started
+[Fri Aug 28 04:40:33 2026] ACPI: PM: Restoring platform NVS memory
+[Fri Aug 28 04:40:33 2026] Enabling non-boot CPUs ...
+[Fri Aug 28 04:40:33 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Fri Aug 28 04:40:33 2026] CPU1 is up
+[Fri Aug 28 04:40:33 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Fri Aug 28 04:40:33 2026] CPU2 is up
+[Fri Aug 28 04:40:33 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Fri Aug 28 04:40:33 2026] CPU3 is up
+[Fri Aug 28 04:40:33 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Fri Aug 28 04:40:33 2026] CPU4 is up
+[Fri Aug 28 04:40:33 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Fri Aug 28 04:40:33 2026] CPU5 is up
+[Fri Aug 28 04:40:33 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Fri Aug 28 04:40:33 2026] CPU6 is up
+[Fri Aug 28 04:40:33 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Fri Aug 28 04:40:33 2026] CPU7 is up
+[Fri Aug 28 04:40:33 2026] ACPI: PM: Waking up from system sleep state S3
+[Fri Aug 28 04:40:33 2026] ACPI: EC: interrupt unblocked
+[Fri Aug 28 04:40:33 2026] ACPI: EC: event unblocked
+[Fri Aug 28 04:40:33 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Fri Aug 28 04:40:33 2026] usb usb3: root hub lost power or was reset
+[Fri Aug 28 04:40:33 2026] usb usb4: root hub lost power or was reset
+[Fri Aug 28 04:40:33 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Fri Aug 28 04:40:33 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Fri Aug 28 04:40:33 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Fri Aug 28 04:40:33 2026] sd 2:0:0:0: [sda] Starting disk
+[Fri Aug 28 04:40:33 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Fri Aug 28 04:40:33 2026] ata3.00: configured for UDMA/133
+[Fri Aug 28 04:40:34 2026] OOM killer enabled.
+[Fri Aug 28 04:40:34 2026] Restarting tasks: Starting
+[Fri Aug 28 04:40:34 2026] Restarting tasks: Done
+[Fri Aug 28 04:40:34 2026] efivarfs: resyncing variable state
+[Fri Aug 28 04:40:34 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Fri Aug 28 04:40:34 2026] usb 1-1: USB disconnect, device number 39
+[Fri Aug 28 04:40:34 2026] pci_bus 0000:05: Allocating resources
+[Fri Aug 28 04:40:34 2026] pci_bus 0000:2b: Allocating resources
+[Fri Aug 28 04:40:34 2026] pci_bus 0000:05: Allocating resources
+[Fri Aug 28 04:40:34 2026] pci_bus 0000:2b: Allocating resources
+[Fri Aug 28 04:40:34 2026] efivarfs: finished resyncing variable state
+[Fri Aug 28 04:40:34 2026] random: crng reseeded on system resumption
+[Fri Aug 28 04:40:34 2026] usb 1-1: new full-speed USB device number 41 using xhci_hcd
+[Fri Aug 28 04:40:34 2026] PM: suspend exit
+[Fri Aug 28 04:40:34 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Fri Aug 28 04:40:34 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Fri Aug 28 04:40:34 2026] usb 1-1: Product: EMV Smartcard Reader
+[Fri Aug 28 04:40:34 2026] usb 1-1: Manufacturer: Generic
+[Fri Aug 28 04:40:34 2026] usb 1-9: USB disconnect, device number 40
+[Fri Aug 28 04:40:34 2026] Process accounting resumed
+[Fri Aug 28 04:40:34 2026] usb 1-9: new full-speed USB device number 42 using xhci_hcd
+[Fri Aug 28 04:40:34 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Fri Aug 28 04:40:34 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Fri Aug 28 04:40:34 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Fri Aug 28 04:40:36 2026] wlan0: authenticate with a8:ba:25:5d:91:31 (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 04:40:36 2026] wlan0: send auth to a8:ba:25:5d:91:31 (try 1/3)
+[Fri Aug 28 04:40:36 2026] wlan0: authenticated
+[Fri Aug 28 04:40:36 2026] wlan0: associate with a8:ba:25:5d:91:31 (try 1/3)
+[Fri Aug 28 04:40:36 2026] wlan0: RX AssocResp from a8:ba:25:5d:91:31 (capab=0x1 status=0 aid=4)
+[Fri Aug 28 04:40:36 2026] wlan0: associated
+[Fri Aug 28 04:41:23 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=2937 end=2938) time 273 us, min 1073, max 1079, scanline start 1069, end 1087
+[Fri Aug 28 04:43:19 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=9889 end=9890) time 284 us, min 1073, max 1079, scanline start 1067, end 1086
+[Fri Aug 28 04:43:19 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=9895 end=9896) time 289 us, min 1073, max 1079, scanline start 1067, end 1087
+[Fri Aug 28 04:43:31 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=10569 end=10570) time 287 us, min 1073, max 1079, scanline start 1071, end 1072
+[Fri Aug 28 05:28:21 2026] wlan0: deauthenticating from a8:ba:25:5d:91:31 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Fri Aug 28 05:28:26 2026] PM: suspend entry (deep)
+[Fri Aug 28 05:28:26 2026] Filesystems sync: 0.052 seconds
+[Fri Aug 28 05:28:27 2026] Freezing user space processes
+[Fri Aug 28 05:28:27 2026] Freezing user space processes completed (elapsed 0.003 seconds)
+[Fri Aug 28 05:28:27 2026] OOM killer disabled.
+[Fri Aug 28 05:28:27 2026] Freezing remaining freezable tasks
+[Fri Aug 28 05:28:27 2026] Freezing remaining freezable tasks completed (elapsed 0.002 seconds)
+[Fri Aug 28 05:28:27 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Fri Aug 28 05:28:27 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Fri Aug 28 05:28:27 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Fri Aug 28 05:28:27 2026] ata3.00: Entering standby power mode
+[Fri Aug 28 05:28:28 2026] ACPI: EC: interrupt blocked
+[Fri Aug 28 05:28:28 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Fri Aug 28 05:28:28 2026] ACPI: EC: event blocked
+[Fri Aug 28 05:28:28 2026] ACPI: EC: EC stopped
+[Fri Aug 28 05:28:28 2026] ACPI: PM: Saving platform NVS memory
+[Fri Aug 28 05:28:28 2026] Disabling non-boot CPUs ...
+[Fri Aug 28 05:28:28 2026] smpboot: CPU 7 is now offline
+[Fri Aug 28 05:28:28 2026] smpboot: CPU 6 is now offline
+[Fri Aug 28 05:28:28 2026] smpboot: CPU 5 is now offline
+[Fri Aug 28 05:28:28 2026] smpboot: CPU 4 is now offline
+[Fri Aug 28 05:28:28 2026] smpboot: CPU 3 is now offline
+[Fri Aug 28 05:28:28 2026] smpboot: CPU 2 is now offline
+[Fri Aug 28 05:28:28 2026] smpboot: CPU 1 is now offline
+[Fri Aug 28 05:28:28 2026] ACPI: PM: Low-level resume complete
+[Fri Aug 28 05:28:28 2026] ACPI: EC: EC started
+[Fri Aug 28 05:28:28 2026] ACPI: PM: Restoring platform NVS memory
+[Fri Aug 28 05:28:28 2026] Enabling non-boot CPUs ...
+[Fri Aug 28 05:28:28 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Fri Aug 28 05:28:28 2026] CPU1 is up
+[Fri Aug 28 05:28:28 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Fri Aug 28 05:28:28 2026] CPU2 is up
+[Fri Aug 28 05:28:28 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Fri Aug 28 05:28:28 2026] CPU3 is up
+[Fri Aug 28 05:28:28 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Fri Aug 28 05:28:28 2026] CPU4 is up
+[Fri Aug 28 05:28:28 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Fri Aug 28 05:28:28 2026] CPU5 is up
+[Fri Aug 28 05:28:28 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Fri Aug 28 05:28:28 2026] CPU6 is up
+[Fri Aug 28 05:28:28 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Fri Aug 28 05:28:28 2026] CPU7 is up
+[Fri Aug 28 05:28:28 2026] ACPI: PM: Waking up from system sleep state S3
+[Fri Aug 28 05:28:29 2026] ACPI: EC: interrupt unblocked
+[Fri Aug 28 05:28:29 2026] ACPI: EC: event unblocked
+[Fri Aug 28 05:28:29 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Fri Aug 28 05:28:29 2026] usb usb3: root hub lost power or was reset
+[Fri Aug 28 05:28:29 2026] usb usb4: root hub lost power or was reset
+[Fri Aug 28 05:28:29 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Fri Aug 28 05:28:29 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Fri Aug 28 05:28:29 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Fri Aug 28 05:28:29 2026] sd 2:0:0:0: [sda] Starting disk
+[Fri Aug 28 05:28:29 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Fri Aug 28 05:28:29 2026] ata3.00: configured for UDMA/133
+[Fri Aug 28 05:28:29 2026] OOM killer enabled.
+[Fri Aug 28 05:28:29 2026] Restarting tasks: Starting
+[Fri Aug 28 05:28:29 2026] usb 1-1: USB disconnect, device number 41
+[Fri Aug 28 05:28:29 2026] Restarting tasks: Done
+[Fri Aug 28 05:28:29 2026] efivarfs: resyncing variable state
+[Fri Aug 28 05:28:29 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Fri Aug 28 05:28:29 2026] pci_bus 0000:05: Allocating resources
+[Fri Aug 28 05:28:29 2026] pci_bus 0000:2b: Allocating resources
+[Fri Aug 28 05:28:29 2026] pci_bus 0000:05: Allocating resources
+[Fri Aug 28 05:28:29 2026] pci_bus 0000:2b: Allocating resources
+[Fri Aug 28 05:28:29 2026] efivarfs: finished resyncing variable state
+[Fri Aug 28 05:28:29 2026] random: crng reseeded on system resumption
+[Fri Aug 28 05:28:29 2026] usb 1-1: new full-speed USB device number 43 using xhci_hcd
+[Fri Aug 28 05:28:29 2026] PM: suspend exit
+[Fri Aug 28 05:28:30 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Fri Aug 28 05:28:30 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Fri Aug 28 05:28:30 2026] usb 1-1: Product: EMV Smartcard Reader
+[Fri Aug 28 05:28:30 2026] usb 1-1: Manufacturer: Generic
+[Fri Aug 28 05:28:30 2026] usb 1-9: USB disconnect, device number 42
+[Fri Aug 28 05:28:30 2026] Process accounting resumed
+[Fri Aug 28 05:28:30 2026] usb 1-9: new full-speed USB device number 44 using xhci_hcd
+[Fri Aug 28 05:28:30 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Fri Aug 28 05:28:30 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Fri Aug 28 05:28:30 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Fri Aug 28 05:28:32 2026] wlan0: authenticate with a8:ba:25:5d:91:31 (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 05:28:32 2026] wlan0: send auth to a8:ba:25:5d:91:31 (try 1/3)
+[Fri Aug 28 05:28:32 2026] wlan0: authenticated
+[Fri Aug 28 05:28:32 2026] wlan0: associate with a8:ba:25:5d:91:31 (try 1/3)
+[Fri Aug 28 05:28:32 2026] wlan0: RX AssocResp from a8:ba:25:5d:91:31 (capab=0x1 status=0 aid=2)
+[Fri Aug 28 05:28:32 2026] wlan0: associated
+[Fri Aug 28 05:32:54 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=15860 end=15861) time 280 us, min 1073, max 1079, scanline start 1071, end 1090
+[Fri Aug 28 05:34:09 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=20336 end=20337) time 211 us, min 1073, max 1079, scanline start 1065, end 1080
+[Fri Aug 28 05:35:38 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=25648 end=25649) time 271 us, min 1073, max 1079, scanline start 1061, end 1080
+[Fri Aug 28 05:38:27 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=35814 end=35815) time 281 us, min 1073, max 1079, scanline start 1064, end 1083
+[Fri Aug 28 05:59:29 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=111544 end=111545) time 278 us, min 1073, max 1079, scanline start 1069, end 1088
+[Fri Aug 28 06:03:25 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=125707 end=125708) time 284 us, min 1073, max 1079, scanline start 1068, end 1088
+[Fri Aug 28 06:04:01 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=127866 end=127867) time 293 us, min 1073, max 1079, scanline start 1060, end 1080
+[Fri Aug 28 06:13:58 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=163702 end=163703) time 276 us, min 1073, max 1079, scanline start 1061, end 1080
+[Fri Aug 28 06:22:08 2026] wlan0: disconnect from AP a8:ba:25:5d:91:31 for new auth to c6:74:ad:cc:79:4a
+[Fri Aug 28 06:22:08 2026] wlan0: authenticate with c6:74:ad:cc:79:4a (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 06:22:08 2026] wlan0: send auth to c6:74:ad:cc:79:4a (try 1/3)
+[Fri Aug 28 06:22:08 2026] wlan0: authenticated
+[Fri Aug 28 06:22:08 2026] wlan0: associate with c6:74:ad:cc:79:4a (try 1/3)
+[Fri Aug 28 06:22:08 2026] wlan0: RX ReassocResp from c6:74:ad:cc:79:4a (capab=0x1501 status=0 aid=1)
+[Fri Aug 28 06:22:08 2026] wlan0: associated
+[Fri Aug 28 06:22:09 2026] wlan0: Limiting TX power to 30 (30 - 0) dBm as advertised by c6:74:ad:cc:79:4a
+[Fri Aug 28 06:22:21 2026] wlan0: disconnect from AP c6:74:ad:cc:79:4a for new auth to c6:74:ad:cc:79:8a
+[Fri Aug 28 06:22:21 2026] wlan0: authenticate with c6:74:ad:cc:79:8a (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 06:22:21 2026] wlan0: send auth to c6:74:ad:cc:79:8a (try 1/3)
+[Fri Aug 28 06:22:22 2026] wlan0: send auth to c6:74:ad:cc:79:8a (try 2/3)
+[Fri Aug 28 06:22:22 2026] wlan0: send auth to c6:74:ad:cc:79:8a (try 3/3)
+[Fri Aug 28 06:22:22 2026] wlan0: authentication with c6:74:ad:cc:79:8a timed out
+[Fri Aug 28 06:22:23 2026] wlan0: authenticate with c8:b5:ad:e2:b1:32 (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 06:22:23 2026] wlan0: send auth to c8:b5:ad:e2:b1:32 (try 1/3)
+[Fri Aug 28 06:22:23 2026] wlan0: authenticated
+[Fri Aug 28 06:22:23 2026] wlan0: associate with c8:b5:ad:e2:b1:32 (try 1/3)
+[Fri Aug 28 06:22:23 2026] wlan0: RX AssocResp from c8:b5:ad:e2:b1:32 (capab=0x401 status=0 aid=1)
+[Fri Aug 28 06:22:23 2026] wlan0: associated
+[Fri Aug 28 06:22:40 2026] wlan0: Connection to AP c8:b5:ad:e2:b1:32 lost
+[Fri Aug 28 06:22:40 2026] wlan0: Connection to AP 00:00:00:00:00:00 lost
+[Fri Aug 28 06:22:41 2026] wlan0: authenticate with cc:88:c7:84:27:e0 (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 06:22:41 2026] wlan0: send auth to cc:88:c7:84:27:e0 (try 1/3)
+[Fri Aug 28 06:22:41 2026] wlan0: authenticated
+[Fri Aug 28 06:22:41 2026] wlan0: associate with cc:88:c7:84:27:e0 (try 1/3)
+[Fri Aug 28 06:22:41 2026] wlan0: RX AssocResp from cc:88:c7:84:27:e0 (capab=0x421 status=0 aid=3)
+[Fri Aug 28 06:22:41 2026] wlan0: associated
+[Fri Aug 28 06:23:02 2026] wlan0: disconnect from AP cc:88:c7:84:27:e0 for new auth to d0:15:a6:6e:f6:81
+[Fri Aug 28 06:23:02 2026] wlan0: authenticate with d0:15:a6:6e:f6:81 (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 06:23:02 2026] wlan0: send auth to d0:15:a6:6e:f6:81 (try 1/3)
+[Fri Aug 28 06:23:02 2026] wlan0: send auth to d0:15:a6:6e:f6:81 (try 2/3)
+[Fri Aug 28 06:23:02 2026] wlan0: send auth to d0:15:a6:6e:f6:81 (try 3/3)
+[Fri Aug 28 06:23:02 2026] wlan0: authentication with d0:15:a6:6e:f6:81 timed out
+[Fri Aug 28 06:23:03 2026] wlan0: AP is in CSA process, reject auth
+[Fri Aug 28 06:23:04 2026] wlan0: authenticate with cc:88:c7:84:27:e0 (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 06:23:04 2026] wlan0: send auth to cc:88:c7:84:27:e0 (try 1/3)
+[Fri Aug 28 06:23:04 2026] wlan0: authenticated
+[Fri Aug 28 06:23:04 2026] wlan0: associate with cc:88:c7:84:27:e0 (try 1/3)
+[Fri Aug 28 06:23:04 2026] wlan0: RX AssocResp from cc:88:c7:84:27:e0 (capab=0x421 status=0 aid=3)
+[Fri Aug 28 06:23:04 2026] wlan0: associated
+[Fri Aug 28 06:23:22 2026] wlan0: deauthenticating from cc:88:c7:84:27:e0 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Fri Aug 28 06:23:28 2026] PM: suspend entry (deep)
+[Fri Aug 28 06:23:30 2026] Filesystems sync: 2.467 seconds
+[Fri Aug 28 06:23:30 2026] Freezing user space processes
+[Fri Aug 28 06:23:30 2026] Freezing user space processes completed (elapsed 0.004 seconds)
+[Fri Aug 28 06:23:30 2026] OOM killer disabled.
+[Fri Aug 28 06:23:30 2026] Freezing remaining freezable tasks
+[Fri Aug 28 06:23:30 2026] Freezing remaining freezable tasks completed (elapsed 0.002 seconds)
+[Fri Aug 28 06:23:30 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Fri Aug 28 06:23:30 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Fri Aug 28 06:23:31 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Fri Aug 28 06:23:31 2026] ata3.00: Entering standby power mode
+[Fri Aug 28 06:23:32 2026] ACPI: EC: interrupt blocked
+[Fri Aug 28 06:23:32 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Fri Aug 28 06:23:32 2026] ACPI: EC: event blocked
+[Fri Aug 28 06:23:32 2026] ACPI: EC: EC stopped
+[Fri Aug 28 06:23:32 2026] ACPI: PM: Saving platform NVS memory
+[Fri Aug 28 06:23:32 2026] Disabling non-boot CPUs ...
+[Fri Aug 28 06:23:32 2026] smpboot: CPU 7 is now offline
+[Fri Aug 28 06:23:32 2026] smpboot: CPU 6 is now offline
+[Fri Aug 28 06:23:32 2026] smpboot: CPU 5 is now offline
+[Fri Aug 28 06:23:32 2026] smpboot: CPU 4 is now offline
+[Fri Aug 28 06:23:32 2026] smpboot: CPU 3 is now offline
+[Fri Aug 28 06:23:32 2026] smpboot: CPU 2 is now offline
+[Fri Aug 28 06:23:32 2026] smpboot: CPU 1 is now offline
+[Fri Aug 28 06:23:33 2026] ACPI: PM: Low-level resume complete
+[Fri Aug 28 06:23:33 2026] ACPI: EC: EC started
+[Fri Aug 28 06:23:33 2026] ACPI: PM: Restoring platform NVS memory
+[Fri Aug 28 06:23:33 2026] Enabling non-boot CPUs ...
+[Fri Aug 28 06:23:33 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Fri Aug 28 06:23:33 2026] CPU1 is up
+[Fri Aug 28 06:23:33 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Fri Aug 28 06:23:33 2026] CPU2 is up
+[Fri Aug 28 06:23:33 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Fri Aug 28 06:23:33 2026] CPU3 is up
+[Fri Aug 28 06:23:33 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Fri Aug 28 06:23:33 2026] CPU4 is up
+[Fri Aug 28 06:23:33 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Fri Aug 28 06:23:33 2026] CPU5 is up
+[Fri Aug 28 06:23:33 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Fri Aug 28 06:23:33 2026] CPU6 is up
+[Fri Aug 28 06:23:33 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Fri Aug 28 06:23:33 2026] CPU7 is up
+[Fri Aug 28 06:23:33 2026] ACPI: PM: Waking up from system sleep state S3
+[Fri Aug 28 06:23:33 2026] ACPI: EC: interrupt unblocked
+[Fri Aug 28 06:23:33 2026] ACPI: EC: event unblocked
+[Fri Aug 28 06:23:33 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Fri Aug 28 06:23:33 2026] usb usb3: root hub lost power or was reset
+[Fri Aug 28 06:23:33 2026] usb usb4: root hub lost power or was reset
+[Fri Aug 28 06:23:33 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Fri Aug 28 06:23:33 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Fri Aug 28 06:23:33 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Fri Aug 28 06:23:33 2026] sd 2:0:0:0: [sda] Starting disk
+[Fri Aug 28 06:23:33 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Fri Aug 28 06:23:33 2026] ata3.00: configured for UDMA/133
+[Fri Aug 28 06:23:33 2026] OOM killer enabled.
+[Fri Aug 28 06:23:33 2026] Restarting tasks: Starting
+[Fri Aug 28 06:23:33 2026] usb 1-1: USB disconnect, device number 43
+[Fri Aug 28 06:23:33 2026] Restarting tasks: Done
+[Fri Aug 28 06:23:33 2026] efivarfs: resyncing variable state
+[Fri Aug 28 06:23:33 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Fri Aug 28 06:23:33 2026] pci_bus 0000:05: Allocating resources
+[Fri Aug 28 06:23:33 2026] pci_bus 0000:2b: Allocating resources
+[Fri Aug 28 06:23:33 2026] pci_bus 0000:05: Allocating resources
+[Fri Aug 28 06:23:33 2026] pci_bus 0000:2b: Allocating resources
+[Fri Aug 28 06:23:33 2026] usb 1-1: new full-speed USB device number 45 using xhci_hcd
+[Fri Aug 28 06:23:33 2026] efivarfs: finished resyncing variable state
+[Fri Aug 28 06:23:33 2026] random: crng reseeded on system resumption
+[Fri Aug 28 06:23:34 2026] PM: suspend exit
+[Fri Aug 28 06:23:34 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Fri Aug 28 06:23:34 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Fri Aug 28 06:23:34 2026] usb 1-1: Product: EMV Smartcard Reader
+[Fri Aug 28 06:23:34 2026] usb 1-1: Manufacturer: Generic
+[Fri Aug 28 06:23:34 2026] usb 1-9: USB disconnect, device number 44
+[Fri Aug 28 06:23:34 2026] usb 1-9: new full-speed USB device number 46 using xhci_hcd
+[Fri Aug 28 06:23:34 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Fri Aug 28 06:23:34 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Fri Aug 28 06:23:34 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Fri Aug 28 06:23:34 2026] Process accounting resumed
+[Fri Aug 28 06:23:39 2026] wlan0: authenticate with 50:91:e3:f8:46:46 (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 06:23:39 2026] wlan0: send auth to 50:91:e3:f8:46:46 (try 1/3)
+[Fri Aug 28 06:23:39 2026] wlan0: authenticated
+[Fri Aug 28 06:23:39 2026] wlan0: associate with 50:91:e3:f8:46:46 (try 1/3)
+[Fri Aug 28 06:23:39 2026] wlan0: RX AssocResp from 50:91:e3:f8:46:46 (capab=0x1c11 status=0 aid=5)
+[Fri Aug 28 06:23:39 2026] wlan0: associated
+[Fri Aug 28 06:23:57 2026] wlan0: deauthenticating from 50:91:e3:f8:46:46 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Fri Aug 28 06:23:58 2026] PM: suspend entry (deep)
+[Fri Aug 28 06:23:58 2026] Filesystems sync: 0.185 seconds
+[Fri Aug 28 06:23:58 2026] Freezing user space processes
+[Fri Aug 28 06:23:58 2026] Freezing user space processes completed (elapsed 0.002 seconds)
+[Fri Aug 28 06:23:58 2026] OOM killer disabled.
+[Fri Aug 28 06:23:58 2026] Freezing remaining freezable tasks
+[Fri Aug 28 06:23:58 2026] Freezing remaining freezable tasks completed (elapsed 0.115 seconds)
+[Fri Aug 28 06:23:58 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Fri Aug 28 06:23:58 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Fri Aug 28 06:23:58 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Fri Aug 28 06:23:58 2026] ata3.00: Entering standby power mode
+[Fri Aug 28 06:24:00 2026] ACPI: EC: interrupt blocked
+[Fri Aug 28 06:24:00 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Fri Aug 28 06:24:00 2026] ACPI: EC: event blocked
+[Fri Aug 28 06:24:00 2026] ACPI: EC: EC stopped
+[Fri Aug 28 06:24:00 2026] ACPI: PM: Saving platform NVS memory
+[Fri Aug 28 06:24:00 2026] Disabling non-boot CPUs ...
+[Fri Aug 28 06:24:00 2026] smpboot: CPU 7 is now offline
+[Fri Aug 28 06:24:00 2026] smpboot: CPU 6 is now offline
+[Fri Aug 28 06:24:00 2026] smpboot: CPU 5 is now offline
+[Fri Aug 28 06:24:00 2026] smpboot: CPU 4 is now offline
+[Fri Aug 28 06:24:00 2026] smpboot: CPU 3 is now offline
+[Fri Aug 28 06:24:00 2026] smpboot: CPU 2 is now offline
+[Fri Aug 28 06:24:00 2026] smpboot: CPU 1 is now offline
+[Fri Aug 28 06:24:00 2026] ACPI: PM: Low-level resume complete
+[Fri Aug 28 06:24:00 2026] ACPI: EC: EC started
+[Fri Aug 28 06:24:00 2026] ACPI: PM: Restoring platform NVS memory
+[Fri Aug 28 06:24:00 2026] Enabling non-boot CPUs ...
+[Fri Aug 28 06:24:00 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Fri Aug 28 06:24:00 2026] CPU1 is up
+[Fri Aug 28 06:24:00 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Fri Aug 28 06:24:00 2026] CPU2 is up
+[Fri Aug 28 06:24:00 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Fri Aug 28 06:24:00 2026] CPU3 is up
+[Fri Aug 28 06:24:00 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Fri Aug 28 06:24:00 2026] CPU4 is up
+[Fri Aug 28 06:24:00 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Fri Aug 28 06:24:00 2026] CPU5 is up
+[Fri Aug 28 06:24:00 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Fri Aug 28 06:24:00 2026] CPU6 is up
+[Fri Aug 28 06:24:00 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Fri Aug 28 06:24:00 2026] CPU7 is up
+[Fri Aug 28 06:24:00 2026] ACPI: PM: Waking up from system sleep state S3
+[Fri Aug 28 06:24:00 2026] ACPI: EC: interrupt unblocked
+[Fri Aug 28 06:24:01 2026] ACPI: EC: event unblocked
+[Fri Aug 28 06:24:01 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Fri Aug 28 06:24:01 2026] usb usb3: root hub lost power or was reset
+[Fri Aug 28 06:24:01 2026] usb usb4: root hub lost power or was reset
+[Fri Aug 28 06:24:01 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Fri Aug 28 06:24:01 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Fri Aug 28 06:24:01 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Fri Aug 28 06:24:01 2026] sd 2:0:0:0: [sda] Starting disk
+[Fri Aug 28 06:24:01 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Fri Aug 28 06:24:01 2026] ata3.00: configured for UDMA/133
+[Fri Aug 28 06:24:01 2026] OOM killer enabled.
+[Fri Aug 28 06:24:01 2026] Restarting tasks: Starting
+[Fri Aug 28 06:24:01 2026] Restarting tasks: Done
+[Fri Aug 28 06:24:01 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Fri Aug 28 06:24:01 2026] efivarfs: resyncing variable state
+[Fri Aug 28 06:24:01 2026] usb 1-1: USB disconnect, device number 45
+[Fri Aug 28 06:24:01 2026] pci_bus 0000:05: Allocating resources
+[Fri Aug 28 06:24:01 2026] pci_bus 0000:2b: Allocating resources
+[Fri Aug 28 06:24:01 2026] pci_bus 0000:05: Allocating resources
+[Fri Aug 28 06:24:01 2026] pci_bus 0000:2b: Allocating resources
+[Fri Aug 28 06:24:01 2026] efivarfs: finished resyncing variable state
+[Fri Aug 28 06:24:01 2026] random: crng reseeded on system resumption
+[Fri Aug 28 06:24:01 2026] PM: suspend exit
+[Fri Aug 28 06:24:01 2026] usb 1-1: new full-speed USB device number 47 using xhci_hcd
+[Fri Aug 28 06:24:01 2026] Process accounting resumed
+[Fri Aug 28 06:24:01 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Fri Aug 28 06:24:01 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Fri Aug 28 06:24:01 2026] usb 1-1: Product: EMV Smartcard Reader
+[Fri Aug 28 06:24:01 2026] usb 1-1: Manufacturer: Generic
+[Fri Aug 28 06:24:01 2026] usb 1-9: USB disconnect, device number 46
+[Fri Aug 28 06:24:01 2026] usb 1-9: new full-speed USB device number 48 using xhci_hcd
+[Fri Aug 28 06:24:02 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Fri Aug 28 06:24:02 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Fri Aug 28 06:24:02 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Fri Aug 28 06:24:05 2026] wlan0: authenticate with 50:91:e3:f8:46:46 (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 06:24:05 2026] wlan0: send auth to 50:91:e3:f8:46:46 (try 1/3)
+[Fri Aug 28 06:24:05 2026] wlan0: authenticated
+[Fri Aug 28 06:24:05 2026] wlan0: associate with 50:91:e3:f8:46:46 (try 1/3)
+[Fri Aug 28 06:24:05 2026] wlan0: RX AssocResp from 50:91:e3:f8:46:46 (capab=0x1c11 status=0 aid=6)
+[Fri Aug 28 06:24:05 2026] wlan0: associated
+[Fri Aug 28 06:40:57 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 06:40:58 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 06:49:49 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 06:50:01 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 06:50:37 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 06:50:49 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 06:50:55 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 06:51:07 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 06:51:49 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 06:52:02 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 06:52:07 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 06:52:24 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 06:56:09 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 06:56:12 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 06:58:15 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 06:59:01 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 07:00:16 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 07:00:35 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 07:02:21 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 07:02:44 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 07:04:16 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 07:05:04 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 07:06:20 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 07:06:27 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 07:08:15 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 07:08:21 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 07:08:57 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 07:09:03 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 07:09:07 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 07:09:14 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 07:09:30 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=163679 end=163680) time 244 us, min 1073, max 1079, scanline start 1067, end 1084
+[Fri Aug 28 07:09:49 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=164832 end=164833) time 249 us, min 1073, max 1079, scanline start 1063, end 1080
+[Fri Aug 28 07:09:54 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 07:10:00 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 07:10:04 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 07:10:12 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 07:31:00 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=241118 end=241119) time 276 us, min 1073, max 1079, scanline start 1072, end 1091
+[Fri Aug 28 07:33:29 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=250047 end=250048) time 286 us, min 1073, max 1079, scanline start 1062, end 1081
+[Fri Aug 28 07:34:09 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=252432 end=252433) time 285 us, min 1073, max 1079, scanline start 1069, end 1089
+[Fri Aug 28 07:34:20 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=253105 end=253106) time 279 us, min 1073, max 1079, scanline start 1072, end 1091
+[Fri Aug 28 07:34:32 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=253826 end=253827) time 274 us, min 1073, max 1079, scanline start 1063, end 1081
+[Fri Aug 28 07:34:47 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=254709 end=254710) time 288 us, min 1073, max 1079, scanline start 1072, end 1092
+[Fri Aug 28 07:35:25 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=256998 end=256999) time 275 us, min 1073, max 1079, scanline start 1072, end 1091
+[Fri Aug 28 07:37:11 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=263362 end=263363) time 281 us, min 1073, max 1079, scanline start 1069, end 1088
+[Fri Aug 28 07:37:15 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=263604 end=263605) time 281 us, min 1073, max 1079, scanline start 1068, end 1087
+[Fri Aug 28 07:39:08 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=270426 end=270427) time 263 us, min 1073, max 1079, scanline start 1067, end 1085
+[Fri Aug 28 07:39:52 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=273063 end=273064) time 285 us, min 1073, max 1079, scanline start 1070, end 1090
+[Fri Aug 28 07:40:17 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=274571 end=274572) time 273 us, min 1073, max 1079, scanline start 1066, end 1085
+[Fri Aug 28 07:40:28 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=275186 end=275187) time 270 us, min 1073, max 1079, scanline start 1070, end 1088
+[Fri Aug 28 08:10:15 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 08:10:16 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 08:12:05 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 08:12:08 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 08:13:01 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 08:13:06 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 08:14:08 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 08:14:11 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 09:28:36 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=664529 end=664530) time 280 us, min 1073, max 1079, scanline start 1069, end 1088
+[Fri Aug 28 09:52:13 2026] wlan0: Connection to AP 50:91:e3:f8:46:46 lost
+[Fri Aug 28 09:52:13 2026] wlan0: Connection to AP 00:00:00:00:00:00 lost
+[Fri Aug 28 09:52:30 2026] wlan0: authenticate with 50:91:e3:f8:44:60 (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 09:52:30 2026] wlan0: send auth to 50:91:e3:f8:44:60 (try 1/3)
+[Fri Aug 28 09:52:30 2026] wlan0: authenticated
+[Fri Aug 28 09:52:30 2026] wlan0: associate with 50:91:e3:f8:44:60 (try 1/3)
+[Fri Aug 28 09:52:30 2026] wlan0: RX AssocResp from 50:91:e3:f8:44:60 (capab=0x1c11 status=0 aid=2)
+[Fri Aug 28 09:52:30 2026] wlan0: associated
+[Fri Aug 28 09:59:07 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Fri Aug 28 09:59:07 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:2
+[Fri Aug 28 10:00:19 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Fri Aug 28 10:00:19 2026] iwlwifi 0000:00:14.3: missed_beacons:19, missed_beacons_since_rx:2
+[Fri Aug 28 10:00:19 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Fri Aug 28 10:00:19 2026] iwlwifi 0000:00:14.3: missed_beacons:20, missed_beacons_since_rx:1
+[Fri Aug 28 10:00:19 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Fri Aug 28 10:00:19 2026] iwlwifi 0000:00:14.3: missed_beacons:21, missed_beacons_since_rx:1
+[Fri Aug 28 10:00:19 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Fri Aug 28 10:00:19 2026] iwlwifi 0000:00:14.3: missed_beacons:22, missed_beacons_since_rx:2
+[Fri Aug 28 10:00:19 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Fri Aug 28 10:00:19 2026] iwlwifi 0000:00:14.3: missed_beacons:23, missed_beacons_since_rx:1
+[Fri Aug 28 10:00:19 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Fri Aug 28 10:00:19 2026] iwlwifi 0000:00:14.3: missed_beacons:24, missed_beacons_since_rx:2
+[Fri Aug 28 10:00:20 2026] iwlwifi 0000:00:14.3: missed beacons exceeds threshold, but receiving data. Stay connected, Expect bugs.
+[Fri Aug 28 10:00:20 2026] iwlwifi 0000:00:14.3: missed_beacons:25, missed_beacons_since_rx:3
+[Fri Aug 28 10:00:20 2026] wlan0: Connection to AP 50:91:e3:f8:44:60 lost
+[Fri Aug 28 10:00:23 2026] wlan0: authenticate with 50:91:e3:f8:44:60 (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 10:00:23 2026] wlan0: send auth to 50:91:e3:f8:44:60 (try 1/3)
+[Fri Aug 28 10:00:23 2026] wlan0: authenticated
+[Fri Aug 28 10:00:23 2026] wlan0: associate with 50:91:e3:f8:44:60 (try 1/3)
+[Fri Aug 28 10:00:23 2026] wlan0: RX AssocResp from 50:91:e3:f8:44:60 (capab=0x1c11 status=0 aid=2)
+[Fri Aug 28 10:00:23 2026] wlan0: associated
+[Fri Aug 28 10:04:00 2026] wlan0: Connection to AP 50:91:e3:f8:44:60 lost
+[Fri Aug 28 10:04:16 2026] wlan0: authenticate with 50:91:e3:f8:44:60 (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 10:04:16 2026] wlan0: send auth to 50:91:e3:f8:44:60 (try 1/3)
+[Fri Aug 28 10:04:16 2026] wlan0: authenticated
+[Fri Aug 28 10:04:16 2026] wlan0: associate with 50:91:e3:f8:44:60 (try 1/3)
+[Fri Aug 28 10:04:16 2026] wlan0: RX AssocResp from 50:91:e3:f8:44:60 (capab=0x1c11 status=0 aid=2)
+[Fri Aug 28 10:04:16 2026] wlan0: associated
+[Fri Aug 28 10:08:33 2026] wlan0: Connection to AP 50:91:e3:f8:44:60 lost
+[Fri Aug 28 10:08:33 2026] wlan0: Connection to AP 00:00:00:00:00:00 lost
+[Fri Aug 28 10:08:51 2026] wlan0: authenticate with 50:91:e3:f8:46:46 (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 10:08:51 2026] wlan0: send auth to 50:91:e3:f8:46:46 (try 1/3)
+[Fri Aug 28 10:08:51 2026] wlan0: authenticated
+[Fri Aug 28 10:08:51 2026] wlan0: associate with 50:91:e3:f8:46:46 (try 1/3)
+[Fri Aug 28 10:08:51 2026] wlan0: RX AssocResp from 50:91:e3:f8:46:46 (capab=0x1c11 status=0 aid=4)
+[Fri Aug 28 10:08:51 2026] wlan0: associated
+[Fri Aug 28 10:09:21 2026] iwlwifi 0000:00:14.3: Unhandled alg: 0x71b
+[Fri Aug 28 10:09:21 2026] iwlwifi 0000:00:14.3: Unhandled alg: 0x71b
+[Fri Aug 28 10:09:21 2026] iwlwifi 0000:00:14.3: Unhandled alg: 0x71b
+[Fri Aug 28 10:09:44 2026] Process accounting resumed
+[Fri Aug 28 10:40:54 2026] input: Father (AVRCP) as /devices/virtual/input/input18
+[Fri Aug 28 11:18:12 2026] input: Father (AVRCP) as /devices/virtual/input/input19
+[Fri Aug 28 11:21:40 2026] wlan0: deauthenticating from 50:91:e3:f8:46:46 by local choice (Reason: 3=DEAUTH_LEAVING)
+[Fri Aug 28 11:21:44 2026] PM: suspend entry (deep)
+[Fri Aug 28 11:21:44 2026] Filesystems sync: 0.049 seconds
+[Fri Aug 28 11:21:44 2026] Freezing user space processes
+[Fri Aug 28 11:21:44 2026] Freezing user space processes completed (elapsed 0.002 seconds)
+[Fri Aug 28 11:21:44 2026] OOM killer disabled.
+[Fri Aug 28 11:21:44 2026] Freezing remaining freezable tasks
+[Fri Aug 28 11:21:44 2026] Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+[Fri Aug 28 11:21:44 2026] printk: Suspending console(s) (use no_console_suspend to debug)
+[Fri Aug 28 11:21:44 2026] e1000e: EEE TX LPI TIMER: 00000011
+[Fri Aug 28 11:21:44 2026] sd 2:0:0:0: [sda] Synchronizing SCSI cache
+[Fri Aug 28 11:21:44 2026] ata3.00: Entering standby power mode
+[Fri Aug 28 11:21:46 2026] ACPI: EC: interrupt blocked
+[Fri Aug 28 11:21:46 2026] ACPI: PM: Preparing to enter system sleep state S3
+[Fri Aug 28 11:21:46 2026] ACPI: EC: event blocked
+[Fri Aug 28 11:21:46 2026] ACPI: EC: EC stopped
+[Fri Aug 28 11:21:46 2026] ACPI: PM: Saving platform NVS memory
+[Fri Aug 28 11:21:46 2026] Disabling non-boot CPUs ...
+[Fri Aug 28 11:21:46 2026] smpboot: CPU 7 is now offline
+[Fri Aug 28 11:21:46 2026] smpboot: CPU 6 is now offline
+[Fri Aug 28 11:21:46 2026] smpboot: CPU 5 is now offline
+[Fri Aug 28 11:21:46 2026] smpboot: CPU 4 is now offline
+[Fri Aug 28 11:21:46 2026] smpboot: CPU 3 is now offline
+[Fri Aug 28 11:21:46 2026] smpboot: CPU 2 is now offline
+[Fri Aug 28 11:21:46 2026] smpboot: CPU 1 is now offline
+[Fri Aug 28 11:21:46 2026] ACPI: PM: Low-level resume complete
+[Fri Aug 28 11:21:46 2026] ACPI: EC: EC started
+[Fri Aug 28 11:21:46 2026] ACPI: PM: Restoring platform NVS memory
+[Fri Aug 28 11:21:46 2026] Enabling non-boot CPUs ...
+[Fri Aug 28 11:21:46 2026] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[Fri Aug 28 11:21:46 2026] CPU1 is up
+[Fri Aug 28 11:21:46 2026] smpboot: Booting Node 0 Processor 2 APIC 0x4
+[Fri Aug 28 11:21:46 2026] CPU2 is up
+[Fri Aug 28 11:21:46 2026] smpboot: Booting Node 0 Processor 3 APIC 0x6
+[Fri Aug 28 11:21:46 2026] CPU3 is up
+[Fri Aug 28 11:21:46 2026] smpboot: Booting Node 0 Processor 4 APIC 0x1
+[Fri Aug 28 11:21:46 2026] CPU4 is up
+[Fri Aug 28 11:21:46 2026] smpboot: Booting Node 0 Processor 5 APIC 0x3
+[Fri Aug 28 11:21:46 2026] CPU5 is up
+[Fri Aug 28 11:21:46 2026] smpboot: Booting Node 0 Processor 6 APIC 0x5
+[Fri Aug 28 11:21:46 2026] CPU6 is up
+[Fri Aug 28 11:21:46 2026] smpboot: Booting Node 0 Processor 7 APIC 0x7
+[Fri Aug 28 11:21:46 2026] CPU7 is up
+[Fri Aug 28 11:21:46 2026] ACPI: PM: Waking up from system sleep state S3
+[Fri Aug 28 11:21:46 2026] ACPI: EC: interrupt unblocked
+[Fri Aug 28 11:21:46 2026] ACPI: EC: event unblocked
+[Fri Aug 28 11:21:46 2026] xhci_hcd 0000:2b:00.0: xHC error in resume, USBSTS 0x401, Reinit
+[Fri Aug 28 11:21:46 2026] usb usb3: root hub lost power or was reset
+[Fri Aug 28 11:21:46 2026] usb usb4: root hub lost power or was reset
+[Fri Aug 28 11:21:46 2026] usb 1-8: reset high-speed USB device number 4 using xhci_hcd
+[Fri Aug 28 11:21:46 2026] ata3: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[Fri Aug 28 11:21:46 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Fri Aug 28 11:21:46 2026] sd 2:0:0:0: [sda] Starting disk
+[Fri Aug 28 11:21:46 2026] ata3.00: ACPI cmd f5/00:00:00:00:00:a0(SECURITY FREEZE LOCK) filtered out
+[Fri Aug 28 11:21:46 2026] ata3.00: configured for UDMA/133
+[Fri Aug 28 11:21:46 2026] OOM killer enabled.
+[Fri Aug 28 11:21:46 2026] Restarting tasks: Starting
+[Fri Aug 28 11:21:46 2026] mei_hdcp 0000:00:16.0-b638ab7e-94e2-4ea2-a552-d1c54b627f04: bound 0000:00:02.0 (ops i915_hdcp_ops [i915])
+[Fri Aug 28 11:21:46 2026] Restarting tasks: Done
+[Fri Aug 28 11:21:46 2026] efivarfs: resyncing variable state
+[Fri Aug 28 11:21:46 2026] usb 1-1: USB disconnect, device number 47
+[Fri Aug 28 11:21:46 2026] pci_bus 0000:05: Allocating resources
+[Fri Aug 28 11:21:46 2026] pci_bus 0000:2b: Allocating resources
+[Fri Aug 28 11:21:46 2026] pci_bus 0000:05: Allocating resources
+[Fri Aug 28 11:21:46 2026] pci_bus 0000:2b: Allocating resources
+[Fri Aug 28 11:21:46 2026] efivarfs: finished resyncing variable state
+[Fri Aug 28 11:21:46 2026] random: crng reseeded on system resumption
+[Fri Aug 28 11:21:47 2026] usb 1-1: new full-speed USB device number 49 using xhci_hcd
+[Fri Aug 28 11:21:47 2026] PM: suspend exit
+[Fri Aug 28 11:21:47 2026] Process accounting resumed
+[Fri Aug 28 11:21:47 2026] usb 1-1: New USB device found, idVendor=058f, idProduct=9540, bcdDevice= 1.20
+[Fri Aug 28 11:21:47 2026] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[Fri Aug 28 11:21:47 2026] usb 1-1: Product: EMV Smartcard Reader
+[Fri Aug 28 11:21:47 2026] usb 1-1: Manufacturer: Generic
+[Fri Aug 28 11:21:47 2026] usb 1-9: USB disconnect, device number 48
+[Fri Aug 28 11:21:47 2026] usb 1-9: new full-speed USB device number 50 using xhci_hcd
+[Fri Aug 28 11:21:47 2026] usb 1-9: New USB device found, idVendor=06cb, idProduct=00bd, bcdDevice= 0.00
+[Fri Aug 28 11:21:47 2026] usb 1-9: New USB device strings: Mfr=0, Product=0, SerialNumber=1
+[Fri Aug 28 11:21:47 2026] usb 1-9: SerialNumber: 2e5763d4a1e6
+[Fri Aug 28 11:21:51 2026] wlan0: authenticate with 50:91:e3:f8:46:46 (local address=58:6c:25:4e:a6:a1)
+[Fri Aug 28 11:21:51 2026] wlan0: send auth to 50:91:e3:f8:46:46 (try 1/3)
+[Fri Aug 28 11:21:51 2026] wlan0: authenticated
+[Fri Aug 28 11:21:51 2026] wlan0: associate with 50:91:e3:f8:46:46 (try 1/3)
+[Fri Aug 28 11:21:51 2026] wlan0: RX AssocResp from 50:91:e3:f8:46:46 (capab=0x1c11 status=0 aid=7)
+[Fri Aug 28 11:21:51 2026] wlan0: associated
+[Fri Aug 28 11:24:04 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 11:24:06 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 12:33:41 2026] NOTICE: Automounting of tracing to debugfs is deprecated and will be removed in 2030
+[Fri Aug 28 14:16:36 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=629397 end=629398) time 264 us, min 1073, max 1079, scanline start 1065, end 1082
+[Fri Aug 28 14:17:34 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=632899 end=632900) time 251 us, min 1073, max 1079, scanline start 1064, end 1081
+[Fri Aug 28 14:37:52 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=705967 end=705968) time 2772 us, min 1073, max 1079, scanline start 1051, end 1053
+[Fri Aug 28 14:55:33 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=769657 end=769658) time 284 us, min 1073, max 1079, scanline start 1069, end 1088
+[Fri Aug 28 16:29:34 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 16:29:34 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 16:35:17 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 16:35:30 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 16:35:55 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 16:36:10 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 16:52:46 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=1191653 end=1191654) time 267 us, min 1073, max 1079, scanline start 1066, end 1084
+[Fri Aug 28 17:03:01 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=1228554 end=1228555) time 282 us, min 1073, max 1079, scanline start 1072, end 1091
+[Fri Aug 28 17:18:32 2026] systemd-journald[399]: Under memory pressure, flushing caches.
+[Fri Aug 28 17:18:52 2026] systemd-journald[399]: Under memory pressure, flushing caches.
+[Fri Aug 28 17:18:59 2026] systemd-journald[399]: Under memory pressure, flushing caches.
+[Fri Aug 28 17:19:02 2026] systemd-journald[399]: Under memory pressure, flushing caches.
+[Fri Aug 28 17:38:34 2026] audit: type=1400 audit(1787918916.393:9): apparmor="STATUS" operation="profile_remove" info="profile does not exist" error=-2 profile="unconfined" name="ai.opencode.desktop" pid=1687698 comm="apparmor_parser"
+[Fri Aug 28 17:39:37 2026] audit: type=1400 audit(1787918979.279:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="ai.opencode.desktop" pid=1688364 comm="apparmor_parser"
+[Fri Aug 28 18:13:26 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=1482082 end=1482083) time 293 us, min 1073, max 1079, scanline start 1072, end 1092
+[Fri Aug 28 18:14:19 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=1485320 end=1485321) time 285 us, min 1073, max 1079, scanline start 1070, end 1090
+[Fri Aug 28 18:21:21 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=1510608 end=1510609) time 281 us, min 1073, max 1079, scanline start 1069, end 1088
+[Fri Aug 28 19:33:04 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=1768853 end=1768854) time 274 us, min 1073, max 1079, scanline start 1069, end 1088
+[Fri Aug 28 19:34:17 2026] i915 0000:00:02.0: [drm] *ERROR* Atomic update failure on pipe A (start=1773187 end=1773188) time 272 us, min 1073, max 1079, scanline start 1066, end 1084
+[Fri Aug 28 21:50:02 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 21:50:25 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)
+[Fri Aug 28 21:51:06 2026] sched_ext: BPF scheduler "orchestra_scx_v8" enabled
+[Fri Aug 28 21:51:08 2026] sched_ext: BPF scheduler "orchestra_scx_v8" disabled (unregistered from user space)

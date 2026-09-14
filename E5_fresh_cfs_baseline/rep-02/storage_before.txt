@@ -1,0 +1,2 @@
+Filesystem     1024-blocks   Used Available Capacity Mounted on
+tmpfs             16243188 221396  16021792       2% /tmp

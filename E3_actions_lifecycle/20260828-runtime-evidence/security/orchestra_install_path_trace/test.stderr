@@ -1,0 +1,23 @@
++ set -euo pipefail
++++ dirname -- tests/security/test_install_paths.sh
+++ CDPATH=
+++ cd -- tests/security/../..
+++ pwd
++ ROOT=/home/aether/Documents/ORCHESTRA-OS-final
+++ mktemp -d /tmp/orchestra-install-security.XXXXXX
++ WORK=/tmp/orchestra-install-security.gKzpZ7
++ trap 'rm -rf -- "$WORK"' EXIT HUP INT TERM
++ PREFIX=/tmp/orchestra-install-security.gKzpZ7/prefix
++ CONFIG=/tmp/orchestra-install-security.gKzpZ7/config
++ bash /home/aether/Documents/ORCHESTRA-OS-final/scripts/install.sh --prefix /tmp/orchestra-install-security.gKzpZ7/prefix --config-dir /tmp/orchestra-install-security.gKzpZ7/config --build-dir /tmp/orchestra-install-security.gKzpZ7/build --no-build
++ '[' -f /tmp/orchestra-install-security.gKzpZ7/prefix/lib/orchestra-os/.orchestra-install ']'
++ '[' -x /tmp/orchestra-install-security.gKzpZ7/prefix/bin/orchestra ']'
++ '[' -f /tmp/orchestra-install-security.gKzpZ7/config/safe.json ']'
++ printf '%s\n' 'operator data'
++ bash /home/aether/Documents/ORCHESTRA-OS-final/scripts/uninstall.sh --prefix /tmp/orchestra-install-security.gKzpZ7/prefix --config-dir /tmp/orchestra-install-security.gKzpZ7/config
++ '[' -e /tmp/orchestra-install-security.gKzpZ7/prefix/lib/orchestra-os/operator-data ']'
++ rm -f -- /tmp/orchestra-install-security.gKzpZ7/prefix/lib/orchestra-os/operator-data
++ bash /home/aether/Documents/ORCHESTRA-OS-final/scripts/uninstall.sh --prefix /tmp/orchestra-install-security.gKzpZ7/prefix --config-dir /tmp/orchestra-install-security.gKzpZ7/config
+untrusted loader: expected a root-owned, non-symlink, non-group/world-writable regular file: /tmp/orchestra-install-security.gKzpZ7/prefix/lib/orchestra-os/build/orchestra_loader
+install the target-matched artifacts with scripts/install.sh --with-kernel
++ rm -rf -- /tmp/orchestra-install-security.gKzpZ7

@@ -1,0 +1,34 @@
+2026-08-28T23:12:15+05:30
+/home/aether/Documents/ORCHESTRA-OS-final
+/home/aether/Documents/ORCHESTRA-OS-final
+94664aeb001d8b3552245aedfd78254fbb5f13b8
+main
+ M "C:\\FastMCP\\boot.log"
+ M docs/status/current-state.md
+ M docs/validation/FINAL_VALIDATION_REPORT.md
+ M kernel/sched_ext/README.md
+ M kernel/sched_ext/bridge/orchestra_bridge.c
+ M kernel/sched_ext/orchestra_scx_stage7.bpf.c
+ M tests/unit/test_orchestra_scx_source.py
+?? ORCHESTRA_REDSHADOW_COMPLETE_EVIDENCE_PACKAGE_20260827.zip.sha256
+?? artifacts/real-world/20260825-042022-redshadow-complete/CURRENT_STATE_REPORT.html
+?? artifacts/real-world/20260827-012330-redshadow-field-fit/
+?? artifacts/real-world/20260827-040139-redshadow-root-confirmation/
+?? artifacts/real-world/20260827-044714-redshadow-ffmpeg/
+?? artifacts/real-world/20260827-050919-redshadow-sqlite/
+?? artifacts/real-world/20260827-084610-redshadow-daily-tool-demo/
+?? artifacts/real-world/20260827-100123-redshadow-daily-use-search/
+?? artifacts/real-world/20260827-101440-redshadow-strength-map/
+?? artifacts/real-world/20260827-103050-redshadow-daily-20of20-search/
+?? artifacts/real-world/20260827-202638-redshadow-strength-confirmation/
+?? artifacts/real-world/20260827-215422-redshadow-fix-plan-verification/
+?? artifacts/real-world/20260827-daily-tools-hypothesis/
+?? artifacts/real-world/20260828-112259-redshadow-adjacent-action-diagnostics/
+?? artifacts/real-world/20260828-132302-redshadow-fix-implementation/
+?? "orchestra os tdps final 6 july.pdf"
+d266ead24a2e7a06e042c25ce484096bb996df0d5e0534d5018695ac14119fa2  kernel/sched_ext/orchestra_scx_stage7.bpf.c
+4f20beb0f2c0a7c485110f03cd713fcf67bf8bed99a249faef4771a03e132ab3  kernel/sched_ext/bridge/orchestra_bridge.c
+4a03f240d312863b6aa6af1709fb85e25979bd8cb0143069d34fd47aa1bd3ffe  kernel/sched_ext/README.md
+b8b7f6d08b4d79ad4afce3135bb146ae59897c39203efa4441ac86312ecd0ce6  tests/unit/test_orchestra_scx_source.py
+3d37312f6f24573981d805fa2615f4f2fcb5a81f3f1d1c8c410ff5e951ccce66  docs/status/current-state.md
+523366e73f079b1f65da335f6fa113810f5ac9ad5f1ee0ec4c8d9fc0f623eeb0  docs/validation/FINAL_VALIDATION_REPORT.md

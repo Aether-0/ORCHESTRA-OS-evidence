@@ -1,0 +1,1 @@
+loaded /tmp/orchestra-fix-20260828-132302-build/orchestra_scx_stage7.bpf.o; maps pinned before attach; link=/sys/fs/bpf/orchestra/orchestra_sched

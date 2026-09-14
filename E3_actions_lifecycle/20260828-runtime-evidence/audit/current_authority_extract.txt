@@ -1,0 +1,47 @@
+# Authority extract
+Campaign: 20260828-132302-redshadow-fix-implementation
+
+This file preserves the repository statements used to bound the campaign's
+claims. It is an evidence aid, not a modification of the authoritative docs.
+
+## Repository scope statements
+
+### `docs/security/SECURITY.md`
+
+- The kernel signal frame is a local validated transport, not a cryptographic
+  HMAC/authenticated message path; generation, freshness, identity, and schema
+  checks do not provide cryptographic authenticity.
+- No distributed or remote scheduling protocol is implemented; network attack
+  claims and cluster isolation are out of scope.
+
+### `docs/research/RESEARCH_TO_CODE.md`
+
+- The signal bus is userspace/source validated; kernel-local transport is not
+  cryptographic proof.
+- Hybrid Safety Layer status is a source contract; live RT coexistence is
+  pending.
+- Hierarchical scaling has single-node global/CPU evidence; NUMA runtime is
+  pending.
+- Distributed extension is absent from the current product and deferred.
+
+### `docs/adr/0011-stage8-full-kernel-validation.md`
+
+- The current VM exposes one NUMA node; multi-node NUMA runtime validation is
+  blocked by topology.
+
+### `kernel/sched_ext/README.md`
+
+- The bridge signal frame is local-trust map IPC and does not verify the
+  userspace HMAC.
+- RT protection currently stops at bridge admission; full kernel RT/deadline
+  coexistence and starvation validation are unimplemented.
+- The kernel consumes bounded prediction records, does not train a predictor,
+  and does not verify the userspace HMAC; NUMA results are bounded single-host
+  aggregates and distributed policy learning is not claimed.
+
+## Campaign consequence
+
+The additional runtime evidence can close only bounded claims for the tested
+host, workload, and implementation envelope. It cannot promote distributed
+scheduling, cross-node NUMA, or kernel HMAC authentication to an implemented
+or experimentally validated claim.

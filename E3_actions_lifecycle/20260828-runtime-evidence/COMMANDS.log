@@ -1,0 +1,80 @@
+2026-08-28T16:20:00+05:30 | rc=0 | PYTHONPYCACHEPREFIX=/tmp/orchestra-fix-pyc python3 tests/unit/test_orchestra_scx_source.py | output=tests/source_targeted.stdout
+2026-08-28T16:21:00+05:30 | rc=0 | cc -O2 -Wall -Wextra -I kernel/sched_ext/include kernel/sched_ext/bridge/orchestra_bridge.c -o /tmp/orchestra-fix-bridge-check | output=tests/bridge_compile.stdout
+2026-08-28T16:24:00+05:30 | rc=0 | bash kernel/sched_ext/scripts/build_stage7_out_of_tree.sh /tmp/orchestra-fix-20260828-132302-build-v2 | output=build/target/build.log
+2026-08-28T16:29:00+05:30 | rc=0 | make clean && make && make test | output=tests/primary_regression_final.stdout stderr=tests/primary_regression_final.stderr
+2026-08-28T16:31:00+05:30 | rc=0 | make check | output=tests/make_check.stdout stderr=tests/make_check.stderr
+2026-08-28T16:35:54+05:30 | rc=1 | bash sched_ext/runtime/runtime_protocol.sh | output=sched_ext/runtime/first-attempt/runtime.stdout | harness-only mkdir failure preserved
+2026-08-28T16:35:54+05:30 | rc=0 | bash sched_ext/runtime/runtime_protocol.sh | output=sched_ext/runtime/passing-matrix/runtime.stdout | 81/81 assertions PASS
+2026-08-28T16:36:20+05:30 | rc=0 | git diff --check | output=audit/git_diff_check.txt
+2026-08-28T16:36:25+05:30 | rc=0 | cat /sys/kernel/sched_ext/state; find /sys/fs/bpf -maxdepth 2 -print | output=audit/final_kernel_state.txt
+2026-08-28T21:49:34+05:30 | rc=0 | ORCHESTRA_BPF=... ORCHESTRA_WORKERS='1 2 4' BENCH_SECS=8 bash benchmarks/real-machine/benchmark_suite.sh | output=performance/benchmark_r1.stdout
+2026-08-28T21:51:03+05:30 | rc=0 | ORCHESTRA_BPF=... ORCHESTRA_WORKERS='1 2 4 8' BENCH_SECS=1 ORCHESTRA_WORKLOAD=.../fixed_work bash benchmarks/real-machine/benchmark_suite.sh | output=performance/benchmark_r2.stdout
+2026-08-28T22:01:19+05:30 | rc=0 | same fixed-work benchmark command | output=performance/benchmark_r3.stdout
+2026-08-28T22:01:34+05:30 | rc=0 | same fixed-work benchmark command | output=performance/benchmark_r4.stdout
+2026-08-28T21:51:21+05:30 | rc=0 | ORCHESTRA_STRESS_OUTDIR=... bash benchmarks/real-machine/stress_suite.sh 5 cfs | output=stress/stress_cfs_5.stdout
+2026-08-28T21:52:10+05:30 | rc=0 | loader --load; ORCHESTRA_BRIDGE=... bash benchmarks/real-machine/stress_suite.sh 5 orchestra; loader --unload | output=stress/stress_orchestra_5.stdout
+2026-08-28T21:52:43+05:30 | rc=0 | taskset -c 0,1 bash benchmarks/real-machine/stress_suite.sh 30 cfs | output=stress/stress_cfs_30.stdout
+2026-08-28T21:54:32+05:30 | rc=0 | loader --load; taskset -c 0,1 bash benchmarks/real-machine/stress_suite.sh 30 orchestra; loader --unload | output=stress/stress_orchestra_30.stdout
+2026-08-28T21:57:04+05:30 | rc=0 | loader --load; chrt FIFO/RR/DEADLINE probes plus normal ownership; loader --unload | output=rt/lifecycle.txt
+2026-08-28T21:59:35+05:30 | rc=0 | loader --load; signal publish/replay/stale/invalid probes; loader --unload | output=integrity/kernel_matrix.txt
+2026-08-28T21:59:41+05:30 | rc=0 | ORCHESTRA_INTEGRATION_ARTIFACT_DIR=... bash tests/integration/run.sh | output=integrity/integration_r1.stdout
+2026-08-28T22:00:38+05:30 | rc=0 | loader --load; same-node MIGRATE probe; loader --unload | output=numa/migration_matrix.txt
+2026-08-28T22:02:13+05:30 | rc=1 | netcat readiness-probe loopback attempt | output=distributed/loopback_matrix.txt | harness failure preserved
+2026-08-28T22:03:06+05:30 | rc=0 | corrected CFS/ORCHESTRA loopback netcat transfer | output=distributed/loopback_retry*_matrix.txt
+2026-08-28T22:04:45+05:30 | rc=0 | taskset -c 0 loader --load; stress_suite.sh 600 orchestra; loader --unload | output=longrun/stress_orchestra_600.stdout
+2026-08-28T22:34:48+05:30 | rc=0 | final state and health audit | output=longrun/lifecycle.txt
+2026-08-28T22:35:10+05:30 | rc=0 | ORCHESTRA_WORKLOAD_MODE=mixed fixed-work benchmark repetition m1 | output=performance/benchmark_m1.stdout
+2026-08-28T22:35:32+05:30 | rc=0 | ORCHESTRA_WORKLOAD_MODE=mixed fixed-work benchmark repetition m2 | output=performance/benchmark_m2.stdout
+2026-08-28T22:35:52+05:30 | rc=0 | ORCHESTRA_WORKLOAD_MODE=mixed fixed-work benchmark repetition m3 | output=performance/benchmark_m3.stdout
+2026-08-28T22:40:00+05:30 | rc=0 | repository authority scope extract and claim audit | output=audit/current_authority_extract.txt audit/CLAIM_AUDIT.md
+2026-08-28T22:40:05+05:30 | rc=0 | python3 -m json.tool RESULTS.json; git diff --check; cat /sys/kernel/sched_ext/state; find /sys/fs/bpf -maxdepth 2 -print | output=audit/final_validation.txt
+2026-08-28T22:41:00+05:30 | rc=0 | final JSON/diff/runtime-state/81-row/authority-hash verification | output=audit/final_validation.txt audit/final_audit.txt
+2026-08-28T22:42:00+05:30 | rc=0 | Python csv parser over all campaign CSV artifacts and JSON validation | output=audit/final_validation.txt
+2026-08-28T22:43:00+05:30 | rc=0 | checklist CSV schema and concrete evidence-path existence verification | output=audit/final_validation.txt
+2026-08-28T22:44:00+05:30 | rc=0 | claim ledger/report/evidence/final-state consistency verification | output=audit/final_validation.txt
+2026-08-28T22:48:36+05:30 | rc=0 | python3 tools/benchmark/run_signal_publication_microbenchmark.py --repository-root . --output-dir integrity/microbenchmark-v1 --cc gcc --repetitions 2 --iterations 1000 --warmup 100 --seed 20260828 --max-readers 4 --startup-timeout-ms 1000 --max-runtime-ms 3000 --drain-reads 4 --timeout-sec 8 --timeout-grace-sec 2 | output=integrity/microbenchmark-v1/benchmark_result.json
+2026-08-28T22:49:00+05:30 | rc=0 | microbenchmark JSON/summary and campaign CSV/diff validation | output=audit/final_validation.txt
+2026-08-28T22:50:00+05:30 | rc=0 | python3 tools/testing/index_test_artifacts.py artifacts/real-world/20260828-132302-redshadow-fix-implementation | output=SHA256SUMS inventory.json
+2026-08-28T22:52:00+05:30 | rc=0 | (cd campaign && sha256sum -c SHA256SUMS); JSON/CSV/claim/state final audit | output=audit/final_validation.txt
+2026-08-28T22:53:00+05:30 | rc=0 | final python3 tools/testing/index_test_artifacts.py artifacts/real-world/20260828-132302-redshadow-fix-implementation | output=SHA256SUMS inventory.json
+2026-08-28T22:55:00+05:30 | rc=0 | (cd campaign && sha256sum -c SHA256SUMS | tee audit/checksum_manifest.stdout) | output=audit/checksum_manifest.stdout
+2026-08-28T22:56:00+05:30 | rc=0 | final artifact index regeneration after checksum-output preservation | output=SHA256SUMS inventory.json
+2026-08-28T23:00:00+05:30 | rc=0 | bash benchmarks/real-machine/sanity_check.sh; bash kernel/sched_ext/scripts/check_kernel_config.sh | output=audit/sanity_final.stdout audit/kernel_config_final.stdout
+2026-08-28T22:57:06+05:30 | rc=1 | RT contention probe using user-owned campaign BPF path | output=rt/contention-v1 | loader rejected path with EPERM; failure preserved
+2026-08-28T22:57:06+05:30 | rc=0 | corrected root-owned-path RT contention probe: FIFO/RR/DEADLINE with normal ORCHESTRA task | output=rt/contention-v2/contention_matrix.txt
+2026-08-28T23:01:55+05:30 | rc=0 | existing-process RT contention retry: FIFO/RR/DEADLINE with normal ORCHESTRA task | output=rt/contention-v3/contention_matrix.txt
+2026-08-28T23:02:43+05:30 | rc=0 | stopped-process DEADLINE contention retry with normal ORCHESTRA task | output=rt/contention-v4/contention_matrix.txt
+2026-08-28T23:05:00+05:30 | rc=0 | final sched_ext/bpffs/bpftool program-map-link/dmesg capture | output=audit/final_*_current.txt
+2026-08-28T23:06:00+05:30 | rc=0 | artifact index regeneration after final kernel-state capture | output=SHA256SUMS inventory.json
+2026-08-28T23:06:49+05:30 | rc=0 | python3 tools/testing/index_test_artifacts.py artifacts/real-world/20260828-132302-redshadow-fix-implementation | output=audit/artifact_index_after_docs.stdout audit/artifact_index_after_docs.stderr (initial index; output-file hash corrected by final index)
+2026-08-28T23:07:25+05:30 | rc=0 | make check | output=tests/make_check_after_docs.stdout stderr=tests/make_check_after_docs.stderr
+2026-08-28T23:07:25+05:30 | rc=0 | git diff --check | output=tests/git_diff_check_after_docs.stdout stderr=tests/git_diff_check_after_docs.stderr
+2026-08-28T23:07:25+05:30 | rc=0 | python3 -m json.tool artifacts/real-world/20260828-132302-redshadow-fix-implementation/RESULTS.json | output=tests/results_json_after_docs.stdout stderr=tests/results_json_after_docs.stderr
+2026-08-28T23:07:25+05:30 | rc=0 | (cd artifacts/real-world/20260828-132302-redshadow-fix-implementation && sha256sum -c SHA256SUMS) | output=/tmp/orchestra-fix-final-sha256-current-2.out /tmp/orchestra-fix-final-sha256-current-2.err
+2026-08-28T23:07:25+05:30 | rc=0 | python3 tools/testing/index_test_artifacts.py artifacts/real-world/20260828-132302-redshadow-fix-implementation | output=/tmp/orchestra-fix-artifact-index-final.stdout /tmp/orchestra-fix-artifact-index-final.stderr (final index)
+2026-08-28T23:09:35+05:30 | rc=0 | make test | output=tests/make_test_after_docs.stdout stderr=tests/make_test_after_docs.stderr
+2026-08-28T23:10:38+05:30 | rc=0 | git diff --check | output=tests/final_git_diff_check_after_docs.stdout stderr=tests/final_git_diff_check_after_docs.stderr
+2026-08-28T23:10:38+05:30 | rc=0 | cat /sys/kernel/sched_ext/state | output=audit/final_sched_ext_state_post_docs.txt stderr=audit/final_sched_ext_state_post_docs.stderr
+2026-08-28T23:10:38+05:30 | rc=0 | find /sys/fs/bpf -maxdepth 2 -print | output=audit/final_bpffs_post_docs.txt stderr=audit/final_bpffs_post_docs.stderr
+2026-08-28T23:10:38+05:30 | rc=0 | (cd artifacts/real-world/20260828-132302-redshadow-fix-implementation && sha256sum -c SHA256SUMS) | output=audit/checksum_manifest_post_docs_current.stdout stderr=audit/checksum_manifest_post_docs_current.stderr
+2026-08-28T23:12:15+05:30 | rc=0 | date; pwd; git rev-parse --show-toplevel; git rev-parse HEAD; git branch --show-current; git status --short; sha256sum current source/docs | output=audit/final_worktree_and_hashes_post_docs.txt stderr=audit/final_worktree_and_hashes_post_docs.stderr
+2026-08-28T23:13:09+05:30 | rc=0 | make check | output=tests/make_check_final.stdout stderr=tests/make_check_final.stderr
+2026-08-28T23:13:56+05:30 | rc=0 | date; pwd; git rev-parse --show-toplevel; git rev-parse HEAD; git branch --show-current; git status --short; sha256sum current source/docs/RESULTS.json | output=audit/final_worktree_and_hashes_final.txt stderr=audit/final_worktree_and_hashes_final.stderr
+2026-08-28T23:13:56+05:30 | rc=0 | make check | output=tests/make_check_provenance_final.stdout stderr=tests/make_check_provenance_final.stderr
+2026-08-28T23:14:22+05:30 | rc=0 | python3 -m json.tool artifacts/real-world/20260828-132302-redshadow-fix-implementation/RESULTS.json | output=tests/results_json_final.stdout stderr=tests/results_json_final.stderr
+2026-08-28T23:15:07+05:30 | rc=0 | make check | output=tests/make_check_final2.stdout stderr=tests/make_check_final2.stderr
+2026-08-28T23:15:07+05:30 | rc=0 | date; pwd; git rev-parse --show-toplevel; git rev-parse HEAD; git branch --show-current; git status --short; sha256sum current source/docs/RESULTS.json | output=audit/final_worktree_and_hashes_final2.txt stderr=audit/final_worktree_and_hashes_final2.stderr
+2026-08-28T23:31:00+05:30 | rc=1 | focused security scripts with campaign output paths before creating security/ | output=security/focused_r1_path_failure.log | redirection path missing; scripts did not start
+2026-08-28T23:31:16+05:30 | rc=0 | bash scripts/security-scan.sh | output=security/focused_r1_scan.stdout stderr=security/focused_r1_scan.stderr
+2026-08-28T23:31:25+05:30 | rc=0 | bash tests/security/run.sh | output=security/focused_r1_regression.stdout stderr=security/focused_r1_regression.stderr
+2026-08-28T23:31:56+05:30 | rc=0 | ORCHESTRA_INTEGRATION_ARTIFACT_DIR=security/integration_r2 bash tests/integration/run.sh | output=security/focused_r1_integration.stdout stderr=security/focused_r1_integration.stderr
+2026-08-28T23:32:07+05:30 | rc=0 | python3 tools/benchmark/run_signal_publication_microbenchmark.py --repository-root . --output-dir security/microbenchmark_r2 --cc gcc --repetitions 2 --iterations 1000 --warmup 100 --seed 20260828 --max-readers 4 --startup-timeout-ms 1000 --max-runtime-ms 3000 --drain-reads 4 --timeout-sec 8 --timeout-grace-sec 2 | output=security/microbenchmark_r2/benchmark_result.json
+2026-08-28T23:33:40+05:30 | rc=1 | CFS security suite plus ORCHESTRA loader attach/full security wrapper/unload | output=security/cfs_security_suite.* security/orchestra_security_suite.* security/orchestra_security_{load,unload}.* security/orchestra_state_{during,after}.* | wrapper stopped at observer-only uninstall safety boundary; unload rc=0
+2026-08-28T23:34:30+05:30 | rc=1 | ORCHESTRA loader attach; bash -x tests/security/test_install_paths.sh; loader unload | output=security/orchestra_install_path_trace/ | observer-only package had no trusted loader; unload rc=0
+2026-08-28T23:35:27+05:30 | rc=0 | ORCHESTRA loader attach; direct policy/fuzz/ABI-sanitizer/source-security components; loader unload | output=security/orchestra_components_r1/ | all component rc=0; state enabled then disabled
+2026-08-28T23:37:16+05:30 | rc=0 | make check | output=tests/make_check_security_r1.stdout stderr=tests/make_check_security_r1.stderr
+2026-08-28T23:37:16+05:30 | rc=0 | python3 -m json.tool RESULTS.json | output=tests/results_json_security_r1.stdout stderr=tests/results_json_security_r1.stderr
+2026-08-28T23:37:34+05:30 | rc=0 | python3 tools/testing/index_test_artifacts.py artifacts/real-world/20260828-132302-redshadow-fix-implementation | output=/tmp/orchestra-security-index-final.stdout /tmp/orchestra-security-index-final.stderr
+2026-08-28T23:37:34+05:30 | rc=0 | (cd artifacts/real-world/20260828-132302-redshadow-fix-implementation && sha256sum -c SHA256SUMS) | output=/tmp/orchestra-security-sha-final.out /tmp/orchestra-security-sha-final.err
+2026-08-28T23:38:03+05:30 | rc=0 | python3 tools/testing/index_test_artifacts.py artifacts/real-world/20260828-132302-redshadow-fix-implementation | output=/tmp/orchestra-security-index-final-3.stdout /tmp/orchestra-security-index-final-3.stderr (final focused index)
+2026-08-28T23:38:03+05:30 | rc=0 | (cd artifacts/real-world/20260828-132302-redshadow-fix-implementation && sha256sum -c SHA256SUMS) | output=/tmp/orchestra-security-sha-final-3.out /tmp/orchestra-security-sha-final-3.err (final focused checksum)

@@ -1,0 +1,108 @@
+{
+  "artifact_root": "/home/aether/Documents/ORCHESTRA-OS-final/artifacts/real-world/20260828-132302-redshadow-fix-implementation",
+  "categories": {
+    "CAMPAIGN_STATUS.md": {
+      "bytes": 1885,
+      "files": 1
+    },
+    "CHECKLIST_STATUS.csv": {
+      "bytes": 4756,
+      "files": 1
+    },
+    "COMMANDS.log": {
+      "bytes": 14376,
+      "files": 1
+    },
+    "EXECUTIVE_SUMMARY.md": {
+      "bytes": 1425,
+      "files": 1
+    },
+    "FINDINGS.md": {
+      "bytes": 4371,
+      "files": 1
+    },
+    "REAL_WORLD_TEST_REPORT.md": {
+      "bytes": 10219,
+      "files": 1
+    },
+    "RESULTS.json": {
+      "bytes": 3052,
+      "files": 1
+    },
+    "TEST_RESULTS.csv": {
+      "bytes": 1922,
+      "files": 1
+    },
+    "audit": {
+      "bytes": 247182,
+      "files": 42
+    },
+    "build": {
+      "bytes": 1321519,
+      "files": 10
+    },
+    "distributed": {
+      "bytes": 302008446,
+      "files": 105
+    },
+    "integrity": {
+      "bytes": 770085,
+      "files": 91
+    },
+    "longrun": {
+      "bytes": 1317362,
+      "files": 23
+    },
+    "numa": {
+      "bytes": 12088,
+      "files": 32
+    },
+    "numactl_hardware.txt": {
+      "bytes": 20,
+      "files": 1
+    },
+    "performance": {
+      "bytes": 50264,
+      "files": 616
+    },
+    "rt": {
+      "bytes": 350802,
+      "files": 205
+    },
+    "sched_ext": {
+      "bytes": 367344,
+      "files": 483
+    },
+    "security": {
+      "bytes": 450123,
+      "files": 123
+    },
+    "stress": {
+      "bytes": 2030661,
+      "files": 68
+    },
+    "tests": {
+      "bytes": 72866,
+      "files": 28
+    }
+  },
+  "checksum_manifest": {
+    "bytes": 220561,
+    "path": "SHA256SUMS",
+    "sha256": "d5ccd5ff598f0049220c790137ad25637c39575ed1c6a75b10a4331ce2db2473"
+  },
+  "claim_boundary": "Local userspace test evidence only; classification is defined in README.md.",
+  "excluded_from_checksum_manifest": [
+    "SHA256SUMS",
+    "inventory.json"
+  ],
+  "generated_utc": "2026-08-28T18:08:12.889469Z",
+  "hygiene": {
+    "generated_development_executables_copied": false,
+    "raw_local_host_metadata_retained": true,
+    "text_secret_and_email_scan": "completed-no-matches"
+  },
+  "indexed_file_count": 1835,
+  "indexed_total_bytes": 309040768,
+  "schema": "orchestra.test_artifact_inventory/v1"
+}

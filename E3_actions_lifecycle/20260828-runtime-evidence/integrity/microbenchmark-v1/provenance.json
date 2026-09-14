@@ -1,0 +1,61 @@
+{
+  "benchmark_start_utc": "2026-08-28T17:18:32.450507Z",
+  "claim_limitation": "This isolated userspace microbenchmark measures bounded authenticated signal publication/read API behavior only. It does not prove kernel scheduler behavior, end-to-end ORCHESTRA performance, or a causal scheduling improvement.",
+  "comparison_design": "descriptive-unpaired-microbenchmark",
+  "configured_max_readers": 4,
+  "controls": {
+    "base_seed": 20260828,
+    "drain_reads": 4,
+    "external_timeout_grace_sec": 2,
+    "external_timeout_sec": 8,
+    "internal_join_budget_ms": 2000,
+    "iterations": 1000,
+    "max_runtime_ms": 3000,
+    "repetitions": 2,
+    "startup_timeout_ms": 1000,
+    "warmup": 100
+  },
+  "environment": {
+    "available_processor_count": 8,
+    "cpu_affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "cpu_count": 8,
+    "load_average": [
+      1.42431640625,
+      1.49169921875,
+      2.09130859375
+    ],
+    "machine": "x86_64",
+    "pid": 3291891,
+    "platform": "Linux-7.0.12+kali-amd64-x86_64-with-glibc2.42",
+    "processor": "",
+    "python": "3.14.6 (main, Jun 10 2026, 18:54:31) [GCC 15.2.0]"
+  },
+  "host_processor_count": 8,
+  "inputs": {
+    "canonical_source": {
+      "path": "/home/aether/Documents/ORCHESTRA-OS-final/orchestra_paper_cpu_demo/orchestra_paper_cpu.c",
+      "sha256": "5bcc1e6338ebf245bb7b6ad93ccf450b3294ea15ea34f71d75a6dea31c39de23"
+    },
+    "microbenchmark_source": {
+      "path": "/home/aether/Documents/ORCHESTRA-OS-final/tools/benchmark/signal_publication_microbenchmark.c",
+      "sha256": "9baa859ac9a6ccc44d2d8fd6381d292c74361a16c6b8bf92824888b942f8e40c"
+    }
+  },
+  "microbenchmark_schema_id": "orchestra.signal_publication.microbenchmark/v1",
+  "output_directory": "/home/aether/Documents/ORCHESTRA-OS-final/artifacts/real-world/20260828-132302-redshadow-fix-implementation/integrity/microbenchmark-v1",
+  "reader_counts": [
+    1,
+    2,
+    4
+  ],
+  "repository_root": "/home/aether/Documents/ORCHESTRA-OS-final"
+}

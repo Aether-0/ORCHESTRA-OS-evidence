@@ -1,0 +1,5 @@
+cc -O2 -std=c11 -Wall -Wextra -Wpedantic -Wconversion -Wshadow \
+	-Wformat=2 -Werror -I"kernel/sched_ext/include" \
+	"kernel/sched_ext/bridge/orchestra_bridge.c" \
+	-o "/tmp/orchestra-realworld-20260914-paper-proof/build/bridge/orchestra_bridge"
+return_code=0

@@ -1,0 +1,735 @@
+FORMAL TECHNICAL ASSESSMENT REPORT
+
+
+
+
+ORCHESTRA-OS
+
+Final Product, Evidence, Strength, Weakness, and Professional
+Capability Assessment
+
+Translation of the professor’s simulation research into a real Linux scheduling prototype
+
+
+
+
+Prepared by:             S.W. ZAW
+Report date:             2 September 2026
+Repository revision:     94664aeb001d8b3552245aedfd78254fbb5f13b8
+Validated platform:      ThinkPad T14 Gen 1; Kali Linux; kernel 7.0.12
+Document status:         Final evidence-synthesis report
+Product status:          Research-grade release candidate
+
+
+
+
+     Claim boundary. This report distinguishes simulation, userspace validation, kernel pro-
+     totyping, and bounded real-machine validation. It does not present ORCHESTRA-OS as
+     deployment-ready or as a universal replacement for Linux CFS/EEVDF.
+Document Control
+
+Field                      Value
+Purpose                    State what was built and discovered, identify strong and weak areas,
+                           and map demonstrated abilities to suitable professional work.
+Primary research basis     Ganesan and Vaithiyanathan, 6 July 2026 simulation paper on
+                           predictive, hierarchical, signal-coordinated process scheduling.
+Primary product evidence   Frozen real-machine and validation archives through 1 September
+                           2026.
+Report type                Technical assessment report; not a new research paper.
+Evidence status            38 PASS, 2 preserved FAIL, 7 BLOCKED in the principal 47-item
+                           checklist; 81/81 bounded runtime assertions passed.
+Current-worktree warning   The repository was dirty at inspection. Results are attributed to
+                           recorded revisions, artifacts, hosts, and protocols.
+Change control             Documentation only; no source, test, BPF, scheduler parameter, or
+                           machine configuration was changed.
+
+
+Intended readers: project supervisor, academic assessors, technical reviewers, prospective
+employers, and engineering collaborators.
+
+
+
+
+                                              i
+Contents
+
+Document Control                            i
+
+1 Executive Summary                         1
+
+2 Research Basis and Product Translation    2
+
+3 Validation Method and Evidence Quality    5
+
+4 Product Results                           7
+
+5 Engineering Discoveries                   9
+
+6 Strength and Weakness Assessment         10
+
+7 Professional and Work-Fit Assessment     12
+
+8 Recommendations and Roadmap              14
+
+9 Final Conclusion                         15
+
+A Evidence Reference Register              16
+
+B Reproducibility Note                     18
+
+
+
+
+                                      ii
+1. Executive Summary
+
+1.1     Overall judgment
+
+ORCHESTRA-OS converted substantial parts of the professor’s pre-kernel simulation architecture
+into an opt-in Linux sched_ext prototype. The evidence covers a userspace control plane, bridge,
+versioned BPF-map contracts, exact task admission, five bounded actions, requested-versus-
+effective telemetry, invalid or stale input rejection, target-matched attach, and clean unload.
+
+      ORCHESTRA-OS is stronger as an opt-in scheduler control and observ-
+      ability prototype than as a general replacement for Linux CFS/EEVDF.
+
+
+1.2     Decision dashboard
+
+                          Table 1.1: Headline evidence and interpretation.
+
+Area                          Result                     Meaning
+Runtime actions               81/81 assertions passed All five canonical actions were observed in
+                                                      bounded probes with effectiveness,
+                                                      fallback, or release evidence.
+Checklist                     38 PASS; 2 FAIL; 7 Negative and unavailable evidence was
+                              BLOCKED                 retained rather than hidden.
+Foreground protection         20/20 wins; 74.2405% Strong service-policy result for one
+                              mean paired reduction controlled photo/archive protocol.
+Background service cost       97.6851% fewer mean The foreground gain came from deliberate
+                              CPU ticks               service reallocation, not free acceleration.
+Pure CPU work                 1.58x–2.05x CFS time Clear negative result for general CPU
+                                                      performance under the tested artifact and
+                                                      protocol.
+Mixed CPU/I/O work            0.86x–0.94x CFS time Promising but exploratory result from
+                                                      three repetitions per cell.
+Signal publication            12/12 runs; 12,000 pub- Strong userspace evidence; not kernel
+                              lications; 27,161 reads cryptographic proof.
+Bounded soak                  600 s each for CPU, Ownership and health checks passed;
+                              I/O, and mixed          memory ownership remained blocked.
+
+
+
+1.3     Professional capability conclusion
+
+The strongest demonstrated abilities are research-to-code translation, Linux/eBPF prototyping,
+systems validation, causal failure diagnosis, observability and lifecycle design, and reproducible
+technical communication. The best-supported job families are Systems Research Engineer,
+Research Software Engineer, Linux/eBPF Engineer, Performance or Benchmarking Engineer,
+Systems Validation Engineer, and Observability/Reliability Engineer.
+
+
+
+                                                 1
+2. Research Basis and Product Translation
+
+2.1    Discoveries inherited from the professor’s study
+
+The source paper is a simulation study, not a hardware deployment report. Its numerical claims
+remain SIMULATED.
+               Table 2.1: Simulation discoveries and implementation consequences.
+
+Discovery               Simulation evidence                   Product consequence
+Temporal blind spot   S1/S2/S3 allowed synchronized           Add S4 so instability and herd be-
+                      mass switching to look perfect          havior reduce Q.
+Aggregation artifact  A raw product mechanically shrank       Use a geometric mean for cross-
+                      when a healthy factor was added         version interpretation.
+Wrong controller tar- A PID actuator saturated while the      Map actuators to metrics they can
+get                   deficit was in other submetrics         causally affect.
+Learning/control cou- Inner learning and outer control        Enforce explicit two-timescale sep-
+pling                 changed one another                     aration.
+Reward contradiction Reward encouraged RUN where the          Jointly audit reward and directive
+                      directive required MIGRATE; cor-        definitions.
+                      rection raised S2 from 0.57 to 0.79
+State-bin mismatch    A bucket contained states with dif-     Align representations to decision
+                      ferent correct actions; realignment     boundaries.
+                      raised S2 to 0.90
+Predictor failure     Online adaptive Kalman MSE was          Prefer offline calibration when
+                      about seven times worse than simple     noise is not identifiable.
+                      fixed alternatives
+Missing causal credit Agents lacked feedback for their        Blend difference reward with a
+                      group contribution                      clear local objective.
+Simulation gate       Seven failures were cheaper to find     Preserve simulation as an architec-
+                      before kernel work                      tural validation step.
+
+
+
+2.2    Development path
+
+The inspected HEAD contains 85 commits from the first userspace prototype on 5 August 2026 to
+the runtime-hardening revision on 25 August 2026.
+
+
+
+
+                                               2
+ORCHESTRA-OS — Final Product and Capability Assessment                              2 September 2026
+
+
+                                                         6–7 Aug               7–14 Aug
+             6 Jul                 5 Aug
+                                                        sched_ext              Exact ker-
+        Simulation paper       Userspace core
+                                                         + bridge              nel + VM
+
+
+
+         27 Aug–1 Sep            23–25 Aug              21–25 Aug
+           Evidence              Hardening              Bare-metal
+           synthesis             + actions              ownership
+
+Figure 2.1: Development and validation progression. Color distinguishes design and implementation,
+kernel validation, and evidence synthesis; it does not indicate deployment readiness.
+
+
+
+2.3    Implemented architecture
+
+           Observed state                                                 Generation
+                                       Policy lifecycle and
+          and bounded pre-                                               and freshness
+                                       bounded controller
+           diction records                                           schema-checked signal
+
+
+
+                                     Userspace bridge, iden-
+                                      tity gate, BPF maps
+
+
+           RUN YIELD
+                                                                        Ownership, effect,
+            MIGRATE                   sched_ext BPF deci-
+                                                                         fallback, Q, life-
+           THROTTLE                   sion and action path
+                                                                         cycle telemetry
+             SLEEP
+
+
+                                       Distributed back-
+                                     end: not implemented
+
+         Figure 2.2: Implemented single-host path and explicit non-implemented boundary.
+
+
+
+
+                                                 3
+ORCHESTRA-OS — Final Product and Capability Assessment                           2 September 2026
+
+
+                      Table 2.2: Research-to-product implementation matrix.
+
+Component              Strongest evidence             Boundary
+Scheduler,    bridge, Target verifier, attach, own-   One target/API family; not general kernel
+loader                ership, unload                  portability.
+Five action backends Bounded real-machine ac-         Not all workload, fairness, topology, or
+                      tion matrix                     timing conditions.
+Signal bus            Userspace integrity and         No HMAC verifier in BPF.
+                      kernel generation/freshness
+                      gates
+Prediction            Confidence, expiry, genera-     Hardware prediction accuracy and benefit
+                      tion, observed fallback con-    untested.
+                      tract
+S1/S2/S3/S4/Q         Corrected contract and lim-     No broad population statistical validation.
+                      ited live windows
+Controller            Bounded contract and lim-       Full causal actuator and rollback matrix
+                      ited transitions                open.
+RT boundary           Admission refusal and           No hard-RT guarantee.
+                      bounded FIFO/RR coexis-
+                      tence
+NUMA/distributed      One-node observation; no        Cross-node NUMA blocked; distributed tier
+                      distributed backend             absent.
+
+
+
+
+                                                4
+3. Validation Method and Evidence Quality
+
+3.1    Evidence chain
+
+
+                          Expected              Target build
+                                                                     Verifier + attach   Exact ownership
+                          behavior                + hash
+
+
+
+
+                  Clean unload                  Repeat result        Output + health      Effective action
+
+
+                               Figure 3.1: Evidence chain required for a bounded real-machine claim.
+
+
+
+3.2    Checklist status
+
+           38 40
+
+
+
+
+        Checklist items
+                          30
+
+                          20
+
+                          10                                                                             7
+                                                                 2
+                          0
+                                  PASS
+
+Figure 3.2: Principal 47-item checklist. PASS applies only to the named bounded test and does not
+upgrade blocked deployment claims.
+
+
+
+
+                                                                5
+ORCHESTRA-OS — Final Product and Capability Assessment                           2 September 2026
+
+
+
+3.3      Representative action evidence
+
+                 Table 3.1: Bounded action observations from the 81/81 matrix.
+
+Action          Observed evidence                       Boundary
+RUN         Dispatch 31; running 34; effective 34       Controlled forward progress.
+YIELD       45 specialized dispatches; 44 effective;    Bounded queue-tail behavior, not
+            peer progress                               universal latency.
+MIGRATE     28 accepted; 28 dispatched; 27 effec-       Same-node movement only.
+            tive; requested, dispatched, and ac-
+            tual CPU all 1
+Invalid MI- 44 bad-CPU fallbacks; zero MI-              Fail-closed for this invalid target.
+GRATE       GRATE acceptance or dispatch; ef-
+            fective RUN fallback
+SLEEP       Acceptance, defer, release, resumed         One-shot bounded defer/release
+            progress                                    evidence.
+THROTTLE    Immediate, after-RUN, rollover, re-         Broad fairness and bandwidth
+            publication, and two-CPU cases              semantics remain open.
+
+
+
+
+                                              6
+4. Product Results
+
+4.1                                      General fixed-work performance
+
+                                                                               Pure CPU     Mixed CPU/I/O
+
+
+
+
+   ORCHESTRA/CFS completion-time ratio
+                                                                  2.01        2.05
+                                          2
+                                                                                          1.73
+                                                    1.58
+                                         1.5
+
+                                                           1                                                             1
+                                          1                                                          0.86
+                                                                                                            0.94   0.9
+
+
+
+                                         0.5
+
+
+                                          0
+                                                       1             2          4           8
+                                                    U-            U-       U-          U-
+                                               CP              CP        CP          CP
+
+Figure 4.1: Fixed-work results, N=3 per scheduler per cell. Pure CPU is negative; mixed CPU/I/O is
+directionally positive but exploratory.
+
+
+Pure CPU is the clearest performance weakness. A complete cause requires matched perf,
+tracepoint, cache, and target-matched scx_simple evidence, which was unavailable.
+
+
+4.2                                      Strongest result: foreground protection
+
+The held-out protocol ran four foreground ImageMagick resizes with eight bzip2 background
+workers for 20 counterbalanced pairs. Output, ownership, effective THROTTLE, and clean-unload
+gates passed.
+
+
+
+
+                                                                                     7
+ORCHESTRA-OS — Final Product and Capability Assessment                                                      2 September 2026
+
+
+
+
+       Mean foreground completion, ms
+                                         7,987.8
+                                        8,000
+
+                                        6,000
+
+                                        4,000
+                                                                                                                2,036.6
+                                        2,000
+
+                                           0
+                                                    CFS
+
+Figure 4.2: Foreground means. ORCHESTRA won 20/20 pairs; mean paired reduction was 74.2405%.
+
+
+
+
+           Mean background CPU ticks
+                                         4,872.85
+                                        5,000
+
+                                        4,000
+
+                                        3,000
+
+                                        2,000
+
+                                        1,000
+                                                                                                                 112.8
+                                            0
+                                                    CFS
+
+                                           Figure 4.3: Service cost. Mean background CPU ticks fell 97.6851%.
+
+
+The graphs must be read together. ORCHESTRA protected foreground work by restricting
+background service. Background completion, total makespan, and a matched CFS cgroup or CPU-
+quota policy were not measured. This is service-policy evidence, not proof of better total-system
+efficiency.
+
+
+4.3    Integrity, stress, and real-time boundary
+
+• Userspace publication passed 12/12 runs, 12,000 publications, and 27,161 verified reads. BPF
+  contains no HMAC verifier.
+
+• Ownership-gated CPU, I/O, and mixed phases ran 600 seconds each with no recorded errors or
+  warnings and clean unload. Memory remained blocked.
+
+• FIFO/RR coexistence preserved protected tasks outside the adaptive path. DEADLINE
+  contention was blocked by host EPERM; hard RT is not proven.
+
+• A log/archive result showed 5/5 wins and a 60.4678% mean paired reduction, but 96–97 ◦ C
+  measurements make it thermally confounded.
+
+
+
+
+                                                                           8
+5. Engineering Discoveries
+1. Correctness is a chain, not a success message. Build, verifier, attach, ownership, request,
+   acceptance, dispatch, effect, fallback, and unload are distinct claims.
+
+2. Exact kernel matching is a release constraint. Kernel API, BTF, headers, toolchain,
+   and loader identity must be recorded per target.
+
+3. Observability is a product feature. Requested-to-effective telemetry made stale generation,
+   migration fallback, deferred release, controller state, and cleanup diagnosable.
+
+4. Service policy differs from speed. Background CPU service changed the interpretation of
+   the foreground improvement.
+
+5. Exact TID admission does not cover every application. Some nominally single-threaded
+   tools expose multiple active TIDs.
+
+6. Transitions are high-risk. A reproduced RUN-to-THROTTLE bottleneck showed the
+   importance of generation and accounting synchronization.
+
+7. Negative results improve credibility. CPU slowdown, predictor failure, thermal confound-
+   ing, one-node NUMA, and the absent distributed backend correctly narrowed the claim.
+
+
+
+
+                                              9
+6. Strength and Weakness Assessment
+Ratings summarize evidence in this project, not personal intelligence or future potential.
+
+
+          Validation/diagnosis                                                             5
+
+                 Linux/eBPF                                                    4
+
+             Research-to-code                                                  4
+
+                 Observability                                                 4
+
+               Documentation                                                   4
+
+             Integrity/schema                                                  4
+
+          General performance                           2
+
+           Hardware predictor                           2
+
+       Distributed/NUMA/RT                    1
+
+                                 0        1            2         3            4        5
+                                              Evidence-supported capability, 1–5
+
+                  Figure 6.1: Capability assessment from direct repository evidence.
+
+
+
+6.1     Strongest areas
+
+1. Evidence-led systems validation and diagnosis;
+
+2. Linux/eBPF and sched_ext prototyping;
+
+3. research-to-code translation;
+
+4. observability, identity, fallback, and lifecycle design;
+
+5. reproducibility and formal technical communication; and
+
+6. controlled foreground service policy within one validated protocol.
+
+
+6.2     Weak or incomplete areas
+
+• Pure-CPU performance and context-switch cost;
+
+• hardware predictor accuracy and measurable scheduling benefit;
+
+• full controller-actuator causality and rollback;
+
+• whole-application ownership for multithreaded software;
+
+
+                                                   10
+ORCHESTRA-OS — Final Product and Capability Assessment                     2 September 2026
+
+
+• kernel cryptographic authentication and key lifecycle; and
+
+• hard RT, cross-node NUMA, hotplug, distributed scheduling, and production readiness.
+
+
+
+
+                                              11
+7. Professional and Work-Fit Assessment
+
+7.1   Best-fit job families
+
+
+      Performance validation                                                                      5
+
+             Systems research                                                                     5
+
+                 Linux/eBPF                                                            4
+
+      Observability/reliability                                                        4
+
+          Release engineering                                                          4
+
+               Hard real-time                                2
+
+                  General ML                                 2
+
+        Distributed scheduler                     1
+
+                                  0           1            2          3            4          5
+                                                       Current evidence fit, 1–5
+
+      Figure 7.1: Job-family fit based only on evidence demonstrated by ORCHESTRA-OS.
+
+
+                            Table 7.1: Professional fit and honest boundary.
+
+Job family                              Fit           Evidence and boundary
+Systems Research / Re-                Excellent       Paper-to-prototype translation, controlled experi-
+search Software Engineer                              ments, and negative-result diagnosis. Describe it
+                                                      as bounded, not production-ready.
+Performance / Benchmark-              Excellent       Baselines, ownership, counterbalancing, repeti-
+ing Engineer                                          tions, confounder detection, and service-cost anal-
+                                                      ysis. Do not claim universal speed.
+Linux Systems / eBPF En-               Strong         BPF maps, target matching, loader lifecycle,
+gineer                                                sched_ext, identity, and verifier-aware testing.
+                                                      Larger production kernel coverage remains open.
+Systems Validation Engi-              Excellent       Action,     integrity,   stress,   RT boundary,
+neer                                                  fault/recovery, and checklist evidence with
+                                                      preserved failures.
+Observability / Reliability            Strong         Requested-to-effective telemetry, lifecycle, fall-
+Engineer                                              backs, health, and causal diagnosis. Production
+                                                      uptime is not represented.
+Edge          Resource-                Strong         Opt-in service differentiation and mixed CPU/I/O
+Management Engineer                                   fit constrained worker pools. Field confirmation is
+                                                      required.
+
+
+
+                                                       12
+ORCHESTRA-OS — Final Product and Capability Assessment                            2 September 2026
+
+
+
+ Job family                         Fit       Evidence and boundary
+ Native Build / Release En-        Good       Kernel manifests, ABI/schema gates, hashes, pack-
+ gineer                                       aging, and reproducibility. Cross-platform cover-
+                                              age remains open.
+ Hard RT / Distributed /          Not yet     Relevant implementation or validation is blocked,
+ NUMA-HPC / Crypto As-           supported    absent, or too narrow.
+ surance
+
+
+
+7.2     Best kinds of work
+
+The evidence suggests the team is best suited to projects where a research architecture must
+become a bounded prototype; behavior crosses userspace and kernel boundaries; instrumentation
+is as important as implementation; failures must be reproduced and explained; and identity, safety,
+fallback, lifecycle, and reproducibility matter.
+Suitable work includes eBPF policy engines, kernel observability tools, resource governors, edge
+workload controllers, systems test platforms, fault/recovery harnesses, native-software release
+pipelines, and research prototypes.
+
+
+7.3     Defensible portfolio statement
+
+      Built and validated a research-grade, opt-in Linux sched_ext control and observability
+      prototype that translated predictive scheduling research into five bounded kernel
+      actions with exact ownership, fallback, and lifecycle evidence.
+
+Claims to avoid: ORCHESTRA is faster than Linux; deployment ready; kernel signal authenti-
+cation is proven; hard real-time is proven; distributed scheduling is implemented; or prediction
+improves hardware scheduling.
+
+
+
+
+                                                13
+8. Recommendations and Roadmap
+
+8.1    Highest-value next experiment
+
+The next decisive test is a matched service-policy comparison, not another broad demonstration.
+
+                    Freeze revi-                                      CFS, CFS+cgroup,
+                                            Match affinity and
+                  sion, host, arti-                                     scx_simple,
+                                             service objective
+                   fact, protocol                                      ORCHESTRA
+
+
+
+                    Foreground,                Ownership,
+                                                                      At least 20 coun-
+                    background,               output, action,
+                                                                      terbalanced pairs
+                 total, tail, energy          health, unload
+
+
+
+                                          Decide whether benefit
+                                         exceeds standard Linux
+                                        controls at acceptable cost
+
+               Figure 8.1: Recommended evidence path for the next product decision.
+
+
+                                 Table 8.1: Priority gap-closure plan.
+
+  P      Gap                           Required evidence                           Claim unlocked
+   1     Matched policy base- CFS+cgroup and ORCHESTRA with                        Value beyond stan-
+         line                 identical service objectives and at least            dard Linux controls.
+                              20 pairs
+   2     CPU overhead         perf, tracepoints, callbacks,                        Causal overhead di-
+                              migrations, cache misses, and matched                agnosis.
+                              scx_simple
+   3     Whole-application    Thread-group or cgroup admission and                 Defensible applica-
+         ownership            per-thread telemetry                                 tion control.
+   4     Predictor/controller Dynamic regimes, error, confidence,                  Hardware         pre-
+                              actuator response, saturation, rollback              dictive/control
+                                                                                   evidence.
+   5     Kernel trust boundary         Threat model, key lifecycle,                Narrow        secure-
+                                       provenance, fuzzing, independent            system claim.
+                                       review
+   6     Platform maturity             Multi-node NUMA, hotplug, x86/arm           Broader      release
+                                       matrix, long soak, upgrade and rollback     readiness.
+
+
+
+
+                                                    14
+9. Final Conclusion
+ORCHESTRA-OS has achieved more than a paper reproduction and less than a production
+scheduler. It has a coherent research-to-code mapping, a target-specific working sched_ext
+prototype, exact ownership and action evidence, strong observability, bounded stress and recovery
+evidence, and a reproducible foreground service-control result.
+It has not demonstrated a general CFS/EEVDF performance advantage, hardware predictor
+benefit, kernel-side cryptographic verification, broad fairness or tail latency, hard-RT safety,
+cross-node NUMA, distributed scheduling, or deployment readiness.
+
+    ORCHESTRA-OS is a research-grade, opt-in Linux scheduler control and observ-
+    ability platform with bounded real-machine validation of ownership, five actions,
+    fallback, lifecycle, and foreground service protection. General performance and
+    production-readiness claims remain open.
+
+The strongest professional story is that the team took an ambitious operating-systems research
+architecture, identified where its assumptions failed, translated its strongest ideas into a real
+Linux/eBPF prototype, proved what the kernel did, preserved negative results, and defined the
+evidence required for the next product claim.
+
+
+
+
+                                               15
+A. Evidence Reference Register
+
+
+
+
+                    16
+Bibliography
+[1] G.     Ganesan   and   P.   Vaithiyanathan,    ORCHESTRA-OS:   Simulation-Driven    Ar-
+    chitectural Discovery and Design Principles for Predictive,      Hierarchical,   Signal-
+    Coordinated    Process  Scheduling,    6    July  2026. Repository   PDF       SHA-256:
+    9af8f45412e2f7d8be89f108965372caa2c420f917c7b612c3b4a86ab626561d.
+[2] ORCHESTRA-OS, Work Package Description, WORK_PACKAGE_DESCRIPTION.md.
+[3] ORCHESTRA-OS, Research-to-Code Mapping, docs/research/RESEARCH_TO_CODE.md.
+[4] ORCHESTRA-OS, Final Product Status, FINAL_PRODUCT_STATUS.md.
+[5] S.W. ZAW, ORCHESTRA-OS versus Linux CFS: Validation Report Package, 1 September 2026,
+    including provenance, audit, evidence calculations, implementation matrix, checklist, action matrix,
+    fixed-work data, paired foreground statistics, long-run results, and checksums.
+[6] S.W. ZAW, ORCHESTRA-OS Real-World Field-Fit Report, 27 August 2026.
+[7] S.W. ZAW, ORCHESTRA-OS Strongest Part and Real-World Comparison Guide, 27 August 2026.
+
+
+
+
+                                                 17
+B. Reproducibility Note
+No new scheduler run was performed to create this report. Numerical claims were taken from the frozen
+validation package whose audit records successful checksum verification and recalculation. Because the
+current worktree contains staged and untracked changes, a future campaign must freeze a new revision,
+capture repository and machine state, rebuild the exact target artifact, and repeat the relevant gates.
+
+
+
+
+                                                  18
+

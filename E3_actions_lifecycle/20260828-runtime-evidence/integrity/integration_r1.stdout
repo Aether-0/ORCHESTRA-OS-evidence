@@ -1,0 +1,13 @@
+process-reader=0 status=0 attempts=9220 valid=1997 verified=1997 retries=1128 retry-exhaustions=2 unstable=2 invalid=0 hmac=0 regressions=0 duplicates=0 final=2000
+process-reader=1 status=0 attempts=2098 valid=1962 verified=1962 retries=57 retry-exhaustions=0 unstable=0 invalid=0 hmac=0 regressions=0 duplicates=0 final=2000
+process-reader=2 status=0 attempts=2087 valid=1978 verified=1978 retries=187 retry-exhaustions=0 unstable=0 invalid=0 hmac=0 regressions=0 duplicates=0 final=2000
+process-reader=3 status=0 attempts=2099 valid=1968 verified=1968 retries=53 retry-exhaustions=0 unstable=0 invalid=0 hmac=0 regressions=0 duplicates=0 final=2000
+process-stress-summary publisher-success=2000 publisher-attempts=2012 publisher-contention=12 read-attempts=15504 verified=7905 retries=1425 retry-exhaustions=2 unstable=2 invalid=0 hmac=0 invalid-fields=0 invalid-schema=0 invalid-tier=0 invalid-source=0 invalid-directive=0 invalid-sequence=0 invalid-key-epoch=0 stale=0 torn-frame-detections=0 regressions=0 accepted-duplicates=0 reader-crashes=0 reader-hangs=0 hook-yields=6483 final-generation=2000 final-slot=1
+PASS signal publication MAP_SHARED integration scenarios
+PASS csv=/tmp/orchestra-integration.DADlGr/baseline.csv rows=10 mode=baseline schema=orchestra.paper_cpu.metrics/v7
+PASS csv=/tmp/orchestra-integration.DADlGr/orchestra.csv rows=30 mode=orchestra schema=orchestra.paper_cpu.metrics/v7
+PASS csv=/tmp/orchestra-integration.DADlGr/tamper.csv rows=20 mode=orchestra schema=orchestra.paper_cpu.metrics/v7
+PASS csv=/tmp/orchestra-integration.DADlGr/controller-tamper.csv rows=30 mode=orchestra schema=orchestra.paper_cpu.metrics/v7
+PASS csv=/tmp/orchestra-integration.DADlGr/signal-stop.csv rows=19 mode=orchestra schema=orchestra.paper_cpu.metrics/v7
+PASS integration: MAP_SHARED signal-publication contention/retry/death and high-frequency multiprocess coverage, v2-v7 validator contracts, policy lifecycle, conditioned coordination, CLI, cadence, experimental burst telemetry, rejected-frame control gate, tamper, and signal teardown
+rc=0

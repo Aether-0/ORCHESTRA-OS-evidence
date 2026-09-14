@@ -1,0 +1,20 @@
+21:52:43 === ORCHESTRA Stress Suite ===
+21:52:43 Mode: cfs | Duration: 30s | allowed CPUs: 0-1 | RAM: 31724MB | available: 15922MB
+21:52:43 Memory safety budget: 2 workers x 3980MB = 7960MB
+21:52:43 Phase watchdog: 60s
+21:52:43 Scheduler state before workloads: disabled
+21:52:43 Output: /tmp/orchestra-fix-20260828-132302-stress-cfs-30-1787934163
+21:52:43 Thermal monitor active; it stops the campaign at a reported critical trip point
+21:52:43 --- CPU Stress (2 workers) ---
+21:53:13   CPU: 30s, 0 errors, ownership=not_applicable
+21:53:13 --- Memory Stress (3980MB) ---
+21:53:13 BLOCKED_MISSING_TOOL: stress is required for memory pressure; disk writes are not a memory substitute
+21:53:13   Memory: done
+21:53:13 --- I/O Stress ---
+21:53:43   I/O: 30s, 0 errors, ownership=not_applicable
+21:53:43 --- Mixed Workload ---
+21:54:13   Mixed: 30s, 0 errors, ownership=not_applicable
+21:54:13 --- Health Check ---
+21:54:13 Scheduler state after workloads: disabled
+21:54:13 === COMPLETE ===
+21:54:13 Results: /tmp/orchestra-fix-20260828-132302-stress-cfs-30-1787934163/results.csv

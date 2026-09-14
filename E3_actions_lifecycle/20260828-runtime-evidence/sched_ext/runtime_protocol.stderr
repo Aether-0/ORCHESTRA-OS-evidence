@@ -1,0 +1,14 @@
+mkdir: cannot create directory ‘/tmp/orchestra-fix-20260828-132302-runtime-v1/yield/target’: No such file or directory
+mkdir: cannot create directory ‘/tmp/orchestra-fix-20260828-132302-runtime-v1/yield/peer’: No such file or directory
+artifacts/real-world/20260828-132302-redshadow-fix-implementation/sched_ext/runtime_protocol.sh: line 113: /tmp/orchestra-fix-20260828-132302-runtime-v1/yield/target/pid: No such file or directory
+artifacts/real-world/20260828-132302-redshadow-fix-implementation/sched_ext/runtime_protocol.sh: line 106: /tmp/orchestra-fix-20260828-132302-runtime-v1/yield/target/worker.stdout: No such file or directory
+artifacts/real-world/20260828-132302-redshadow-fix-implementation/sched_ext/runtime_protocol.sh: line 113: /tmp/orchestra-fix-20260828-132302-runtime-v1/yield/peer/pid: No such file or directory
+artifacts/real-world/20260828-132302-redshadow-fix-implementation/sched_ext/runtime_protocol.sh: line 106: /tmp/orchestra-fix-20260828-132302-runtime-v1/yield/peer/worker.stdout: No such file or directory
+artifacts/real-world/20260828-132302-redshadow-fix-implementation/sched_ext/runtime_protocol.sh: line 118: /tmp/orchestra-fix-20260828-132302-runtime-v1/yield/target/opt-in.stdout: No such file or directory
+mkdir: cannot create directory ‘/tmp/orchestra-fix-20260828-132302-runtime-v1/throttle-multi/cpu0’: No such file or directory
+mkdir: cannot create directory ‘/tmp/orchestra-fix-20260828-132302-runtime-v1/throttle-multi/cpu1’: No such file or directory
+artifacts/real-world/20260828-132302-redshadow-fix-implementation/sched_ext/runtime_protocol.sh: line 113: /tmp/orchestra-fix-20260828-132302-runtime-v1/throttle-multi/cpu0/pid: No such file or directory
+artifacts/real-world/20260828-132302-redshadow-fix-implementation/sched_ext/runtime_protocol.sh: line 106: /tmp/orchestra-fix-20260828-132302-runtime-v1/throttle-multi/cpu0/worker.stdout: No such file or directory
+artifacts/real-world/20260828-132302-redshadow-fix-implementation/sched_ext/runtime_protocol.sh: line 113: /tmp/orchestra-fix-20260828-132302-runtime-v1/throttle-multi/cpu1/pid: No such file or directory
+artifacts/real-world/20260828-132302-redshadow-fix-implementation/sched_ext/runtime_protocol.sh: line 106: /tmp/orchestra-fix-20260828-132302-runtime-v1/throttle-multi/cpu1/worker.stdout: No such file or directory
+artifacts/real-world/20260828-132302-redshadow-fix-implementation/sched_ext/runtime_protocol.sh: line 118: /tmp/orchestra-fix-20260828-132302-runtime-v1/throttle-multi/cpu0/opt-in.stdout: No such file or directory

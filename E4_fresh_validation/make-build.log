@@ -1,0 +1,11 @@
+=== make clean && make ===
+2026-09-14T14:56:07+05:30
+make -C orchestra_paper_cpu_demo clean
+make[1]: Entering directory '/home/aether/Documents/ORCHESTRA-OS-final/orchestra_paper_cpu_demo'
+rm -f orchestra_paper_cpu
+make[1]: Leaving directory '/home/aether/Documents/ORCHESTRA-OS-final/orchestra_paper_cpu_demo'
+make -C orchestra_paper_cpu_demo
+make[1]: Entering directory '/home/aether/Documents/ORCHESTRA-OS-final/orchestra_paper_cpu_demo'
+cc -O2 -std=c11 -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wformat=2 -Werror -o orchestra_paper_cpu orchestra_paper_cpu.c -lm
+make[1]: Leaving directory '/home/aether/Documents/ORCHESTRA-OS-final/orchestra_paper_cpu_demo'
+rc_clean=0 rc_make=0

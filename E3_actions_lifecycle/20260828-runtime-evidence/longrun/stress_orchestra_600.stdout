@@ -1,0 +1,26 @@
+22:04:48 === ORCHESTRA Stress Suite ===
+22:04:48 Mode: orchestra | Duration: 600s | allowed CPUs: 0 | RAM: 31724MB | available: 16240MB
+22:04:48 Memory safety budget: 1 workers x 8120MB = 8120MB
+22:04:48 Phase watchdog: 660s
+22:04:48 Scheduler state before workloads: enabled
+22:04:48 Output: /tmp/orchestra-fix-20260828-132302-long-orchestra-600-1787934885
+22:04:48 Thermal monitor active; it stops the campaign at a reported critical trip point
+22:04:48 --- CPU Stress (1 workers) ---
+22:14:48   CPU: 600s, 0 errors, ownership=yes
+22:14:48 --- Memory Stress (8120MB) ---
+22:14:48 BLOCKED_OWNERSHIP_NOT_PROVEN: stress --vm creates child workers without an exact-TID opt-in protocol
+22:14:48   Memory: done
+22:14:48 --- I/O Stress ---
+22:24:48   I/O: 600s, 0 errors, ownership=yes
+22:24:48 --- Mixed Workload ---
+22:34:48   Mixed: 600s, 0 errors, ownership=yes
+22:34:48 --- Health Check ---
+22:34:48 Scheduler state after workloads: enabled
+22:34:48 === COMPLETE ===
+22:34:48 Results: /tmp/orchestra-fix-20260828-132302-long-orchestra-600-1787934885/results.csv
+test,duration_s,cpu_workers,memory_mb,io_files,errors,warnings,completed,ownership,notes
+cpu_stress,600,1,0,0,0,0,PASS,yes,exact-tid-ownership-confirmed
+mem_stress,0,0,8120,0,0,0,BLOCKED_OWNERSHIP_NOT_PROVEN,not_proven,child-worker-identities-unavailable
+io_stress,600,0,0,1,0,0,PASS,yes,exact-tid-ownership-confirmed
+mixed,600,1,0,0,0,0,PASS,yes,exact-tid-ownership-confirmed
+health_check,0,0,0,0,0,0,PASS,not_applicable,sorted-dmesg-delta

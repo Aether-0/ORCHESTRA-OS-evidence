@@ -1,0 +1,58 @@
+[
+  {
+    "binary_created": true,
+    "binary_sha256": "3cfa39de978a026bf4d18297c1c7febd97102a2f00815cb895c55c6b86dfeda6",
+    "command_argv": [
+      "/usr/bin/gcc",
+      "-O2",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wconversion",
+      "-Wshadow",
+      "-Wformat=2",
+      "-Werror",
+      "-pthread",
+      "-DORCHESTRA_SIGNAL_PUBLICATION_LEGACY=1",
+      "/home/aether/Documents/ORCHESTRA-OS-final/tools/benchmark/signal_publication_microbenchmark.c",
+      "-lm",
+      "-o",
+      "/home/aether/Documents/ORCHESTRA-OS-final/artifacts/real-world/20260828-132302-redshadow-fix-implementation/security/microbenchmark_r2/build/signal_publication_microbenchmark_legacy"
+    ],
+    "command_shell_escaped": "/usr/bin/gcc -O2 -std=c11 -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wformat=2 -Werror -pthread -DORCHESTRA_SIGNAL_PUBLICATION_LEGACY=1 /home/aether/Documents/ORCHESTRA-OS-final/tools/benchmark/signal_publication_microbenchmark.c -lm -o /home/aether/Documents/ORCHESTRA-OS-final/artifacts/real-world/20260828-132302-redshadow-fix-implementation/security/microbenchmark_r2/build/signal_publication_microbenchmark_legacy",
+    "mode": "legacy",
+    "return_code": 0,
+    "stderr": "",
+    "stdout": "",
+    "timed_out_or_execution_failed": false
+  },
+  {
+    "binary_created": true,
+    "binary_sha256": "c51979edf18bab642ce71f11f6ac3ed66f2d4017c6af7f22e0849326ba419b4d",
+    "command_argv": [
+      "/usr/bin/gcc",
+      "-O2",
+      "-std=c11",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wconversion",
+      "-Wshadow",
+      "-Wformat=2",
+      "-Werror",
+      "-pthread",
+      "-DORCHESTRA_SIGNAL_PUBLICATION_LEGACY=0",
+      "/home/aether/Documents/ORCHESTRA-OS-final/tools/benchmark/signal_publication_microbenchmark.c",
+      "-lm",
+      "-o",
+      "/home/aether/Documents/ORCHESTRA-OS-final/artifacts/real-world/20260828-132302-redshadow-fix-implementation/security/microbenchmark_r2/build/signal_publication_microbenchmark_generation_stamped"
+    ],
+    "command_shell_escaped": "/usr/bin/gcc -O2 -std=c11 -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Wformat=2 -Werror -pthread -DORCHESTRA_SIGNAL_PUBLICATION_LEGACY=0 /home/aether/Documents/ORCHESTRA-OS-final/tools/benchmark/signal_publication_microbenchmark.c -lm -o /home/aether/Documents/ORCHESTRA-OS-final/artifacts/real-world/20260828-132302-redshadow-fix-implementation/security/microbenchmark_r2/build/signal_publication_microbenchmark_generation_stamped",
+    "mode": "generation_stamped",
+    "return_code": 0,
+    "stderr": "",
+    "stdout": "",
+    "timed_out_or_execution_failed": false
+  }
+]

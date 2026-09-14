@@ -1,0 +1,117 @@
+{
+    "campaign": "20260828-132302-redshadow-fix-implementation",
+    "host": "redshadow",
+    "kernel": "7.0.12+kali-amd64",
+    "hardware": {
+        "cpu": "Intel Core i5-10310U",
+        "logical_cpus": 8,
+        "numa_nodes": 1,
+        "ram_gib": 31
+    },
+    "source_fixes": [
+        "F-001",
+        "F-005"
+    ],
+    "gates": {
+        "userspace_regression": "PASS",
+        "make_check": "PASS",
+        "exact_kernel_build": "PASS",
+        "verifier_attach": "PASS",
+        "runtime_fix_retry": "PASS_81_OF_81"
+    },
+    "claims": {
+        "performance": {
+            "status": "PASS_SCOPED_EXPLORATORY",
+            "cpu_repetitions": 3,
+            "mixed_repetitions": 3,
+            "scx_simple": "BLOCKED_MISSING_TOOL"
+        },
+        "stress": {
+            "status": "PASS_SCOPED",
+            "smoke_seconds": 5,
+            "medium_seconds": 30,
+            "phases": [
+                "cpu",
+                "io",
+                "mixed"
+            ],
+            "memory": "BLOCKED_MISSING_TOOL"
+        },
+        "long_duration": {
+            "status": "PASS_SCOPED",
+            "phase_seconds": 600,
+            "phase_count": 3,
+            "wall_minutes": 30,
+            "max_package_temp_c": 87,
+            "health_delta": "none"
+        },
+        "rt": {
+            "status": "PASS_SCOPED",
+            "policies": [
+                "SCHED_FIFO",
+                "SCHED_RR",
+                "SCHED_DEADLINE"
+            ],
+            "result": "adaptive admission refused; normal task coexisted; FIFO/RR contention owned",
+            "deadline_contention": "BLOCKED_BY_ENVIRONMENT_EP errno=1"
+        },
+        "cryptographic_integrity": {
+            "status": "PASS_USERSPACE_ONLY",
+            "tamper_hmac_rejections": {
+                "tamper": 176,
+                "controller_tamper": 35
+            },
+            "microbenchmark": {
+                "status": "PASS",
+                "repetitions": 2,
+                "reader_cohorts": [
+                    1,
+                    2,
+                    4
+                ],
+                "validated_runs": 12,
+                "failed_runs": 0,
+                "publisher_successes": 12000,
+                "verified_reads": 27161,
+                "hmac_failures": 0,
+                "invalid_reads": 0,
+                "stale_frames": 0
+            },
+            "kernel_signal": "local schema/freshness/replay only; no HMAC verifier"
+        },
+        "numa": {
+            "status": "PASS_SINGLE_NODE_ONLY",
+            "nodes": 1,
+            "same_node_migrate_acc": 171,
+            "same_node_migrate_disp": 171,
+            "cross_node": "BLOCKED_TOPOLOGY"
+        },
+        "distributed": {
+            "status": "BLOCKED_NOT_IMPLEMENTED",
+            "loopback_network": "PASS_SCOPED",
+            "backend": false
+        }
+    },
+    "final_sched_ext_state": "disabled",
+    "unavailable_tools": [
+        "stress",
+        "scx_simple",
+        "numactl",
+        "fio",
+        "iperf3",
+        "perf"
+    ],
+    "evidence": {
+        "report": "REAL_WORLD_TEST_REPORT.md",
+        "checklist": "CHECKLIST_STATUS.csv",
+        "runtime_csv": "sched_ext/runtime/passing-matrix/results.csv",
+        "performance_cpu": "performance/benchmark-r{2,3,4}/results.csv",
+        "performance_mixed": "performance/benchmark-m{1,2,3}/results.csv",
+        "longrun": "longrun/orchestra-600/results.csv",
+        "rt": "rt/policy_matrix.txt",
+        "integrity": "integrity/integration_r1.stdout",
+        "integrity_microbenchmark": "integrity/microbenchmark-v1/benchmark_result.json",
+        "numa": "numa/migration_status.txt",
+        "network": "distributed/loopback_retry_orchestra_matrix.txt"
+    }
+}

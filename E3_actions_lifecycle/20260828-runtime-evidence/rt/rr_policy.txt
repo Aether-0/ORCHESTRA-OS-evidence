@@ -1,0 +1,2 @@
+pid 2108401's current scheduling policy: SCHED_RR
+pid 2108401's current scheduling priority: 10

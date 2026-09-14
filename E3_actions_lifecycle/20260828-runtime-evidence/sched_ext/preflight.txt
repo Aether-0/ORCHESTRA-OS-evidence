@@ -1,0 +1,184 @@
+2026-08-28T16:29:17+05:30
+uid=0(root) gid=0(root) groups=0(root)
+Linux redshadow 7.0.12+kali-amd64 #1 SMP PREEMPT_DYNAMIC Kali 7.0.12-2kali1 (2026-06-18) x86_64 GNU/Linux
+disabled
+sudo_rc=0
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       444G  386G   36G  92% /
+tmpfs            16G  1.9G   14G  12% /tmp
+vmlinuz-6.19.11+kali-amd64
+vmlinuz-6.19.14+kali-amd64
+vmlinuz-7.0.12+kali-amd64
+20: lsm  name restrict_filesystems  tag 31efb7c56239148b  gpl
+	loaded_at 2026-08-24T21:21:06+0530  uid 0
+	xlated 520B  jited 297B  memlock 4096B  map_ids 12
+	btf_id 72
+21: cgroup_device  name sd_devices  tag 4ea3934a7fabf5c3  gpl
+	loaded_at 2026-08-24T21:21:06+0530  uid 0
+	xlated 504B  jited 322B  memlock 4096B
+22: cgroup_skb  name sd_fw_egress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-24T21:21:06+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+23: cgroup_skb  name sd_fw_ingress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-24T21:21:06+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+24: cgroup_device  name sd_devices  tag 4b13b8318fb7df93  gpl
+	loaded_at 2026-08-24T21:21:07+0530  uid 0
+	xlated 464B  jited 301B  memlock 4096B
+25: cgroup_device  name sd_devices  tag a97c143260cd9940  gpl
+	loaded_at 2026-08-24T21:21:07+0530  uid 0
+	xlated 416B  jited 271B  memlock 4096B
+26: cgroup_skb  name sd_fw_egress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-24T21:21:07+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+27: cgroup_skb  name sd_fw_ingress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-24T21:21:07+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+28: cgroup_device  name sd_devices  tag a97c143260cd9940  gpl
+	loaded_at 2026-08-24T21:21:07+0530  uid 0
+	xlated 416B  jited 271B  memlock 4096B
+29: cgroup_skb  name sd_fw_egress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-24T21:21:07+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+30: cgroup_skb  name sd_fw_ingress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-24T21:21:07+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+31: cgroup_device  name sd_devices  tag a97c143260cd9940  gpl
+	loaded_at 2026-08-24T21:21:09+0530  uid 0
+	xlated 416B  jited 271B  memlock 4096B
+32: cgroup_device  name sd_devices  tag a97c143260cd9940  gpl
+	loaded_at 2026-08-24T21:21:09+0530  uid 0
+	xlated 416B  jited 271B  memlock 4096B
+33: cgroup_device  name sd_devices  tag b3333f074dcc518c  gpl
+	loaded_at 2026-08-24T21:21:09+0530  uid 0
+	xlated 184B  jited 114B  memlock 4096B
+34: cgroup_device  name sd_devices  tag 4b13b8318fb7df93  gpl
+	loaded_at 2026-08-24T21:21:09+0530  uid 0
+	xlated 464B  jited 301B  memlock 4096B
+35: cgroup_device  name sd_devices  tag 33ad703a7e68bbfb  gpl
+	loaded_at 2026-08-24T21:21:09+0530  uid 0
+	xlated 792B  jited 493B  memlock 4096B
+36: cgroup_skb  name sd_fw_egress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-24T21:21:09+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+37: cgroup_skb  name sd_fw_ingress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-24T21:21:09+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+38: cgroup_device  name sd_devices  tag a97c143260cd9940  gpl
+	loaded_at 2026-08-24T21:21:09+0530  uid 0
+	xlated 416B  jited 271B  memlock 4096B
+42: cgroup_device  name sd_devices  tag 4b13b8318fb7df93  gpl
+	loaded_at 2026-08-24T21:21:10+0530  uid 0
+	xlated 464B  jited 301B  memlock 4096B
+43: cgroup_skb  name sd_fw_egress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-24T21:21:10+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+44: cgroup_skb  name sd_fw_ingress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-24T21:21:10+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+47: cgroup_sock  name split_tunnel  tag 096f627a9ea414b9  gpl
+	loaded_at 2026-08-24T21:21:12+0530  uid 0
+	xlated 352B  jited 225B  memlock 4096B  map_ids 14,13
+	btf_id 239
+51: cgroup_skb  name sd_fw_egress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-24T21:21:13+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+52: cgroup_skb  name sd_fw_ingress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-24T21:21:13+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+55: cgroup_device  name sd_devices  tag 461f9f5162fd8042  gpl
+	loaded_at 2026-08-24T21:21:17+0530  uid 0
+	xlated 472B  jited 307B  memlock 4096B
+59: cgroup_device  tag b8f4fb5f08605bc5
+	loaded_at 2026-08-24T21:21:17+0530  uid 0
+	xlated 552B  jited 369B  memlock 4096B
+60: cgroup_device  name sd_devices  tag 461f9f5162fd8042  gpl
+	loaded_at 2026-08-24T21:21:17+0530  uid 0
+	xlated 472B  jited 307B  memlock 4096B
+64: cgroup_device  tag b8f4fb5f08605bc5
+	loaded_at 2026-08-24T21:21:17+0530  uid 0
+	xlated 552B  jited 369B  memlock 4096B
+65: cgroup_device  name sd_devices  tag 461f9f5162fd8042  gpl
+	loaded_at 2026-08-24T21:21:17+0530  uid 0
+	xlated 472B  jited 307B  memlock 4096B
+69: cgroup_device  tag b8f4fb5f08605bc5
+	loaded_at 2026-08-24T21:21:17+0530  uid 0
+	xlated 552B  jited 369B  memlock 4096B
+70: cgroup_device  name sd_devices  tag 461f9f5162fd8042  gpl
+	loaded_at 2026-08-24T21:21:17+0530  uid 0
+	xlated 472B  jited 307B  memlock 4096B
+74: cgroup_device  tag b8f4fb5f08605bc5
+	loaded_at 2026-08-24T21:21:17+0530  uid 0
+	xlated 552B  jited 369B  memlock 4096B
+75: cgroup_device  name sd_devices  tag 461f9f5162fd8042  gpl
+	loaded_at 2026-08-24T21:21:17+0530  uid 0
+	xlated 472B  jited 307B  memlock 4096B
+79: cgroup_device  tag b8f4fb5f08605bc5
+	loaded_at 2026-08-24T21:21:17+0530  uid 0
+	xlated 552B  jited 369B  memlock 4096B
+80: cgroup_device  name sd_devices  tag 4b13b8318fb7df93  gpl
+	loaded_at 2026-08-24T21:21:18+0530  uid 0
+	xlated 464B  jited 301B  memlock 4096B
+81: cgroup_skb  name sd_fw_egress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-24T21:21:18+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+82: cgroup_skb  name sd_fw_ingress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-24T21:21:18+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+83: cgroup_device  name sd_devices  tag db1fded75eca904a  gpl
+	loaded_at 2026-08-24T21:58:55+0530  uid 0
+	xlated 1712B  jited 1060B  memlock 4096B
+4676: cgroup_skb  name sd_fw_egress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-28T00:37:53+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+4677: cgroup_skb  name sd_fw_ingress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-28T00:37:53+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+4679: socket_filter  tag 2ce110f227b215d0
+	loaded_at 2026-08-28T11:21:53+0530  uid 0
+	xlated 848B  jited 467B  memlock 4096B  map_ids 8613
+4697: cgroup_skb  name sd_fw_egress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-28T12:31:29+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+4698: cgroup_skb  name sd_fw_ingress  tag 772db7720b2728e9  gpl
+	loaded_at 2026-08-28T12:31:29+0530  uid 0
+	xlated 64B  jited 67B  memlock 4096B
+12: hash_of_maps  name cgroup_hash  flags 0x0
+	key 8B  value 4B  max_entries 2048  memlock 164800B
+13: hash  name pid_map  flags 0x0
+	key 4B  value 4B  max_entries 10240  memlock 918976B
+	btf_id 239
+14: hash  name fwmark_map  flags 0x0
+	key 4B  value 4B  max_entries 10240  memlock 918976B
+	btf_id 239
+8613: hash  flags 0x0
+	key 4B  value 1B  max_entries 8  memlock 2112B
+	btf_id 239
+2: tracing  prog 20  
+	prog_type lsm  attach_type lsm_mac  
+	target_obj_id 1  target_btf_id 68139  
+/sys/fs/bpf
+/sys/class/thermal/thermal_zone0/temp 48000
+/sys/class/thermal/thermal_zone1/temp 51000
+/sys/class/thermal/thermal_zone2/temp 20000
+/sys/class/thermal/thermal_zone3/temp 1050
+/sys/class/thermal/thermal_zone4/temp 33050
+/sys/class/thermal/thermal_zone5/temp 48050
+/sys/class/thermal/thermal_zone6/temp 49000
+/sys/class/thermal/thermal_zone7/temp 63000
+/sys/class/hwmon/hwmon0/temp1_input 48000
+/sys/class/hwmon/hwmon4/temp1_input 50000
+/sys/class/hwmon/hwmon6/temp1_input cat: /sys/class/hwmon/hwmon6/temp1_input: No such device or address
+/sys/class/hwmon/hwmon6/temp2_input cat: /sys/class/hwmon/hwmon6/temp2_input: No such device or address
+/sys/class/hwmon/hwmon6/temp3_input 33000
+/sys/class/hwmon/hwmon6/temp4_input 0
+/sys/class/hwmon/hwmon6/temp5_input cat: /sys/class/hwmon/hwmon6/temp5_input: No such device or address
+/sys/class/hwmon/hwmon6/temp6_input cat: /sys/class/hwmon/hwmon6/temp6_input: No such device or address
+/sys/class/hwmon/hwmon6/temp7_input cat: /sys/class/hwmon/hwmon6/temp7_input: No such device or address
+/sys/class/hwmon/hwmon6/temp8_input 0
+/sys/class/hwmon/hwmon7/temp1_input 49000
+/sys/class/hwmon/hwmon8/temp1_input 61000
+/sys/class/hwmon/hwmon8/temp2_input 60000
+/sys/class/hwmon/hwmon8/temp3_input 59000
+/sys/class/hwmon/hwmon8/temp4_input 59000
+/sys/class/hwmon/hwmon8/temp5_input 61000

@@ -1,0 +1,12 @@
+timestamp=2026-08-28T22:00:38+05:30
+state_before=disabled
+load_rc=0 state_after_load=enabled
+opt_in_rc=0
+run_rc=0
+migrate_rc=0
+status_rc=0
+affinity_rc=0
+wait_rc=0
+unload_rc=0
+state_after_unload=disabled
+timestamp_after=2026-08-28T22:00:46+05:30

@@ -1,0 +1,10 @@
+timestamp=2026-08-28T16:29:32+05:30
+hostname=redshadow
+kernel=7.0.12+kali-amd64
+cpus=8
+cpu_list=0-7
+scheduler_pre=disabled
+bpf=/tmp/orchestra-fix-20260828-132302-build/orchestra_scx_stage7.bpf.o
+bridge=/tmp/orchestra-fix-20260828-132302-build/orchestra_bridge
+loader=/tmp/orchestra-fix-20260828-132302-build/orchestra_loader
+workload=/tmp/orchestra-fix-20260828-132302-p0/build/fixed_work

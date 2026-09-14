@@ -1,0 +1,24 @@
+admitted exact TID identity=1949827:1949827:347479423675638; full-switch mode does not change its Linux policy
+published generation=13 identity=1949827:1949827:347479423675638 action=RUN
+admitted exact TID identity=1949828:1949828:347479424080541; full-switch mode does not change its Linux policy
+published generation=14 identity=1949828:1949828:347479424080541 action=RUN
+admitted exact TID identity=1949829:1949829:347479424457034; full-switch mode does not change its Linux policy
+published generation=15 identity=1949829:1949829:347479424457034 action=RUN
+admitted exact TID identity=1949830:1949830:347479425011860; full-switch mode does not change its Linux policy
+published generation=16 identity=1949830:1949830:347479425011860 action=RUN
+admitted exact TID identity=1949832:1949832:347479429779454; full-switch mode does not change its Linux policy
+published generation=17 identity=1949832:1949832:347479429779454 action=RUN
+admitted exact TID identity=1949833:1949833:347479430348366; full-switch mode does not change its Linux policy
+published generation=18 identity=1949833:1949833:347479430348366 action=RUN
+admitted exact TID identity=1949834:1949834:347479430872218; full-switch mode does not change its Linux policy
+published generation=19 identity=1949834:1949834:347479430872218 action=RUN
+admitted exact TID identity=1949836:1949836:347479431394741; full-switch mode does not change its Linux policy
+published generation=20 identity=1949836:1949836:347479431394741 action=RUN
+pid=1949827 accepted=29 dispatched=29 running=29 effective=0
+pid=1949828 accepted=28 dispatched=28 running=28 effective=0
+pid=1949829 accepted=26 dispatched=26 running=26 effective=0
+pid=1949830 accepted=26 dispatched=26 running=26 effective=0
+pid=1949832 accepted=25 dispatched=25 running=26 effective=0
+pid=1949833 accepted=21 dispatched=21 running=21 effective=0
+pid=1949834 accepted=21 dispatched=21 running=21 effective=0
+pid=1949836 accepted=20 dispatched=20 running=20 effective=0

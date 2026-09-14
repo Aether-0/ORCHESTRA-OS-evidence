@@ -1,0 +1,17 @@
+timestamp=2026-08-28T21:57:04+05:30
+state_before=disabled
+load_rc=0
+state_after_load=enabled
+rt_policy_rc=0
+rt_opt_in_rc=6
+rt_publish_rc=6
+normal_opt_in_rc=0
+normal_publish_rc=0
+normal_ownership_rc=0
+normal_wait_rc=0
+rt_wait_rc=0
+unload_rc=0
+state_after_unload=disabled
+timestamp_after=2026-08-28T21:57:15+05:30
+rt_pid=2104936
+normal_pid=2104945

@@ -1,0 +1,6 @@
+admitted exact TID identity=2080419:2080419:347670356027020; full-switch mode does not change its Linux policy
+published generation=4 identity=2080419:2080419:347670356027020 action=RUN
+admitted exact TID identity=2080421:2080421:347670358339527; full-switch mode does not change its Linux policy
+published generation=5 identity=2080421:2080421:347670358339527 action=RUN
+pid=2080419 accepted=3 dispatched=3 running=3 effective=0
+pid=2080421 accepted=3 dispatched=3 running=3 effective=0

@@ -1,0 +1,23 @@
+rep=01
+2026-09-14T15:07:58+05:30
+15:07:58 === Real-Machine Benchmark Suite ===
+15:07:58 Repo: /home/aether/Documents/ORCHESTRA-OS-final | allowed CPUs: 0-7 | workload=cpu | Output: /tmp/orchestra-realworld-20260914-paper-proof/baseline-2s/rep-01 | duration=2 seconds
+15:07:58 Worker watchdog: 17s
+15:07:58 --- CFS baseline ---
+15:07:58   cfs: 1 workers, 2 seconds/fixed workload...
+15:08:00     2083ms ctx_delta=15501 accepted=0 dispatched=0 running=0 owned=n/a
+15:08:00   cfs: 2 workers, 2 seconds/fixed workload...
+15:08:02     2022ms ctx_delta=16280 accepted=0 dispatched=0 running=0 owned=n/a
+15:08:02   cfs: 4 workers, 2 seconds/fixed workload...
+15:08:04     1926ms ctx_delta=13676 accepted=0 dispatched=0 running=0 owned=n/a
+15:08:04 scx_simple not installed or not executable: /usr/bin/scx_simple; phase blocked
+15:08:04 --- ORCHESTRA ---
+15:08:04 ORCHESTRA blocked: BPF object is missing: /home/aether/Documents/ORCHESTRA-OS-final/kernel/sched_ext/orchestra_scx_stage7.bpf.o
+15:08:04 ORCHESTRA comparison phase blocked before attach
+15:08:04 === COMPLETE ===
+scheduler,workload,workers,duration_s,elapsed_ms,ctx_delta,accepted,dispatched,running,effective,owned,notes
+cfs,cpu,1,2,2083,15501,0,0,0,0,n/a,completed
+cfs,cpu,2,2,2022,16280,0,0,0,0,n/a,completed
+cfs,cpu,4,2,1926,13676,0,0,0,0,n/a,completed
+Full results: /tmp/orchestra-realworld-20260914-paper-proof/baseline-2s/rep-01
+return_code=0

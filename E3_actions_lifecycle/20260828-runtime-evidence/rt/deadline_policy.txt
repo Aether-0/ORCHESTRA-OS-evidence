@@ -1,0 +1,3 @@
+pid 2108428's current scheduling policy: SCHED_DEADLINE
+pid 2108428's current scheduling priority: 0
+pid 2108428's current runtime/deadline/period parameters: 1000000/10000000/10000000

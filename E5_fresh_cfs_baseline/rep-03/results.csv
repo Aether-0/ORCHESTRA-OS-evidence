@@ -1,0 +1,4 @@
+scheduler,workload,workers,duration_s,elapsed_ms,ctx_delta,accepted,dispatched,running,effective,owned,notes
+cfs,cpu,1,2,2081,23667,0,0,0,0,n/a,completed
+cfs,cpu,2,2,1810,16960,0,0,0,0,n/a,completed
+cfs,cpu,4,2,1888,14798,0,0,0,0,n/a,completed

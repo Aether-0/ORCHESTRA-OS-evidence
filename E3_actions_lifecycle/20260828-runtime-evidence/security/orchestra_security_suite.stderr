@@ -1,0 +1,2 @@
+untrusted loader: expected a root-owned, non-symlink, non-group/world-writable regular file: /tmp/orchestra-install-security.0Os2m7/prefix/lib/orchestra-os/build/orchestra_loader
+install the target-matched artifacts with scripts/install.sh --with-kernel

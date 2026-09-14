@@ -1,0 +1,3 @@
+admitted exact TID identity=2866095:2866095:349426369112503; full-switch mode does not change its Linux policy
+published generation=3 identity=2866095:2866095:349426369112503 action=RUN
+pid=2866095 accepted=1 dispatched=1 running=1 effective=0

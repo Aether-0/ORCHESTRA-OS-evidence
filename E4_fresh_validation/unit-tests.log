@@ -1,0 +1,194 @@
+Running GCC ASan+UBSan unit tests
+[PASS] sha256_hmac_known_vectors
+[PASS] canonical_128_byte_serialization
+[PASS] frame_verification_matrix
+[PASS] publication_canonical_equivalence
+[PASS] publication_fault_injection
+[PASS] directive_boundaries_and_precedence
+[PASS] state_schema_v2_alignment
+[PASS] epsilon_schedule
+[PASS] prediction_and_baseline_fallback
+[PASS] normalized_geometric_mean
+[PASS] coordination_metric_scenarios
+[PASS] s4_burst_basic_semantics
+[PASS] s4_burst_directive_and_oscillation
+[PASS] s4_burst_invalid_and_zero_semantics
+[PASS] s4_burst_history_and_random_invariants
+[PASS] state_conditioned_coherence
+[PASS] first_decision_has_no_s4_penalty
+[PASS] effective_action_rules
+[PASS] migrate_restores_affinity
+[PASS] bounded_run_action_execution
+[PASS] bounded_yield_action_execution
+[PASS] effective_metric_aggregation
+[PASS] difference_reward_local_dominance
+[PASS] difference_reward_aggregate_equivalence
+[PASS] controller_mapping_rate_and_bounds
+[PASS] predictor_calibration_and_noise
+[PASS] strict_cli_numeric_parsing
+[PASS] policy_aggregation_excludes_rt
+[PASS] policy_atomic_save_uses_private_temp
+[PASS] consensus_blending_and_timeout
+PASS summary: 30/30 named unit tests passed
+Running GCC ASan+UBSan generation-publication thread stress
+reader=0 attempts=2956 verified=1999 valid=1999 no-new=957 unstable=0 retries=267 retry-exhaustions=0 invalid-frame-reads=0 regressions=0 duplicates=0 final=2000
+reader=1 attempts=3866 verified=1999 valid=1999 no-new=1867 unstable=0 retries=280 retry-exhaustions=0 invalid-frame-reads=0 regressions=0 duplicates=0 final=2000
+reader=2 attempts=3197 verified=1999 valid=1999 no-new=1198 unstable=0 retries=269 retry-exhaustions=0 invalid-frame-reads=0 regressions=0 duplicates=0 final=2000
+reader=3 attempts=20919 verified=2000 valid=2000 no-new=18919 unstable=0 retries=487 retry-exhaustions=0 invalid-frame-reads=0 regressions=0 duplicates=0 final=2000
+stress-summary publisher-success=2000 publisher-attempts=2017 publisher-contention=17 read-attempts=30938 verified=7997 retries=1303 retry-exhaustions=0 unstable=0 hmac=0 invalid-fields=0 invalid-schema=0 invalid-tier=0 invalid-source=0 invalid-directive=0 invalid-sequence=0 invalid-key-epoch=0 stale=0 torn-frame-detections=0 regressions=0 accepted-duplicates=0 reader-crashes=0 reader-hangs=0 hook-yields=11176
+PASS generation publication thread stress
+Running GCC ASan+UBSan bridge parser/ABI tests
+PASS bridge parser/ABI/publication-source tests
+Running GCC ASan+UBSan native coordination/controller tests
+Running GCC ASan+UBSan legacy-publication reference unit tests
+[PASS] sha256_hmac_known_vectors
+[PASS] canonical_128_byte_serialization
+[PASS] frame_verification_matrix
+[PASS] publication_canonical_equivalence
+[PASS] publication_fault_injection
+[PASS] directive_boundaries_and_precedence
+[PASS] state_schema_v2_alignment
+[PASS] epsilon_schedule
+[PASS] prediction_and_baseline_fallback
+[PASS] normalized_geometric_mean
+[PASS] coordination_metric_scenarios
+[PASS] s4_burst_basic_semantics
+[PASS] s4_burst_directive_and_oscillation
+[PASS] s4_burst_invalid_and_zero_semantics
+[PASS] s4_burst_history_and_random_invariants
+[PASS] state_conditioned_coherence
+[PASS] first_decision_has_no_s4_penalty
+[PASS] effective_action_rules
+[PASS] migrate_restores_affinity
+[PASS] bounded_run_action_execution
+[PASS] bounded_yield_action_execution
+[PASS] effective_metric_aggregation
+[PASS] difference_reward_local_dominance
+[PASS] difference_reward_aggregate_equivalence
+[PASS] controller_mapping_rate_and_bounds
+[PASS] predictor_calibration_and_noise
+[PASS] strict_cli_numeric_parsing
+[PASS] policy_aggregation_excludes_rt
+[PASS] policy_atomic_save_uses_private_temp
+[PASS] consensus_blending_and_timeout
+PASS summary: 30/30 named unit tests passed
+Checking direct GCC legacy-reference source build
+Running Clang policy-warning unit tests
+[PASS] sha256_hmac_known_vectors
+[PASS] canonical_128_byte_serialization
+[PASS] frame_verification_matrix
+[PASS] publication_canonical_equivalence
+[PASS] publication_fault_injection
+[PASS] directive_boundaries_and_precedence
+[PASS] state_schema_v2_alignment
+[PASS] epsilon_schedule
+[PASS] prediction_and_baseline_fallback
+[PASS] normalized_geometric_mean
+[PASS] coordination_metric_scenarios
+[PASS] s4_burst_basic_semantics
+[PASS] s4_burst_directive_and_oscillation
+[PASS] s4_burst_invalid_and_zero_semantics
+[PASS] s4_burst_history_and_random_invariants
+[PASS] state_conditioned_coherence
+[PASS] first_decision_has_no_s4_penalty
+[PASS] effective_action_rules
+[PASS] migrate_restores_affinity
+[PASS] bounded_run_action_execution
+[PASS] bounded_yield_action_execution
+[PASS] effective_metric_aggregation
+[PASS] difference_reward_local_dominance
+[PASS] difference_reward_aggregate_equivalence
+[PASS] controller_mapping_rate_and_bounds
+[PASS] predictor_calibration_and_noise
+[PASS] strict_cli_numeric_parsing
+[PASS] policy_aggregation_excludes_rt
+[PASS] policy_atomic_save_uses_private_temp
+[PASS] consensus_blending_and_timeout
+PASS summary: 30/30 named unit tests passed
+Running Clang generation-publication thread stress
+reader=0 attempts=2029 verified=1994 valid=1994 no-new=35 unstable=0 retries=209 retry-exhaustions=0 invalid-frame-reads=0 regressions=0 duplicates=0 final=2000
+reader=1 attempts=5946 verified=2000 valid=2000 no-new=3946 unstable=0 retries=1126 retry-exhaustions=0 invalid-frame-reads=0 regressions=0 duplicates=0 final=2000
+reader=2 attempts=4742 verified=1994 valid=1994 no-new=2748 unstable=0 retries=1242 retry-exhaustions=0 invalid-frame-reads=0 regressions=0 duplicates=0 final=2000
+reader=3 attempts=7265 verified=2000 valid=2000 no-new=5265 unstable=0 retries=1197 retry-exhaustions=0 invalid-frame-reads=0 regressions=0 duplicates=0 final=2000
+stress-summary publisher-success=2000 publisher-attempts=2000 publisher-contention=0 read-attempts=19982 verified=7988 retries=3774 retry-exhaustions=0 unstable=0 hmac=0 invalid-fields=0 invalid-schema=0 invalid-tier=0 invalid-source=0 invalid-directive=0 invalid-sequence=0 invalid-key-epoch=0 stale=0 torn-frame-detections=0 regressions=0 accepted-duplicates=0 reader-crashes=0 reader-hangs=0 hook-yields=8525
+PASS generation publication thread stress
+Running Clang bridge parser/ABI tests
+PASS bridge parser/ABI/publication-source tests
+Running Clang native coordination/controller tests
+Running Clang legacy-publication reference unit tests
+[PASS] sha256_hmac_known_vectors
+[PASS] canonical_128_byte_serialization
+[PASS] frame_verification_matrix
+[PASS] publication_canonical_equivalence
+[PASS] publication_fault_injection
+[PASS] directive_boundaries_and_precedence
+[PASS] state_schema_v2_alignment
+[PASS] epsilon_schedule
+[PASS] prediction_and_baseline_fallback
+[PASS] normalized_geometric_mean
+[PASS] coordination_metric_scenarios
+[PASS] s4_burst_basic_semantics
+[PASS] s4_burst_directive_and_oscillation
+[PASS] s4_burst_invalid_and_zero_semantics
+[PASS] s4_burst_history_and_random_invariants
+[PASS] state_conditioned_coherence
+[PASS] first_decision_has_no_s4_penalty
+[PASS] effective_action_rules
+[PASS] migrate_restores_affinity
+[PASS] bounded_run_action_execution
+[PASS] bounded_yield_action_execution
+[PASS] effective_metric_aggregation
+[PASS] difference_reward_local_dominance
+[PASS] difference_reward_aggregate_equivalence
+[PASS] controller_mapping_rate_and_bounds
+[PASS] predictor_calibration_and_noise
+[PASS] strict_cli_numeric_parsing
+[PASS] policy_aggregation_excludes_rt
+[PASS] policy_atomic_save_uses_private_temp
+[PASS] consensus_blending_and_timeout
+PASS summary: 30/30 named unit tests passed
+Checking direct Clang legacy-reference source build
+Running benchmark-validator unit tests
+test_fabricated_s3_is_rejected (__main__.BenchmarkValidatorTests.test_fabricated_s3_is_rejected) ... ok
+test_manifest_schema_mismatch_is_rejected (__main__.BenchmarkValidatorTests.test_manifest_schema_mismatch_is_rejected) ... ok
+test_summary_aggregation_rejects_mixed_schema_inputs (__main__.BenchmarkValidatorTests.test_summary_aggregation_rejects_mixed_schema_inputs) ... ok
+test_truncated_run_is_rejected (__main__.BenchmarkValidatorTests.test_truncated_run_is_rejected) ... ok
+test_v2_csv_cannot_be_validated_as_v3 (__main__.BenchmarkValidatorTests.test_v2_csv_cannot_be_validated_as_v3) ... ok
+test_v2_external_validator_is_explicitly_not_required (__main__.BenchmarkValidatorTests.test_v2_external_validator_is_explicitly_not_required) ... ok
+test_v3_csv_cannot_be_validated_as_v4 (__main__.BenchmarkValidatorTests.test_v3_csv_cannot_be_validated_as_v4) ... ok
+test_v3_effective_action_identity_is_rejected_when_inconsistent (__main__.BenchmarkValidatorTests.test_v3_effective_action_identity_is_rejected_when_inconsistent) ... ok
+test_v3_external_validator_is_executed (__main__.BenchmarkValidatorTests.test_v3_external_validator_is_executed) ... ok
+test_v3_manifest_declares_the_exact_column_contract (__main__.BenchmarkValidatorTests.test_v3_manifest_declares_the_exact_column_contract) ... ok
+test_v4_burst_formula_and_event_summary (__main__.BenchmarkValidatorTests.test_v4_burst_formula_and_event_summary) ... ok
+test_v4_csv_cannot_be_validated_as_v3 (__main__.BenchmarkValidatorTests.test_v4_csv_cannot_be_validated_as_v3) ... ok
+test_v4_external_validator_is_executed (__main__.BenchmarkValidatorTests.test_v4_external_validator_is_executed) ... ok
+test_v4_inconsistent_burst_components_are_rejected (__main__.BenchmarkValidatorTests.test_v4_inconsistent_burst_components_are_rejected) ... ok
+test_v4_manifest_declares_the_exact_column_contract (__main__.BenchmarkValidatorTests.test_v4_manifest_declares_the_exact_column_contract) ... ok
+test_v4_no_change_sentinels_are_required (__main__.BenchmarkValidatorTests.test_v4_no_change_sentinels_are_required) ... ok
+test_v4_summary_aggregation_rejects_v3_inputs (__main__.BenchmarkValidatorTests.test_v4_summary_aggregation_rejects_v3_inputs) ... ok
+test_v6_and_v7_manifests_declare_exact_column_contract (__main__.BenchmarkValidatorTests.test_v6_and_v7_manifests_declare_exact_column_contract) ... ok
+test_v7_policy_contract_rejects_inconsistent_mode_flags (__main__.BenchmarkValidatorTests.test_v7_policy_contract_rejects_inconsistent_mode_flags) ... ok
+test_valid_contract (__main__.BenchmarkValidatorTests.test_valid_contract) ... ok
+test_valid_v3_contract_and_invocation_summary (__main__.BenchmarkValidatorTests.test_valid_v3_contract_and_invocation_summary) ... ok
+test_valid_v4_contract_and_burst_invocation_summary (__main__.BenchmarkValidatorTests.test_valid_v4_contract_and_burst_invocation_summary) ... ok
+test_valid_v7_contract_and_append_only_schema_resolution (__main__.BenchmarkValidatorTests.test_valid_v7_contract_and_append_only_schema_resolution) ... ok
+test_wrong_on_cadence_actuator_is_rejected (__main__.BenchmarkValidatorTests.test_wrong_on_cadence_actuator_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.640s
+
+OK
+Running signal-publication microbenchmark-runner unit tests
+test_bounded_reader_counts_include_requested_levels_when_available (__main__.SignalPublicationMicrobenchmarkRunnerTests.test_bounded_reader_counts_include_requested_levels_when_available) ... ok
+test_completed_generation_measurement_has_strict_accounting (__main__.SignalPublicationMicrobenchmarkRunnerTests.test_completed_generation_measurement_has_strict_accounting) ... ok
+test_generation_rejection_is_not_accepted_as_a_completed_measurement (__main__.SignalPublicationMicrobenchmarkRunnerTests.test_generation_rejection_is_not_accepted_as_a_completed_measurement) ... ok
+test_invalid_result_requires_exact_rejection_reason_accounting (__main__.SignalPublicationMicrobenchmarkRunnerTests.test_invalid_result_requires_exact_rejection_reason_accounting) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
+Running sched_ext source safety invariants
+PASS sched_ext source safety invariants
+All requested unit-test compiler passes completed
+return_code=0
